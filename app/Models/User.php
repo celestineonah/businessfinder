@@ -7,6 +7,7 @@ use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
@@ -34,11 +35,29 @@ class User extends Authenticatable implements PasskeyUser
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable, PasskeyAuthenticatable, TwoFactorAuthenticatable;
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
+    public function businesses(): HasMany
+    {
+        return $this->hasMany(Business::class, 'owner_user_id');
+    }
+
+    public function businessClaims(): HasMany
+    {
+        return $this->hasMany(BusinessClaim::class, 'user_id');
+    }
+
+    public function reviewedBusinessClaims(): HasMany
+    {
+        return $this->hasMany(BusinessClaim::class, 'reviewed_by_user_id');
+    }
+
+    public function businessVerifications(): HasMany
+    {
+        return $this->hasMany(
+            BusinessVerification::class,
+            'verified_by_user_id'
+        );
+    }
+
     protected function casts(): array
     {
         return [

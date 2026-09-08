@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Category extends Model
@@ -51,5 +52,15 @@ class Category extends Model
     public function aliases(): HasMany
     {
         return $this->hasMany(CategoryAlias::class);
+    }
+
+    public function businesses(): BelongsToMany
+    {
+        return $this->belongsToMany(
+            Business::class,
+            'business_category'
+        )
+            ->withPivot(['is_primary', 'sort_order'])
+            ->withTimestamps();
     }
 }
