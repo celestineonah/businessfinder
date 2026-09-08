@@ -41,4 +41,9 @@ class ImportBatch extends Model
     {
         return $this->hasMany(ImportFailure::class);
     }
+
+    public function records(): HasMany
+    {
+        return $this->hasMany(ImportRecord::class);
+    }
 }
