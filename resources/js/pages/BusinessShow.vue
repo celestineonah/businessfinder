@@ -336,27 +336,26 @@ function verificationLabel(
                                 Listed Business
                             </span>
 
-${indent}<span
-${indent}    v-if="
-${indent}        business.claimStatus
-${indent}        === 'pending'
-${indent}    "
-${indent}    class="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1.5 text-xs font-black text-amber-700"
-${indent}>
-${indent}    <UserCheck
-${indent}        class="h-4 w-4"
-${indent}    />
-${indent}    Claim Under Review
-${indent}</span>
-
-${indent}<span
-${indent}    v-if="
-${indent}        business.claimStatus
-${indent}        === 'claimed'
-${indent}    "
-${indent}    class="${class}"
-${indent}>
+                            <span
+                                v-if="
+                                    business.claimStatus
+                                    === 'pending'
+                                "
+                                class="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1.5 text-xs font-black text-amber-700"
+                            >
                                 <UserCheck
+                                    class="h-4 w-4"
+                                />
+                                Claim Under Review
+                            </span>
+
+                            <span
+                                v-if="
+                                    business.claimStatus
+                                    === 'claimed'
+                                "
+                                class="inline-flex items-center gap-1.5 rounded-full bg-blue-50 px-3 py-1.5 text-xs font-black text-blue-700"
+                            >                                <UserCheck
                                     class="h-4 w-4"
                                 />
                                 Claimed

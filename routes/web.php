@@ -68,64 +68,167 @@ Route::get('/categories', function () {
 })->name('categories');
 
 Route::get('/search', function (Request $request) {
-    $query = trim(
-        (string) $request->query(
-            'q',
-            ''
-        )
-    );
-
-    $location = trim(
-        (string) $request->query(
-            'location',
-            ''
-        )
-    );
+    $query = trim((string) $request->query('q', ''));
+    $location = trim((string) $request->query('location', ''));
 
     $states = DB::table('states')
-        ->select([
-            'name',
-            'slug',
-            'code',
-        ])
-        ->orderByRaw(
-            "CASE WHEN code = 'FC' THEN 0 ELSE 1 END"
-        )
+        ->select(['name', 'slug', 'code'])
+        ->orderByRaw("CASE WHEN code = 'FC' THEN 0 ELSE 1 END")
         ->orderBy('name')
         ->get()
-        ->map(
-            fn ($state) => [
-                'name' => $state->name,
-                'slug' => $state->slug,
-                'code' => $state->code,
-            ]
-        )
+        ->map(fn ($state) => [
+            'name' => $state->name,
+            'slug' => $state->slug,
+            'code' => $state->code,
+        ])
         ->values();
 
+    $state = null;
     $locationLabel = null;
 
     if ($location !== '') {
-        $locationLabel = DB::table('states')
-            ->where(
-                'slug',
-                $location
-            )
-            ->value('name');
+        $state = DB::table('states')
+            ->select(['id', 'name', 'slug'])
+            ->where('slug', $location)
+            ->first();
+
+        $locationLabel = $state?->name;
     }
 
-    return Inertia::render(
-        'Search',
-        [
-            'query' => $query,
-            'location' => $location,
-            'locationLabel' => $locationLabel,
-            'states' => $states,
-            'businessCount' => DB::table(
-                'businesses'
-            )->count(),
-            'results' => [],
-        ]
-    );
+    $publicBase = DB::table('businesses as b')
+        ->leftJoin('business_locations as bl', function ($join) {
+            $join->on('bl.business_id', '=', 'b.id')
+                ->where('bl.is_primary', true)
+                ->where('bl.is_active', true)
+                ->whereNull('bl.deleted_at');
+        })
+        ->leftJoin('states as s', 's.id', '=', 'bl.state_id')
+        ->leftJoin(
+            'local_government_areas as lga',
+            'lga.id',
+            '=',
+            'bl.local_government_area_id'
+        )
+        ->where('b.listing_status', 'listed')
+        ->where('b.is_active', true)
+        ->whereNotNull('b.published_at')
+        ->whereNull('b.deleted_at');
+
+    $businessCount = (clone $publicBase)->distinct()->count('b.id');
+
+    if ($state !== null) {
+        $publicBase->where('bl.state_id', $state->id);
+    } elseif ($location !== '') {
+        $publicBase->whereRaw('1 = 0');
+    }
+
+    if ($query !== '') {
+        $like = '%' . $query . '%';
+
+        $publicBase->where(function ($builder) use ($like) {
+            $builder
+                ->where('b.name', 'like', $like)
+                ->orWhere('b.legal_name', 'like', $like)
+                ->orWhere('b.short_description', 'like', $like)
+                ->orWhere('s.name', 'like', $like)
+                ->orWhere('lga.name', 'like', $like)
+                ->orWhereExists(function ($categoryQuery) use ($like) {
+                    $categoryQuery
+                        ->selectRaw('1')
+                        ->from('business_category as bc')
+                        ->join('categories as c', 'c.id', '=', 'bc.category_id')
+                        ->whereColumn('bc.business_id', 'b.id')
+                        ->where('c.is_active', true)
+                        ->where('c.name', 'like', $like);
+                });
+        });
+    }
+
+    $publicBase
+        ->select([
+            'b.id',
+            'b.name',
+            'b.slug',
+            'b.short_description',
+            'b.claim_status',
+            'b.verification_status',
+            's.name as state_name',
+            'lga.name as lga_name',
+        ])
+        ->selectSub(function ($categoryQuery) {
+            $categoryQuery
+                ->from('business_category as bc')
+                ->join('categories as c', 'c.id', '=', 'bc.category_id')
+                ->whereColumn('bc.business_id', 'b.id')
+                ->where('c.is_active', true)
+                ->orderByDesc('bc.is_primary')
+                ->orderBy('bc.sort_order')
+                ->orderBy('c.name')
+                ->limit(1)
+                ->select('c.name');
+        }, 'category_name')
+        ->selectSub(function ($verificationQuery) {
+            $verificationQuery
+                ->from('business_verifications as bv')
+                ->whereColumn('bv.business_id', 'b.id')
+                ->where('bv.status', 'verified')
+                ->where(function ($query) {
+                    $query->whereNull('bv.expires_at')
+                        ->orWhere('bv.expires_at', '>', now());
+                })
+                ->selectRaw('COUNT(*)');
+        }, 'verified_evidence_count');
+
+    $paginator = $publicBase
+        ->orderBy('b.name')
+        ->paginate(24)
+        ->withQueryString();
+
+    $results = collect($paginator->items())
+        ->map(function ($business) {
+            $isVerified =
+                $business->verification_status === 'verified'
+                && (int) $business->verified_evidence_count > 0;
+
+            $location = collect([
+                $business->lga_name,
+                $business->state_name,
+            ])->filter()->unique()->implode(', ');
+
+            return [
+                'name' => $business->name,
+                'slug' => $business->slug,
+                'shortDescription' => $business->short_description,
+                'category' => $business->category_name,
+                'location' => $location !== '' ? $location : null,
+                'state' => $business->state_name,
+                'lga' => $business->lga_name,
+                'claimStatus' => $business->claim_status,
+                'verificationStatus' => $business->verification_status,
+                'isVerified' => $isVerified,
+                'listingLabel' => $isVerified ? 'Verified Business' : 'Listed Business',
+            ];
+        })
+        ->values();
+
+    return Inertia::render('Search', [
+        'query' => $query,
+        'location' => $location,
+        'locationLabel' => $locationLabel,
+        'states' => $states,
+        'businessCount' => $businessCount,
+        'results' => $results,
+        'pagination' => [
+            'currentPage' => $paginator->currentPage(),
+            'lastPage' => $paginator->lastPage(),
+            'perPage' => $paginator->perPage(),
+            'total' => $paginator->total(),
+            'from' => $paginator->firstItem(),
+            'to' => $paginator->lastItem(),
+            'prevUrl' => $paginator->previousPageUrl(),
+            'nextUrl' => $paginator->nextPageUrl(),
+        ],
+    ]);
 })->name('search');
 
 Route::get('/add-business', function () {
