@@ -68,7 +68,7 @@ const year = new Date().getFullYear();
                 >
                     <a href="/">Home</a>
                     <a href="/search">Businesses</a>
-                    <a href="/#categories">Categories</a>
+                    <a href="/categories">Categories</a>
                     <a href="/#locations">Locations</a>
                     <a href="/#about">About</a>
                 </div>

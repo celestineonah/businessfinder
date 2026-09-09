@@ -90,7 +90,7 @@ const mobileOpen = ref(false);
                 </a>
 
                 <a
-                    href="/#categories"
+                    href="/categories"
                     :class="[
                         'flex h-full items-center border-b-2 px-1 text-sm font-bold transition',
                         active === 'categories'
@@ -220,7 +220,7 @@ const mobileOpen = ref(false);
                 </a>
 
                 <a
-                    href="/#categories"
+                    href="/categories"
                     class="rounded-xl px-4 py-3 font-bold hover:bg-emerald-50"
                 >
                     Categories

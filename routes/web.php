@@ -35,6 +35,36 @@ Route::get('/', function () {
     );
 })->name('home');
 
+Route::get('/categories', function () {
+    $states = DB::table('states')
+        ->select([
+            'name',
+            'slug',
+            'code',
+        ])
+        ->orderByRaw(
+            "CASE WHEN code = 'FC' THEN 0 ELSE 1 END"
+        )
+        ->orderBy('name')
+        ->get()
+        ->map(
+            fn ($state) => [
+                'name' => $state->name,
+                'slug' => $state->slug,
+                'code' => $state->code,
+            ]
+        )
+        ->values();
+
+    return Inertia::render(
+        'Categories',
+        [
+            'states' => $states,
+            'businessCount' => DB::table('businesses')->count(),
+        ]
+    );
+})->name('categories');
+
 Route::get('/search', function (Request $request) {
     $query = trim(
         (string) $request->query(
