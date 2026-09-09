@@ -950,10 +950,138 @@ Route::middleware([
     'auth',
     'verified',
 ])->group(function () {
-    Route::inertia(
-        'dashboard',
-        'Dashboard'
-    )->name('dashboard');
+    Route::get('dashboard', function (Request $request) {
+        $businesses = $request
+            ->user()
+            ->businesses()
+            ->with([
+                'primaryLocation.state',
+                'primaryLocation.city',
+                'categories',
+            ])
+            ->latest('updated_at')
+            ->get();
+
+        $published = $businesses
+            ->filter(
+                fn ($business) =>
+                    $business->listing_status === 'listed'
+                    && $business->is_active
+                    && $business->published_at !== null
+            )
+            ->count();
+
+        $dashboardBusinesses = $businesses
+            ->map(function ($business) {
+                $location =
+                    $business->primaryLocation;
+
+                $category =
+                    $business->categories
+                        ->sortByDesc(
+                            fn ($category) =>
+                                (bool) $category
+                                    ->pivot
+                                    ->is_primary
+                        )
+                        ->first();
+
+                $locationParts = collect([
+                    $location?->city?->name,
+                    $location?->state?->name,
+                ])
+                    ->filter()
+                    ->unique()
+                    ->values();
+
+                $isPublished =
+                    $business->listing_status === 'listed'
+                    && $business->is_active
+                    && $business->published_at !== null;
+
+                return [
+                    'name' =>
+                        $business->name,
+
+                    'slug' =>
+                        $business->slug,
+
+                    'category' =>
+                        $category?->name,
+
+                    'location' =>
+                        $locationParts->implode(', '),
+
+                    'listingStatus' =>
+                        $business->listing_status,
+
+                    'claimStatus' =>
+                        $business->claim_status,
+
+                    'verificationStatus' =>
+                        $business->verification_status,
+
+                    'isPublished' =>
+                        $isPublished,
+
+                    'updatedAt' =>
+                        $business
+                            ->updated_at
+                            ?->toDateString(),
+
+                    'publicUrl' =>
+                        $isPublished
+                            ? route(
+                                'business.show',
+                                [
+                                    'slug' =>
+                                        $business->slug,
+                                ]
+                            )
+                            : null,
+                ];
+            })
+            ->values();
+
+        return Inertia::render(
+            'Dashboard',
+            [
+                'metrics' => [
+                    'totalBusinesses' =>
+                        $businesses->count(),
+
+                    'publishedListings' =>
+                        $published,
+
+                    'draftListings' =>
+                        $businesses
+                            ->whereNull(
+                                'published_at'
+                            )
+                            ->count(),
+
+                    'verifiedBusinesses' =>
+                        $businesses
+                            ->where(
+                                'verification_status',
+                                'verified'
+                            )
+                            ->count(),
+
+                    'pendingVerification' =>
+                        $businesses
+                            ->where(
+                                'verification_status',
+                                'pending'
+                            )
+                            ->count(),
+                ],
+
+                'businesses' =>
+                    $dashboardBusinesses,
+            ]
+        );
+    })->name('dashboard');
 });
 
 require __DIR__.'/settings.php';
