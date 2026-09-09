@@ -1,0 +1,4 @@
+geoname_id,place_name,previous_state_code,previous_lga_name,canonical_state_code,canonical_lga_name,evidence,review_status
+2347592,Baro,NI,Lapai,NI,Agaie,GRID3 point-in-polygon boundary audit,reviewed
+2591159,Degema Hulk,RI,Abua-Odual,RI,Degema,GRID3 point-in-polygon boundary audit,reviewed
+2328185,Obonoma,RI,Degema,RI,Akuku Toru,GRID3 point-in-polygon boundary audit,reviewed

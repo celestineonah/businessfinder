@@ -52,3 +52,41 @@ GeoNames population and feature classification are selection signals,
 not BusinessFinder verification of legal city status.
 
 No fuzzy administrative matching is permitted in production.
+
+## Final Hierarchy Boundary Reconciliation
+
+The 67 records requiring hierarchy review were independently checked
+against GRID3 Nigeria LGA polygon boundaries using their GeoNames
+coordinates.
+
+Initial result:
+- Review rows: 67
+- Boundary matches: 64
+- Boundary mismatches: 3
+- No polygon: 0
+- Multiple polygons: 0
+- Canonicalization errors: 0
+
+Reviewed corrections:
+- Baro: Niger / Lapai -> Niger / Agaie
+- Degema Hulk: Rivers / Abua-Odual -> Rivers / Degema
+- Obonoma: Rivers / Degema -> Rivers / Akuku Toru
+
+Final result after applying reviewed corrections:
+- Review rows: 67
+- Boundary matches: 67
+- Boundary mismatches: 0
+- No polygon: 0
+- Multiple polygons: 0
+- Canonicalization errors: 0
+
+Final hierarchy boundary audit SHA-256:
+9a54930853b81a52f1d1b991c5c041700c9d93c8b9eeb9ef505c2c37c77a4a61
+
+Administrative geography reconciliation for the V1 city candidate layer
+is therefore complete.
+
+Remaining work is hierarchy classification only:
+city, area, metro component, or reject.
+
+No fuzzy administrative matching is permitted in production.
