@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BrandLogo from '@/components/public/BrandLogo.vue';
 const year = new Date().getFullYear();
 </script>
 
@@ -15,43 +16,13 @@ const year = new Date().getFullYear();
             >
                 <div class="max-w-md">
                     <a
-                        href="/"
-                        class="flex items-center gap-2.5"
-                    >
-                        <svg
-                            viewBox="0 0 50 56"
-                            class="h-10 w-9"
-                            aria-hidden="true"
+                            href="/"
+                            class="inline-flex items-center"
                         >
-                            <ellipse
-                                cx="25"
-                                cy="50"
-                                rx="18"
-                                ry="4"
-                                fill="#16a34a"
-                                opacity=".9"
+                            <BrandLogo
+                                class="h-9 w-auto max-w-[245px]"
                             />
-                            <path
-                                d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
-                                fill="#078844"
-                            />
-                            <circle
-                                cx="25"
-                                cy="22"
-                                r="8"
-                                fill="white"
-                            />
-                        </svg>
-
-                        <span
-                            class="text-lg font-black tracking-tight text-[#062c31]"
-                        >
-                            BusinessFinder
-                            <span class="text-emerald-600">
-                                Nigeria
-                            </span>
-                        </span>
-                    </a>
+                        </a>
 
                     <p
                         class="mt-4 text-sm leading-6 text-slate-500"

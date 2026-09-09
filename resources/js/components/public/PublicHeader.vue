@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BrandLogo from '@/components/public/BrandLogo.vue';
 import { Link } from '@inertiajs/vue3';
 import { ref } from 'vue';
 import { dashboard, login } from '@/routes';
@@ -19,46 +20,12 @@ const mobileOpen = ref(false);
         >
             <a
                 href="/"
-                class="flex shrink-0 items-center gap-2.5"
+                class="flex shrink-0 items-center"
                 aria-label="BusinessFinder Nigeria home"
             >
-                <svg
-                    viewBox="0 0 50 56"
-                    class="h-11 w-10 shrink-0"
-                    aria-hidden="true"
-                >
-                    <ellipse
-                        cx="25"
-                        cy="50"
-                        rx="18"
-                        ry="4"
-                        fill="#16a34a"
-                        opacity=".9"
-                    />
-                    <path
-                        d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
-                        fill="#078844"
-                    />
-                    <path
-                        d="M25 3C13.95 3 5 11.95 5 23c0 10.9 10.5 20.2 16.2 24.6 2.5-8.1 5.9-14.3 9.8-19C36.6 21.9 38 12.7 32.5 5.2A19.8 19.8 0 0 0 25 3Z"
-                        fill="#059669"
-                    />
-                    <circle
-                        cx="25"
-                        cy="22"
-                        r="8"
-                        fill="white"
-                    />
-                </svg>
-
-                <span
-                    class="whitespace-nowrap text-[19px] font-black tracking-[-0.035em] text-[#062c31] sm:text-[22px]"
-                >
-                    BusinessFinder
-                    <span class="text-[#0b9b4d]">
-                        Nigeria
-                    </span>
-                </span>
+                <BrandLogo
+                    class="h-[38px] w-auto max-w-[245px] sm:h-[42px] sm:max-w-[270px]"
+                />
             </a>
 
             <nav

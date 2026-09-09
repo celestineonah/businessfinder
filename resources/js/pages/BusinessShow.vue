@@ -231,8 +231,8 @@ function verificationLabel(
 
         <link
             rel="icon"
-            type="image/svg+xml"
-            href="/favicon.svg"
+            type="image/png"
+            href="/brand/favicon-192.png"
         />
     </Head>
 
