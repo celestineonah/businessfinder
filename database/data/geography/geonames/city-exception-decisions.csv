@@ -1,0 +1,8 @@
+geoname_id,city_name,source_state,action,canonical_state_code,canonical_lga_name,reason
+2350249,Amaigbo,Abia State,reject,,,GeoNames state and coordinate conflict; GRID3 coordinate falls in Afikpo South Ebonyi; ambiguous source record
+2322552,Takum,Benue State,correct,TA,Takum,GRID3 point-in-polygon places GeoNames coordinate in Takum LGA Taraba
+2327233,Oke Ila,Ekiti State,correct,OS,Ifedayo,GRID3 point-in-polygon places GeoNames coordinate in Ifedayo LGA Osun
+2332459,Lagos,Lagos,metro_review,LA,,Reference point falls in Lagos Island but Lagos city/metropolitan extent must not be reduced to one LGA
+2328090,Ode,Ondo State,correct,EK,Ekiti East,GRID3 point-in-polygon places GeoNames coordinate in Ekiti East LGA Ekiti
+2327223,Oke Mesi,Osun State,correct,EK,Ekiti West,GRID3 point-in-polygon places GeoNames coordinate in Ekiti West LGA Ekiti
+2346812,Bonny,Rivers State,accept,RI,Bonny,GRID3 point-in-polygon confirms Bonny LGA Rivers
