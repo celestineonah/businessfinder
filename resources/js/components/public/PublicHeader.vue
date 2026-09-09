@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Link } from '@inertiajs/vue3';
 import { ref } from 'vue';
-import { dashboard, login, register } from '@/routes';
+import { dashboard, login } from '@/routes';
 
 defineProps<{
     active?: 'home' | 'businesses' | 'categories' | 'locations' | 'about';
@@ -158,7 +158,7 @@ const mobileOpen = ref(false);
                 </template>
 
                 <Link
-                    :href="register()"
+                    href="/add-business"
                     class="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-5 py-3 text-sm font-black text-white shadow-sm transition hover:bg-emerald-700"
                 >
                     <span
@@ -257,7 +257,7 @@ const mobileOpen = ref(false);
                 </Link>
 
                 <Link
-                    :href="register()"
+                    href="/add-business"
                     class="mt-2 rounded-xl bg-emerald-600 px-4 py-3 text-center font-black text-white"
                 >
                     + Add Your Business

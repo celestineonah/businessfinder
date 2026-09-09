@@ -22,7 +22,6 @@ import {
 
 import PublicFooter from '@/components/public/PublicFooter.vue';
 import PublicHeader from '@/components/public/PublicHeader.vue';
-import { register } from '@/routes';
 import heroImage from '../../images/lekki-ikoyi-link-bridge.jpg';
 
 type StateOption = {
@@ -535,7 +534,7 @@ const categories = [
                         </div>
 
                         <Link
-                            :href="register()"
+                            href="/add-business"
                             class="rounded-xl bg-emerald-600 px-7 py-3.5 text-center text-sm font-black text-white hover:bg-emerald-700"
                         >
                             Add Your Business →
