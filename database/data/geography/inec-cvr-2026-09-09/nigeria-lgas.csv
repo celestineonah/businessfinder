@@ -1,0 +1,775 @@
+state_code,lga_name,administrative_type,external_id
+AB,"Aba North",lga,INEC-CVR:1001
+AB,"Aba South",lga,INEC-CVR:1002
+AB,Arochukwu,lga,INEC-CVR:1003
+AB,Bende,lga,INEC-CVR:1004
+AB,Ikwuano,lga,INEC-CVR:1005
+AB,"Isiala Ngwa North",lga,INEC-CVR:1006
+AB,"Isiala Ngwa South",lga,INEC-CVR:1007
+AB,Isuikwuato,lga,INEC-CVR:1008
+AB,Obingwa,lga,INEC-CVR:1009
+AB,Ohafia,lga,INEC-CVR:1010
+AB,Osisioma,lga,INEC-CVR:1011
+AB,Ugwunagbo,lga,INEC-CVR:1012
+AB,"Ukwa East",lga,INEC-CVR:1013
+AB,"Ukwa West",lga,INEC-CVR:1014
+AB,Umu-Nneochi,lga,INEC-CVR:1017
+AB,"Umuahia North",lga,INEC-CVR:1015
+AB,"Umuahia South",lga,INEC-CVR:1016
+AD,Demsa,lga,INEC-CVR:1019
+AD,Fufore,lga,INEC-CVR:1020
+AD,Ganye,lga,INEC-CVR:1021
+AD,Girei,lga,INEC-CVR:1022
+AD,Gombi,lga,INEC-CVR:1023
+AD,Guyuk,lga,INEC-CVR:1024
+AD,Hong,lga,INEC-CVR:1025
+AD,Jada,lga,INEC-CVR:1026
+AD,Lamurde,lga,INEC-CVR:1027
+AD,Madagali,lga,INEC-CVR:1028
+AD,Maiha,lga,INEC-CVR:1029
+AD,Mayo-Belwa,lga,INEC-CVR:1030
+AD,Michika,lga,INEC-CVR:1031
+AD,"Mubi North",lga,INEC-CVR:1032
+AD,"Mubi South",lga,INEC-CVR:1033
+AD,Numan,lga,INEC-CVR:1034
+AD,Shelleng,lga,INEC-CVR:1035
+AD,Song,lga,INEC-CVR:1036
+AD,Toungo,lga,INEC-CVR:1037
+AD,"Yola North",lga,INEC-CVR:1038
+AD,"Yola South",lga,INEC-CVR:1039
+AK,Abak,lga,INEC-CVR:1041
+AK,"Eastern Obolo",lga,INEC-CVR:1042
+AK,Eket,lga,INEC-CVR:1043
+AK,"Esit Eket (Uquo)",lga,INEC-CVR:1044
+AK,"Essien Udim",lga,INEC-CVR:1045
+AK,"Etim Ekpo",lga,INEC-CVR:1046
+AK,Etinan,lga,INEC-CVR:1047
+AK,Ibeno,lga,INEC-CVR:1048
+AK,"Ibesikpo Asutan",lga,INEC-CVR:1049
+AK,"Ibiono Ibom",lga,INEC-CVR:1050
+AK,Ika,lga,INEC-CVR:1051
+AK,Ikono,lga,INEC-CVR:1052
+AK,"Ikot Abasi",lga,INEC-CVR:1053
+AK,"Ikot Ekpene",lga,INEC-CVR:1054
+AK,Ini,lga,INEC-CVR:1055
+AK,Itu,lga,INEC-CVR:1056
+AK,Mbo,lga,INEC-CVR:1057
+AK,"Mkpat Enin",lga,INEC-CVR:1058
+AK,"Nsit Atai",lga,INEC-CVR:1059
+AK,"Nsit Ibom",lga,INEC-CVR:1060
+AK,"Nsit Ubium",lga,INEC-CVR:1061
+AK,"Obot Akara",lga,INEC-CVR:1062
+AK,Okobo,lga,INEC-CVR:1063
+AK,Onna,lga,INEC-CVR:1064
+AK,Oron,lga,INEC-CVR:1065
+AK,"Oruk Anam",lga,INEC-CVR:1066
+AK,"Udung Uko",lga,INEC-CVR:1067
+AK,Ukanafun,lga,INEC-CVR:1068
+AK,Uruan,lga,INEC-CVR:1069
+AK,"Urue Offong/Oruko",lga,INEC-CVR:1070
+AK,Uyo,lga,INEC-CVR:1071
+AN,Aguata,lga,INEC-CVR:1073
+AN,"Anambra East",lga,INEC-CVR:1075
+AN,"Anambra West",lga,INEC-CVR:1076
+AN,Anaocha,lga,INEC-CVR:1077
+AN,"Awka North",lga,INEC-CVR:1078
+AN,"Awka South",lga,INEC-CVR:1079
+AN,Ayamelum,lga,INEC-CVR:1074
+AN,Dunukofia,lga,INEC-CVR:1080
+AN,Ekwusigo,lga,INEC-CVR:1081
+AN,"Idemili North",lga,INEC-CVR:1082
+AN,Idemili-South,lga,INEC-CVR:1083
+AN,Ihiala,lga,INEC-CVR:1084
+AN,Njikoka,lga,INEC-CVR:1085
+AN,"Nnewi North",lga,INEC-CVR:1086
+AN,"Nnewi South",lga,INEC-CVR:1087
+AN,Ogbaru,lga,INEC-CVR:1088
+AN,Onitsha-North,lga,INEC-CVR:1089
+AN,Onitsha-South,lga,INEC-CVR:1090
+AN,"Orumba North",lga,INEC-CVR:1091
+AN,"Orumba South",lga,INEC-CVR:1092
+AN,Oyi,lga,INEC-CVR:1093
+BA,Alkaleri,lga,INEC-CVR:1095
+BA,Bauchi,lga,INEC-CVR:1096
+BA,Bogoro,lga,INEC-CVR:1097
+BA,Dambam,lga,INEC-CVR:1098
+BA,Darazo,lga,INEC-CVR:1099
+BA,Dass,lga,INEC-CVR:1100
+BA,Gamawa,lga,INEC-CVR:1101
+BA,Ganjuwa,lga,INEC-CVR:1102
+BA,Giade,lga,INEC-CVR:1103
+BA,Itas/Gadau,lga,INEC-CVR:1104
+BA,Jama'are,lga,INEC-CVR:1105
+BA,Katagum,lga,INEC-CVR:1106
+BA,Kirfi,lga,INEC-CVR:1107
+BA,Misau,lga,INEC-CVR:1108
+BA,Ningi,lga,INEC-CVR:1109
+BA,Shira,lga,INEC-CVR:1110
+BA,"Tafawa Balewa",lga,INEC-CVR:1111
+BA,Toro,lga,INEC-CVR:1112
+BA,Warji,lga,INEC-CVR:1113
+BA,Zaki,lga,INEC-CVR:1114
+BY,Brass,lga,INEC-CVR:1116
+BY,Ekeremor,lga,INEC-CVR:1117
+BY,Kolokuma/Opokuma,lga,INEC-CVR:1118
+BY,Nembe,lga,INEC-CVR:1119
+BY,Ogbia,lga,INEC-CVR:1120
+BY,Sagbama,lga,INEC-CVR:1121
+BY,"Southern Ijaw",lga,INEC-CVR:1122
+BY,Yenagoa,lga,INEC-CVR:1123
+BE,Ado,lga,INEC-CVR:1125
+BE,Agatu,lga,INEC-CVR:1126
+BE,Apa,lga,INEC-CVR:1127
+BE,Buruku,lga,INEC-CVR:1128
+BE,Gboko,lga,INEC-CVR:1129
+BE,Guma,lga,INEC-CVR:1130
+BE,"Gwer East",lga,INEC-CVR:1131
+BE,"Gwer West",lga,INEC-CVR:1132
+BE,Katsina-Ala,lga,INEC-CVR:1133
+BE,Konshisha,lga,INEC-CVR:1134
+BE,Kwande,lga,INEC-CVR:1135
+BE,Logo,lga,INEC-CVR:1136
+BE,Makurdi,lga,INEC-CVR:1137
+BE,Obi,lga,INEC-CVR:1138
+BE,Ogbadibo,lga,INEC-CVR:1139
+BE,Ohimini,lga,INEC-CVR:1141
+BE,Oju,lga,INEC-CVR:1140
+BE,Okpokwu,lga,INEC-CVR:1142
+BE,Otukpo,lga,INEC-CVR:1143
+BE,Tarka,lga,INEC-CVR:1144
+BE,Ukum,lga,INEC-CVR:1145
+BE,Ushongo,lga,INEC-CVR:1146
+BE,Vandeikya,lga,INEC-CVR:1147
+BO,Abadam,lga,INEC-CVR:1149
+BO,Askira/Uba,lga,INEC-CVR:1150
+BO,Bama,lga,INEC-CVR:1151
+BO,Bayo,lga,INEC-CVR:1152
+BO,Biu,lga,INEC-CVR:1153
+BO,Chibok,lga,INEC-CVR:1154
+BO,Damboa,lga,INEC-CVR:1155
+BO,Dikwa,lga,INEC-CVR:1156
+BO,Gubio,lga,INEC-CVR:1157
+BO,Guzamala,lga,INEC-CVR:1158
+BO,Gwoza,lga,INEC-CVR:1159
+BO,Hawul,lga,INEC-CVR:1160
+BO,Jere,lga,INEC-CVR:1161
+BO,Kaga,lga,INEC-CVR:1162
+BO,"Kala Balge",lga,INEC-CVR:1163
+BO,Konduga,lga,INEC-CVR:1164
+BO,Kukawa,lga,INEC-CVR:1165
+BO,Kwaya/Kusar,lga,INEC-CVR:1166
+BO,Mafa,lga,INEC-CVR:1167
+BO,Magumeri,lga,INEC-CVR:1168
+BO,"Maiduguri M. C.",lga,INEC-CVR:1169
+BO,Marte,lga,INEC-CVR:1170
+BO,Mobbar,lga,INEC-CVR:1171
+BO,Monguno,lga,INEC-CVR:1172
+BO,Ngala,lga,INEC-CVR:1173
+BO,Nganzai,lga,INEC-CVR:1174
+BO,Shani,lga,INEC-CVR:1175
+CR,Abi,lga,INEC-CVR:1177
+CR,Akamkpa,lga,INEC-CVR:1178
+CR,Akpabuyo,lga,INEC-CVR:1179
+CR,Bakassi,lga,INEC-CVR:1180
+CR,Bekwarra,lga,INEC-CVR:1181
+CR,Biase,lga,INEC-CVR:1182
+CR,Boki,lga,INEC-CVR:1183
+CR,"Calabar Municipality",lga,INEC-CVR:1184
+CR,"Calabar South",lga,INEC-CVR:1185
+CR,Etung,lga,INEC-CVR:1186
+CR,Ikom,lga,INEC-CVR:1187
+CR,Obanliku,lga,INEC-CVR:1188
+CR,Obubra,lga,INEC-CVR:1189
+CR,Obudu,lga,INEC-CVR:1190
+CR,Odukpani,lga,INEC-CVR:1191
+CR,Ogoja,lga,INEC-CVR:1192
+CR,Yakurr,lga,INEC-CVR:1193
+CR,Yala,lga,INEC-CVR:1194
+DE,"Aniocha North",lga,INEC-CVR:1196
+DE,Aniocha-South,lga,INEC-CVR:1197
+DE,Bomadi,lga,INEC-CVR:1198
+DE,Burutu,lga,INEC-CVR:1199
+DE,"Ethiope East",lga,INEC-CVR:1200
+DE,"Ethiope West",lga,INEC-CVR:1201
+DE,"Ika North-East",lga,INEC-CVR:1202
+DE,Ika-South,lga,INEC-CVR:1203
+DE,"Isoko North",lga,INEC-CVR:1204
+DE,"Isoko South",lga,INEC-CVR:1205
+DE,"Ndokwa East",lga,INEC-CVR:1206
+DE,"Ndokwa West",lga,INEC-CVR:1207
+DE,Okpe,lga,INEC-CVR:1208
+DE,Oshimili-North,lga,INEC-CVR:1209
+DE,Oshimili-South,lga,INEC-CVR:1210
+DE,Patani,lga,INEC-CVR:1211
+DE,Sapele,lga,INEC-CVR:1212
+DE,Udu,lga,INEC-CVR:1213
+DE,"Ughelli North",lga,INEC-CVR:1214
+DE,"Ughelli South",lga,INEC-CVR:1215
+DE,Ukwuani,lga,INEC-CVR:1216
+DE,Uvwie,lga,INEC-CVR:1217
+DE,"Warri North",lga,INEC-CVR:1218
+DE,"Warri South",lga,INEC-CVR:1219
+DE,"Warri South West",lga,INEC-CVR:1220
+EB,Abakaliki,lga,INEC-CVR:1222
+EB,"Afikpo North",lga,INEC-CVR:1223
+EB,"Afikpo South",lga,INEC-CVR:1224
+EB,Ebonyi,lga,INEC-CVR:1225
+EB,"Ezza North",lga,INEC-CVR:1226
+EB,"Ezza South",lga,INEC-CVR:1227
+EB,Ikwo,lga,INEC-CVR:1229
+EB,Ishielu,lga,INEC-CVR:1228
+EB,Ivo,lga,INEC-CVR:1230
+EB,Izzi,lga,INEC-CVR:1231
+EB,Ohaozara,lga,INEC-CVR:1232
+EB,Ohaukwu,lga,INEC-CVR:1233
+EB,Onicha,lga,INEC-CVR:1234
+ED,"Akoko Edo",lga,INEC-CVR:1236
+ED,Egor,lga,INEC-CVR:1237
+ED,"Esan Central",lga,INEC-CVR:1238
+ED,"Esan North East",lga,INEC-CVR:1239
+ED,"Esan South East",lga,INEC-CVR:1240
+ED,"Esan West",lga,INEC-CVR:1241
+ED,"Etsako Central",lga,INEC-CVR:1242
+ED,"Etsako East",lga,INEC-CVR:1243
+ED,"Etsako West",lga,INEC-CVR:1244
+ED,Igueben,lga,INEC-CVR:1245
+ED,Ikpoba/Okha,lga,INEC-CVR:1246
+ED,Oredo,lga,INEC-CVR:1247
+ED,Orhionmwon,lga,INEC-CVR:1248
+ED,"Ovia North East",lga,INEC-CVR:1249
+ED,"Ovia South West",lga,INEC-CVR:1250
+ED,"Owan East",lga,INEC-CVR:1251
+ED,"Owan West",lga,INEC-CVR:1252
+ED,Uhunmwode,lga,INEC-CVR:1253
+EK,"Ado Ekiti",lga,INEC-CVR:1255
+EK,Efon,lga,INEC-CVR:1256
+EK,"Ekiti East",lga,INEC-CVR:1257
+EK,"Ekiti South West",lga,INEC-CVR:1259
+EK,"Ekiti West",lga,INEC-CVR:1258
+EK,Emure,lga,INEC-CVR:1260
+EK,Gbonyin,lga,INEC-CVR:1261
+EK,"Ido Osi",lga,INEC-CVR:1262
+EK,Ijero,lga,INEC-CVR:1263
+EK,Ikere,lga,INEC-CVR:1264
+EK,Ikole,lga,INEC-CVR:1265
+EK,Ilejemeje,lga,INEC-CVR:1266
+EK,Irepodun/Ifelodun,lga,INEC-CVR:1267
+EK,Ise-Orun,lga,INEC-CVR:1268
+EK,Moba,lga,INEC-CVR:1269
+EK,Oye,lga,INEC-CVR:1270
+EN,Aninri,lga,INEC-CVR:1272
+EN,Awgu,lga,INEC-CVR:1273
+EN,"Enugu East",lga,INEC-CVR:1274
+EN,"Enugu North",lga,INEC-CVR:1275
+EN,"Enugu South",lga,INEC-CVR:1276
+EN,Ezeagu,lga,INEC-CVR:1277
+EN,"Igbo Etiti",lga,INEC-CVR:1278
+EN,"Igbo Eze North",lga,INEC-CVR:1279
+EN,"Igbo Eze South",lga,INEC-CVR:1280
+EN,"Isi Uzo",lga,INEC-CVR:1281
+EN,"Nkanu East",lga,INEC-CVR:1282
+EN,"Nkanu West",lga,INEC-CVR:1283
+EN,Nsukka,lga,INEC-CVR:1284
+EN,Oji-River,lga,INEC-CVR:1285
+EN,Udenu,lga,INEC-CVR:1286
+EN,Udi,lga,INEC-CVR:1287
+EN,Uzo-Uwani,lga,INEC-CVR:1288
+FC,Abaji,area_council,INEC-CVR:1290
+FC,"Abuja Municipal Area Council",area_council,INEC-CVR:1291
+FC,Bwari,area_council,INEC-CVR:1292
+FC,Gwagwalada,area_council,INEC-CVR:1293
+FC,Kuje,area_council,INEC-CVR:1294
+FC,Kwali,area_council,INEC-CVR:1295
+GO,Akko,lga,INEC-CVR:1297
+GO,Balanga,lga,INEC-CVR:1298
+GO,Billiri,lga,INEC-CVR:1299
+GO,Dukku,lga,INEC-CVR:1300
+GO,Funakaye,lga,INEC-CVR:1301
+GO,Gombe,lga,INEC-CVR:1302
+GO,Kaltungo,lga,INEC-CVR:1303
+GO,Kwami,lga,INEC-CVR:1304
+GO,Nafada,lga,INEC-CVR:1305
+GO,Shongom,lga,INEC-CVR:1306
+GO,Yalmaltu/Deba,lga,INEC-CVR:1307
+IM,"Aboh Mbaise",lga,INEC-CVR:1309
+IM,"Ahiazu Mbaise",lga,INEC-CVR:1310
+IM,"Ehime Mbano",lga,INEC-CVR:1311
+IM,"Ezinihitte Mbaise",lga,INEC-CVR:1312
+IM,"Ideato North",lga,INEC-CVR:1313
+IM,"Ideato South",lga,INEC-CVR:1314
+IM,"Ihitte Uboma",lga,INEC-CVR:1315
+IM,Ikeduru,lga,INEC-CVR:1316
+IM,"Isiala Mbano",lga,INEC-CVR:1317
+IM,Isu,lga,INEC-CVR:1318
+IM,Mbaitoli,lga,INEC-CVR:1319
+IM,"Ngor Okpala",lga,INEC-CVR:1320
+IM,Njaba,lga,INEC-CVR:1321
+IM,Nkwerre,lga,INEC-CVR:1322
+IM,Nwangele,lga,INEC-CVR:1323
+IM,Obowo,lga,INEC-CVR:1324
+IM,Oguta,lga,INEC-CVR:1325
+IM,"Ohaji Egbema",lga,INEC-CVR:1326
+IM,Okigwe,lga,INEC-CVR:1327
+IM,Onuimo,lga,INEC-CVR:1328
+IM,Orlu,lga,INEC-CVR:1329
+IM,Orsu,lga,INEC-CVR:1330
+IM,"Oru East",lga,INEC-CVR:1331
+IM,"Oru West",lga,INEC-CVR:1332
+IM,"Owerri Municipal",lga,INEC-CVR:1333
+IM,"Owerri North",lga,INEC-CVR:1334
+IM,"Owerri West",lga,INEC-CVR:1335
+JI,Auyo,lga,INEC-CVR:1337
+JI,Babura,lga,INEC-CVR:1338
+JI,"Birnin Kudu",lga,INEC-CVR:1339
+JI,Birniwa,lga,INEC-CVR:1340
+JI,Buji,lga,INEC-CVR:1341
+JI,Dutse,lga,INEC-CVR:1342
+JI,Gagarawa,lga,INEC-CVR:1343
+JI,Garki,lga,INEC-CVR:1344
+JI,Gumel,lga,INEC-CVR:1345
+JI,Guri,lga,INEC-CVR:1346
+JI,Gwaram,lga,INEC-CVR:1347
+JI,Gwiwa,lga,INEC-CVR:1348
+JI,Hadejia,lga,INEC-CVR:1349
+JI,Jahun,lga,INEC-CVR:1350
+JI,"Kafin Hausa",lga,INEC-CVR:1351
+JI,Kaugama,lga,INEC-CVR:1352
+JI,Kazaure,lga,INEC-CVR:1353
+JI,"Kirika Samma",lga,INEC-CVR:1354
+JI,Kiyawa,lga,INEC-CVR:1355
+JI,Maigatari,lga,INEC-CVR:1356
+JI,"Malam Madori",lga,INEC-CVR:1357
+JI,Miga,lga,INEC-CVR:1358
+JI,Ringim,lga,INEC-CVR:1359
+JI,Roni,lga,INEC-CVR:1360
+JI,Sule-Tankarkar,lga,INEC-CVR:1361
+JI,Taura,lga,INEC-CVR:1362
+JI,Yankwashi,lga,INEC-CVR:1363
+KD,"Birnin Gwari",lga,INEC-CVR:1365
+KD,Chikun,lga,INEC-CVR:1366
+KD,Giwa,lga,INEC-CVR:1367
+KD,Igabi,lga,INEC-CVR:1368
+KD,Ikara,lga,INEC-CVR:1369
+KD,Jaba,lga,INEC-CVR:1370
+KD,Jema'a,lga,INEC-CVR:1371
+KD,Kachia,lga,INEC-CVR:1372
+KD,"Kaduna North",lga,INEC-CVR:1373
+KD,"Kaduna South",lga,INEC-CVR:1374
+KD,Kagarko,lga,INEC-CVR:1375
+KD,Kajuru,lga,INEC-CVR:1376
+KD,Kaura,lga,INEC-CVR:1377
+KD,Kauru,lga,INEC-CVR:1378
+KD,Kubau,lga,INEC-CVR:1379
+KD,Kudan,lga,INEC-CVR:1380
+KD,Lere,lga,INEC-CVR:1381
+KD,Makarfi,lga,INEC-CVR:1382
+KD,"Sabon Gari",lga,INEC-CVR:1383
+KD,Sanga,lga,INEC-CVR:1384
+KD,Soba,lga,INEC-CVR:1385
+KD,"Zangon Kataf",lga,INEC-CVR:1386
+KD,Zaria,lga,INEC-CVR:1387
+KN,Ajingi,lga,INEC-CVR:1389
+KN,Albasu,lga,INEC-CVR:1390
+KN,Bagwai,lga,INEC-CVR:1391
+KN,Bebeji,lga,INEC-CVR:1392
+KN,Bichi,lga,INEC-CVR:1393
+KN,Bunkure,lga,INEC-CVR:1394
+KN,Dala,lga,INEC-CVR:1395
+KN,Danbata,lga,INEC-CVR:1396
+KN,"Dawaki Kudu",lga,INEC-CVR:1397
+KN,"Dawaki Tofa",lga,INEC-CVR:1398
+KN,Doguwa,lga,INEC-CVR:1399
+KN,Fagge,lga,INEC-CVR:1400
+KN,Gabasawa,lga,INEC-CVR:1401
+KN,Garko,lga,INEC-CVR:1402
+KN,"Garun Malam",lga,INEC-CVR:1403
+KN,Gaya,lga,INEC-CVR:1404
+KN,Gezawa,lga,INEC-CVR:1405
+KN,Gwale,lga,INEC-CVR:1406
+KN,Gwarzo,lga,INEC-CVR:1407
+KN,Kabo,lga,INEC-CVR:1408
+KN,"Kano Municipal",lga,INEC-CVR:1409
+KN,Karaye,lga,INEC-CVR:1410
+KN,Kibiya,lga,INEC-CVR:1411
+KN,Kiru,lga,INEC-CVR:1412
+KN,Kumbotso,lga,INEC-CVR:1413
+KN,Kunchi,lga,INEC-CVR:1414
+KN,Kura,lga,INEC-CVR:1415
+KN,Madobi,lga,INEC-CVR:1416
+KN,Makoda,lga,INEC-CVR:1417
+KN,Minjibir,lga,INEC-CVR:1418
+KN,Nasarawa,lga,INEC-CVR:1419
+KN,Rano,lga,INEC-CVR:1420
+KN,"Rimin Gado",lga,INEC-CVR:1421
+KN,Rogo,lga,INEC-CVR:1422
+KN,Shanono,lga,INEC-CVR:1423
+KN,Sumaila,lga,INEC-CVR:1424
+KN,Takai,lga,INEC-CVR:1425
+KN,Tarauni,lga,INEC-CVR:1426
+KN,Tofa,lga,INEC-CVR:1427
+KN,Tsanyawa,lga,INEC-CVR:1428
+KN,"Tudun Wada",lga,INEC-CVR:1429
+KN,Ungogo,lga,INEC-CVR:1430
+KN,Warawa,lga,INEC-CVR:1431
+KN,Wudil,lga,INEC-CVR:1432
+KT,Bakori,lga,INEC-CVR:1434
+KT,Batagarawa,lga,INEC-CVR:1435
+KT,Batsari,lga,INEC-CVR:1436
+KT,Baure,lga,INEC-CVR:1437
+KT,Bindawa,lga,INEC-CVR:1438
+KT,Charanchi,lga,INEC-CVR:1439
+KT,"Dan Musa",lga,INEC-CVR:1442
+KT,Dandume,lga,INEC-CVR:1440
+KT,Danja,lga,INEC-CVR:1441
+KT,Daura,lga,INEC-CVR:1443
+KT,Dutsi,lga,INEC-CVR:1444
+KT,Dutsin-Ma,lga,INEC-CVR:1445
+KT,Faskari,lga,INEC-CVR:1446
+KT,Funtua,lga,INEC-CVR:1447
+KT,Ingawa,lga,INEC-CVR:1448
+KT,Jibia,lga,INEC-CVR:1449
+KT,Kafur,lga,INEC-CVR:1450
+KT,Kaita,lga,INEC-CVR:1451
+KT,Kankara,lga,INEC-CVR:1452
+KT,Kankia,lga,INEC-CVR:1453
+KT,Katsina,lga,INEC-CVR:1454
+KT,Kurfi,lga,INEC-CVR:1455
+KT,Kusada,lga,INEC-CVR:1456
+KT,Mai'adua,lga,INEC-CVR:1457
+KT,Malufashi,lga,INEC-CVR:1458
+KT,Mani,lga,INEC-CVR:1459
+KT,Mashi,lga,INEC-CVR:1460
+KT,Matazu,lga,INEC-CVR:1461
+KT,Musawa,lga,INEC-CVR:1462
+KT,Rimi,lga,INEC-CVR:1463
+KT,Sabuwa,lga,INEC-CVR:1464
+KT,Safana,lga,INEC-CVR:1465
+KT,Sandamu,lga,INEC-CVR:1466
+KT,Zango,lga,INEC-CVR:1467
+KE,Aliero,lga,INEC-CVR:1469
+KE,Arewa,lga,INEC-CVR:1470
+KE,Argungu,lga,INEC-CVR:1471
+KE,Augie,lga,INEC-CVR:1472
+KE,Bagudo,lga,INEC-CVR:1473
+KE,"Birnin Kebbi",lga,INEC-CVR:1474
+KE,Bunza,lga,INEC-CVR:1475
+KE,Dandi,lga,INEC-CVR:1476
+KE,Fakai,lga,INEC-CVR:1477
+KE,Gwandu,lga,INEC-CVR:1478
+KE,Jega,lga,INEC-CVR:1479
+KE,Kalgo,lga,INEC-CVR:1480
+KE,Koko/Besse,lga,INEC-CVR:1481
+KE,Maiyama,lga,INEC-CVR:1482
+KE,Ngaski,lga,INEC-CVR:1483
+KE,Sakaba,lga,INEC-CVR:1484
+KE,Shanga,lga,INEC-CVR:1485
+KE,Suru,lga,INEC-CVR:1486
+KE,Wasagu/Danko,lga,INEC-CVR:1487
+KE,Yauri,lga,INEC-CVR:1488
+KE,Zuru,lga,INEC-CVR:1489
+KO,Adavi,lga,INEC-CVR:1491
+KO,Ajaokuta,lga,INEC-CVR:1492
+KO,Ankpa,lga,INEC-CVR:1493
+KO,Bassa,lga,INEC-CVR:1494
+KO,Dekina,lga,INEC-CVR:1495
+KO,Ibaji,lga,INEC-CVR:1496
+KO,Idah,lga,INEC-CVR:1497
+KO,Igalamela/Odolu,lga,INEC-CVR:1498
+KO,Ijumu,lga,INEC-CVR:1499
+KO,Kabba/Bunu,lga,INEC-CVR:1500
+KO,"Kogi . K. K.",lga,INEC-CVR:1501
+KO,Lokoja,lga,INEC-CVR:1502
+KO,"Mopa Moro",lga,INEC-CVR:1503
+KO,Ofu,lga,INEC-CVR:1504
+KO,"Ogori Mangogo",lga,INEC-CVR:1505
+KO,Okehi,lga,INEC-CVR:1506
+KO,Okene,lga,INEC-CVR:1507
+KO,Olamaboro,lga,INEC-CVR:1508
+KO,Omala,lga,INEC-CVR:1509
+KO,"Yagba East",lga,INEC-CVR:1510
+KO,"Yagba West",lga,INEC-CVR:1511
+KW,Asa,lga,INEC-CVR:1513
+KW,Baruten,lga,INEC-CVR:1514
+KW,Edu,lga,INEC-CVR:1515
+KW,Ekiti,lga,INEC-CVR:1516
+KW,Ifelodun,lga,INEC-CVR:1517
+KW,"Ilorin East",lga,INEC-CVR:1518
+KW,Ilorin-South,lga,INEC-CVR:1519
+KW,Ilorin-West,lga,INEC-CVR:1520
+KW,Irepodun,lga,INEC-CVR:1521
+KW,Isin,lga,INEC-CVR:1522
+KW,Kaiama,lga,INEC-CVR:1523
+KW,Moro,lga,INEC-CVR:1524
+KW,Offa,lga,INEC-CVR:1525
+KW,Oke-Ero,lga,INEC-CVR:1526
+KW,Oyun,lga,INEC-CVR:1527
+KW,Patigi,lga,INEC-CVR:1528
+LA,Agege,lga,INEC-CVR:1530
+LA,Ajeromi/Ifelodun,lga,INEC-CVR:1531
+LA,Alimosho,lga,INEC-CVR:1532
+LA,Amuwo-Odofin,lga,INEC-CVR:1533
+LA,Apapa,lga,INEC-CVR:1534
+LA,Badagry,lga,INEC-CVR:1535
+LA,Epe,lga,INEC-CVR:1536
+LA,Eti-Osa,lga,INEC-CVR:1537
+LA,Ibeju/Lekki,lga,INEC-CVR:1538
+LA,Ifako-Ijaye,lga,INEC-CVR:1539
+LA,Ikeja,lga,INEC-CVR:1540
+LA,Ikorodu,lga,INEC-CVR:1541
+LA,Kosofe,lga,INEC-CVR:1542
+LA,"Lagos Island",lga,INEC-CVR:1543
+LA,"Lagos Mainland",lga,INEC-CVR:1544
+LA,Mushin,lga,INEC-CVR:1545
+LA,Ojo,lga,INEC-CVR:1546
+LA,Oshodi/Isolo,lga,INEC-CVR:1547
+LA,Somolu,lga,INEC-CVR:1548
+LA,Surulere,lga,INEC-CVR:1549
+NA,Akwanga,lga,INEC-CVR:1551
+NA,Awe,lga,INEC-CVR:1552
+NA,Doma,lga,INEC-CVR:1553
+NA,Karu,lga,INEC-CVR:1554
+NA,Keana,lga,INEC-CVR:1555
+NA,Keffi,lga,INEC-CVR:1556
+NA,Kokona,lga,INEC-CVR:1557
+NA,Lafia,lga,INEC-CVR:1558
+NA,Nasarawa,lga,INEC-CVR:1559
+NA,"Nasarawa Eggon",lga,INEC-CVR:1560
+NA,Obi,lga,INEC-CVR:1561
+NA,Toto,lga,INEC-CVR:1562
+NA,Wamba,lga,INEC-CVR:1563
+NI,Agaie,lga,INEC-CVR:1565
+NI,Agwara,lga,INEC-CVR:1566
+NI,Bida,lga,INEC-CVR:1567
+NI,Borgu,lga,INEC-CVR:1568
+NI,Bosso,lga,INEC-CVR:1569
+NI,Chanchaga,lga,INEC-CVR:1570
+NI,Edatti,lga,INEC-CVR:1571
+NI,Gbako,lga,INEC-CVR:1572
+NI,Gurara,lga,INEC-CVR:1573
+NI,Katcha,lga,INEC-CVR:1574
+NI,Kontagora,lga,INEC-CVR:1575
+NI,Lapai,lga,INEC-CVR:1576
+NI,Lavun,lga,INEC-CVR:1577
+NI,Magama,lga,INEC-CVR:1578
+NI,Mariga,lga,INEC-CVR:1579
+NI,Mashegu,lga,INEC-CVR:1580
+NI,Mokwa,lga,INEC-CVR:1581
+NI,Munya,lga,INEC-CVR:1582
+NI,Paikoro,lga,INEC-CVR:1583
+NI,Rafi,lga,INEC-CVR:1584
+NI,Rijau,lga,INEC-CVR:1585
+NI,Shiroro,lga,INEC-CVR:1586
+NI,Suleja,lga,INEC-CVR:1587
+NI,Tafa,lga,INEC-CVR:1588
+NI,Wushishi,lga,INEC-CVR:1589
+OG,"Abeokuta North",lga,INEC-CVR:1591
+OG,"Abeokuta South",lga,INEC-CVR:1592
+OG,"Ado Odo-Ota",lga,INEC-CVR:1593
+OG,"Egbado North",lga,INEC-CVR:1594
+OG,"Egbado South",lga,INEC-CVR:1595
+OG,Ewekoro,lga,INEC-CVR:1596
+OG,Ifo,lga,INEC-CVR:1597
+OG,"Ijebu East",lga,INEC-CVR:1598
+OG,"Ijebu North",lga,INEC-CVR:1599
+OG,"Ijebu North East",lga,INEC-CVR:1600
+OG,"Ijebu Ode",lga,INEC-CVR:1601
+OG,Ikenne,lga,INEC-CVR:1602
+OG,Imeko/Afon,lga,INEC-CVR:1603
+OG,Ipokia,lga,INEC-CVR:1604
+OG,Obafemi/Owode,lga,INEC-CVR:1605
+OG,Odeda,lga,INEC-CVR:1606
+OG,Odogbolu,lga,INEC-CVR:1607
+OG,"Ogun Water Side",lga,INEC-CVR:1608
+OG,"Remo North",lga,INEC-CVR:1609
+OG,Sagamu,lga,INEC-CVR:1610
+ON,"Akoko North East",lga,INEC-CVR:1612
+ON,"Akoko North West",lga,INEC-CVR:1613
+ON,"Akoko South East",lga,INEC-CVR:1614
+ON,"Akoko South West",lga,INEC-CVR:1615
+ON,"Akure North",lga,INEC-CVR:1616
+ON,"Akure South",lga,INEC-CVR:1617
+ON,Ese-Odo,lga,INEC-CVR:1618
+ON,Idanre,lga,INEC-CVR:1619
+ON,Ifedore,lga,INEC-CVR:1620
+ON,Ilaje,lga,INEC-CVR:1621
+ON,Ileoluji/Okeigbo,lga,INEC-CVR:1622
+ON,Irele,lga,INEC-CVR:1623
+ON,Odigbo,lga,INEC-CVR:1624
+ON,Okitipupa,lga,INEC-CVR:1625
+ON,"Ondo East",lga,INEC-CVR:1626
+ON,"Ondo West",lga,INEC-CVR:1627
+ON,Ose,lga,INEC-CVR:1628
+ON,Owo,lga,INEC-CVR:1629
+OS,"Atakumosa East",lga,INEC-CVR:1631
+OS,"Atakumosa West",lga,INEC-CVR:1632
+OS,Ayedaade,lga,INEC-CVR:1633
+OS,Ayedire,lga,INEC-CVR:1634
+OS,Boluwaduro,lga,INEC-CVR:1635
+OS,Boripe,lga,INEC-CVR:1636
+OS,"Ede North",lga,INEC-CVR:1637
+OS,"Ede South",lga,INEC-CVR:1638
+OS,Egbedore,lga,INEC-CVR:1639
+OS,Ejigbo,lga,INEC-CVR:1640
+OS,"Ife Central",lga,INEC-CVR:1641
+OS,"Ife East",lga,INEC-CVR:1642
+OS,"Ife North",lga,INEC-CVR:1643
+OS,"Ife South",lga,INEC-CVR:1644
+OS,Ifedayo,lga,INEC-CVR:1645
+OS,Ifelodun,lga,INEC-CVR:1646
+OS,Ila,lga,INEC-CVR:1647
+OS,"Ilesa East",lga,INEC-CVR:1648
+OS,"Ilesa West",lga,INEC-CVR:1649
+OS,Irepodun,lga,INEC-CVR:1650
+OS,Irewole,lga,INEC-CVR:1651
+OS,Isokan,lga,INEC-CVR:1652
+OS,Iwo,lga,INEC-CVR:1653
+OS,Obokun,lga,INEC-CVR:1654
+OS,Odo-Otin,lga,INEC-CVR:1655
+OS,Ola-Oluwa,lga,INEC-CVR:1656
+OS,Olorunda,lga,INEC-CVR:1657
+OS,Oriade,lga,INEC-CVR:1658
+OS,Orolu,lga,INEC-CVR:1659
+OS,Osogbo,lga,INEC-CVR:1660
+OY,Afijio,lga,INEC-CVR:1663
+OY,Akinyele,lga,INEC-CVR:1664
+OY,Atiba,lga,INEC-CVR:1665
+OY,Atisbo,lga,INEC-CVR:1666
+OY,Egbeda,lga,INEC-CVR:1667
+OY,"Ibadan North",lga,INEC-CVR:1668
+OY,"Ibadan North East",lga,INEC-CVR:1669
+OY,"Ibadan North West",lga,INEC-CVR:1670
+OY,"Ibadan South West",lga,INEC-CVR:1672
+OY,"Ibadan South-East",lga,INEC-CVR:1671
+OY,"Ibarapa Central",lga,INEC-CVR:1673
+OY,"Ibarapa East",lga,INEC-CVR:1674
+OY,"Ibarapa North",lga,INEC-CVR:1675
+OY,Ido,lga,INEC-CVR:1676
+OY,Irepo,lga,INEC-CVR:1677
+OY,Iseyin,lga,INEC-CVR:1678
+OY,Itesiwaju,lga,INEC-CVR:1679
+OY,Iwajowa,lga,INEC-CVR:1680
+OY,Kajola,lga,INEC-CVR:1681
+OY,Lagelu,lga,INEC-CVR:1682
+OY,"Ogbomoso North",lga,INEC-CVR:1683
+OY,"Ogbomoso South",lga,INEC-CVR:1684
+OY,Ogo-Oluwa,lga,INEC-CVR:1685
+OY,Olorunsogo,lga,INEC-CVR:1686
+OY,Oluyole,lga,INEC-CVR:1687
+OY,Ona-Ara,lga,INEC-CVR:1688
+OY,Oorelope,lga,INEC-CVR:1689
+OY,"Ori Ire",lga,INEC-CVR:1690
+OY,"Oyo East",lga,INEC-CVR:1691
+OY,"Oyo West",lga,INEC-CVR:1692
+OY,"Saki East",lga,INEC-CVR:1693
+OY,"Saki West",lga,INEC-CVR:1694
+OY,Surulere,lga,INEC-CVR:1695
+PL,"Barikin Ladi",lga,INEC-CVR:1697
+PL,Bassa,lga,INEC-CVR:1698
+PL,Bokkos,lga,INEC-CVR:1699
+PL,"Jos East",lga,INEC-CVR:1700
+PL,"Jos North",lga,INEC-CVR:1701
+PL,"Jos South",lga,INEC-CVR:1702
+PL,Kanam,lga,INEC-CVR:1703
+PL,Kanke,lga,INEC-CVR:1704
+PL,"Langtang North",lga,INEC-CVR:1705
+PL,"Langtang South",lga,INEC-CVR:1706
+PL,Mangu,lga,INEC-CVR:1708
+PL,Mikang,lga,INEC-CVR:1707
+PL,Pankshin,lga,INEC-CVR:1709
+PL,"Qua'an Pan",lga,INEC-CVR:1710
+PL,Riyom,lga,INEC-CVR:1711
+PL,Shendam,lga,INEC-CVR:1712
+PL,Wase,lga,INEC-CVR:1713
+RI,Abua-Odual,lga,INEC-CVR:1715
+RI,"Ahoada East",lga,INEC-CVR:1716
+RI,"Ahoada West",lga,INEC-CVR:1717
+RI,"Akuku Toru",lga,INEC-CVR:1718
+RI,Andoni,lga,INEC-CVR:1719
+RI,Asari-Toru,lga,INEC-CVR:1720
+RI,Bonny,lga,INEC-CVR:1721
+RI,Degema,lga,INEC-CVR:1722
+RI,Eleme,lga,INEC-CVR:1723
+RI,Emohua,lga,INEC-CVR:1724
+RI,Etche,lga,INEC-CVR:1725
+RI,Gokana,lga,INEC-CVR:1726
+RI,Ikwerre,lga,INEC-CVR:1727
+RI,Khana,lga,INEC-CVR:1728
+RI,Obio/Akpor,lga,INEC-CVR:1729
+RI,Ogba/Egbema/Ndoni,lga,INEC-CVR:1730
+RI,Ogu/Bolo,lga,INEC-CVR:1731
+RI,Okrika,lga,INEC-CVR:1732
+RI,Omuma,lga,INEC-CVR:1733
+RI,Opobo/Nkoro,lga,INEC-CVR:1734
+RI,Oyigbo,lga,INEC-CVR:1735
+RI,"Port Harcourt",lga,INEC-CVR:1736
+RI,Tai,lga,INEC-CVR:1737
+SO,Binji,lga,INEC-CVR:1739
+SO,Bodinga,lga,INEC-CVR:1740
+SO,Dange/Shuni,lga,INEC-CVR:1741
+SO,Gada,lga,INEC-CVR:1742
+SO,Goronyo,lga,INEC-CVR:1743
+SO,Gudu,lga,INEC-CVR:1744
+SO,Gwadabawa,lga,INEC-CVR:1745
+SO,Illela,lga,INEC-CVR:1746
+SO,Isa,lga,INEC-CVR:1747
+SO,Kebbe,lga,INEC-CVR:1748
+SO,Kware,lga,INEC-CVR:1749
+SO,Rabah,lga,INEC-CVR:1750
+SO,S/Birni,lga,INEC-CVR:1751
+SO,Shagari,lga,INEC-CVR:1752
+SO,Silame,lga,INEC-CVR:1753
+SO,"Sokoto North",lga,INEC-CVR:1754
+SO,"Sokoto South",lga,INEC-CVR:1755
+SO,Tambuwal,lga,INEC-CVR:1756
+SO,Tangaza,lga,INEC-CVR:1757
+SO,Tureta,lga,INEC-CVR:1758
+SO,Wamakko,lga,INEC-CVR:1759
+SO,Wurno,lga,INEC-CVR:1760
+SO,Yabo,lga,INEC-CVR:1761
+TA,Ardo-Kola,lga,INEC-CVR:1763
+TA,Bali,lga,INEC-CVR:1764
+TA,Donga,lga,INEC-CVR:1765
+TA,Gashaka,lga,INEC-CVR:1766
+TA,Gassol,lga,INEC-CVR:1767
+TA,Ibi,lga,INEC-CVR:1768
+TA,Jalingo,lga,INEC-CVR:1769
+TA,Karim-Lamido,lga,INEC-CVR:1770
+TA,Kurmi,lga,INEC-CVR:1771
+TA,Lau,lga,INEC-CVR:1772
+TA,Sardauna,lga,INEC-CVR:1773
+TA,Takum,lga,INEC-CVR:1774
+TA,Ussa,lga,INEC-CVR:1775
+TA,Wukari,lga,INEC-CVR:1776
+TA,Yorro,lga,INEC-CVR:1777
+TA,Zing,lga,INEC-CVR:1778
+YO,Bade,lga,INEC-CVR:1780
+YO,Bursari,lga,INEC-CVR:1781
+YO,Damaturu,lga,INEC-CVR:1782
+YO,Fika,lga,INEC-CVR:1783
+YO,Fune,lga,INEC-CVR:1784
+YO,Geidam,lga,INEC-CVR:1785
+YO,Gujba,lga,INEC-CVR:1786
+YO,Gulani,lga,INEC-CVR:1787
+YO,Jakusko,lga,INEC-CVR:1788
+YO,Karasawa,lga,INEC-CVR:1789
+YO,Machina,lga,INEC-CVR:1790
+YO,Nangere,lga,INEC-CVR:1791
+YO,Nguru,lga,INEC-CVR:1792
+YO,Potiskum,lga,INEC-CVR:1793
+YO,Tarmuwa,lga,INEC-CVR:1794
+YO,Yunusari,lga,INEC-CVR:1795
+YO,Yusufari,lga,INEC-CVR:1796
+ZA,Anka,lga,INEC-CVR:1798
+ZA,Bakura,lga,INEC-CVR:1799
+ZA,"Birnin Magaji",lga,INEC-CVR:1800
+ZA,Bukkuyum,lga,INEC-CVR:1801
+ZA,Bungudu,lga,INEC-CVR:1802
+ZA,Gummi,lga,INEC-CVR:1803
+ZA,Gusau,lga,INEC-CVR:1804
+ZA,"Kaura Namoda",lga,INEC-CVR:1805
+ZA,Maradun,lga,INEC-CVR:1806
+ZA,Maru,lga,INEC-CVR:1807
+ZA,Shinkafi,lga,INEC-CVR:1808
+ZA,"Talata Mafara",lga,INEC-CVR:1809
+ZA,Tsafe,lga,INEC-CVR:1810
+ZA,Zurmi,lga,INEC-CVR:1811

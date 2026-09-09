@@ -1,0 +1,775 @@
+inec_state_id,state_name,state_code,raw_lga_name,normalized_lga_name,administrative_type,external_id,source_url
+1,ABIA,AB,"ABA NORTH","Aba North",lga,INEC-CVR:1001,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"ABA SOUTH","Aba South",lga,INEC-CVR:1002,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,AROCHUKWU,Arochukwu,lga,INEC-CVR:1003,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,BENDE,Bende,lga,INEC-CVR:1004,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,IKWUANO,Ikwuano,lga,INEC-CVR:1005,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"ISIALA NGWA NORTH","Isiala Ngwa North",lga,INEC-CVR:1006,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"ISIALA NGWA SOUTH","Isiala Ngwa South",lga,INEC-CVR:1007,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,ISUIKWUATO,Isuikwuato,lga,INEC-CVR:1008,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,OBINGWA,Obingwa,lga,INEC-CVR:1009,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,OHAFIA,Ohafia,lga,INEC-CVR:1010,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,OSISIOMA,Osisioma,lga,INEC-CVR:1011,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,UGWUNAGBO,Ugwunagbo,lga,INEC-CVR:1012,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"UKWA EAST","Ukwa East",lga,INEC-CVR:1013,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"UKWA WEST","Ukwa West",lga,INEC-CVR:1014,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"UMU - NNEOCHI",Umu-Nneochi,lga,INEC-CVR:1017,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"UMUAHIA NORTH","Umuahia North",lga,INEC-CVR:1015,https://cvr.inecnigeria.org/locator/browse/1/
+1,ABIA,AB,"UMUAHIA SOUTH","Umuahia South",lga,INEC-CVR:1016,https://cvr.inecnigeria.org/locator/browse/1/
+2,ADAMAWA,AD,DEMSA,Demsa,lga,INEC-CVR:1019,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,FUFORE,Fufore,lga,INEC-CVR:1020,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,GANYE,Ganye,lga,INEC-CVR:1021,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,GIREI,Girei,lga,INEC-CVR:1022,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,GOMBI,Gombi,lga,INEC-CVR:1023,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,GUYUK,Guyuk,lga,INEC-CVR:1024,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,HONG,Hong,lga,INEC-CVR:1025,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,JADA,Jada,lga,INEC-CVR:1026,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,LAMURDE,Lamurde,lga,INEC-CVR:1027,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,MADAGALI,Madagali,lga,INEC-CVR:1028,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,MAIHA,Maiha,lga,INEC-CVR:1029,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,"MAYO - BELWA",Mayo-Belwa,lga,INEC-CVR:1030,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,MICHIKA,Michika,lga,INEC-CVR:1031,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,"MUBI NORTH","Mubi North",lga,INEC-CVR:1032,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,"MUBI SOUTH","Mubi South",lga,INEC-CVR:1033,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,NUMAN,Numan,lga,INEC-CVR:1034,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,SHELLENG,Shelleng,lga,INEC-CVR:1035,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,SONG,Song,lga,INEC-CVR:1036,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,TOUNGO,Toungo,lga,INEC-CVR:1037,https://cvr.inecnigeria.org/locator/browse/2/
+2,ADAMAWA,AD,"YOLA NORTH","Yola North",lga,INEC-CVR:1038,https://cvr.inecnigeria.org/locator/browse/state_id:2/page:2
+2,ADAMAWA,AD,"YOLA SOUTH","Yola South",lga,INEC-CVR:1039,https://cvr.inecnigeria.org/locator/browse/state_id:2/page:2
+3,"AKWA IBOM",AK,ABAK,Abak,lga,INEC-CVR:1041,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"EASTERN OBOLO","Eastern Obolo",lga,INEC-CVR:1042,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,EKET,Eket,lga,INEC-CVR:1043,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"ESIT EKET (UQUO)","Esit Eket (Uquo)",lga,INEC-CVR:1044,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"ESSIEN UDIM","Essien Udim",lga,INEC-CVR:1045,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"ETIM EKPO","Etim Ekpo",lga,INEC-CVR:1046,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,ETINAN,Etinan,lga,INEC-CVR:1047,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,IBENO,Ibeno,lga,INEC-CVR:1048,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"IBESIKPO ASUTAN","Ibesikpo Asutan",lga,INEC-CVR:1049,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"IBIONO IBOM","Ibiono Ibom",lga,INEC-CVR:1050,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,IKA,Ika,lga,INEC-CVR:1051,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,IKONO,Ikono,lga,INEC-CVR:1052,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"IKOT ABASI","Ikot Abasi",lga,INEC-CVR:1053,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"IKOT EKPENE","Ikot Ekpene",lga,INEC-CVR:1054,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,INI,Ini,lga,INEC-CVR:1055,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,ITU,Itu,lga,INEC-CVR:1056,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,MBO,Mbo,lga,INEC-CVR:1057,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"MKPAT ENIN","Mkpat Enin",lga,INEC-CVR:1058,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"NSIT ATAI","Nsit Atai",lga,INEC-CVR:1059,https://cvr.inecnigeria.org/locator/browse/3/
+3,"AKWA IBOM",AK,"NSIT IBOM","Nsit Ibom",lga,INEC-CVR:1060,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,"NSIT UBIUM","Nsit Ubium",lga,INEC-CVR:1061,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,"OBOT AKARA","Obot Akara",lga,INEC-CVR:1062,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,OKOBO,Okobo,lga,INEC-CVR:1063,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,ONNA,Onna,lga,INEC-CVR:1064,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,ORON,Oron,lga,INEC-CVR:1065,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,"ORUK ANAM","Oruk Anam",lga,INEC-CVR:1066,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,"UDUNG UKO","Udung Uko",lga,INEC-CVR:1067,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,UKANAFUN,Ukanafun,lga,INEC-CVR:1068,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,URUAN,Uruan,lga,INEC-CVR:1069,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,"URUE OFFONG/ORUKO","Urue Offong/Oruko",lga,INEC-CVR:1070,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+3,"AKWA IBOM",AK,UYO,Uyo,lga,INEC-CVR:1071,https://cvr.inecnigeria.org/locator/browse/state_id:3/page:2
+4,ANAMBRA,AN,AGUATA,Aguata,lga,INEC-CVR:1073,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"ANAMBRA EAST","Anambra East",lga,INEC-CVR:1075,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"ANAMBRA WEST","Anambra West",lga,INEC-CVR:1076,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,ANAOCHA,Anaocha,lga,INEC-CVR:1077,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"AWKA NORTH","Awka North",lga,INEC-CVR:1078,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"AWKA SOUTH","Awka South",lga,INEC-CVR:1079,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,AYAMELUM,Ayamelum,lga,INEC-CVR:1074,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,DUNUKOFIA,Dunukofia,lga,INEC-CVR:1080,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,EKWUSIGO,Ekwusigo,lga,INEC-CVR:1081,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"IDEMILI NORTH","Idemili North",lga,INEC-CVR:1082,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,IDEMILI-SOUTH,Idemili-South,lga,INEC-CVR:1083,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,IHIALA,Ihiala,lga,INEC-CVR:1084,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,NJIKOKA,Njikoka,lga,INEC-CVR:1085,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"NNEWI NORTH","Nnewi North",lga,INEC-CVR:1086,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"NNEWI SOUTH","Nnewi South",lga,INEC-CVR:1087,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,OGBARU,Ogbaru,lga,INEC-CVR:1088,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,ONITSHA-NORTH,Onitsha-North,lga,INEC-CVR:1089,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"ONITSHA -SOUTH",Onitsha-South,lga,INEC-CVR:1090,https://cvr.inecnigeria.org/locator/browse/4/
+4,ANAMBRA,AN,"ORUMBA NORTH","Orumba North",lga,INEC-CVR:1091,https://cvr.inecnigeria.org/locator/browse/state_id:4/page:2
+4,ANAMBRA,AN,"ORUMBA SOUTH","Orumba South",lga,INEC-CVR:1092,https://cvr.inecnigeria.org/locator/browse/state_id:4/page:2
+4,ANAMBRA,AN,OYI,Oyi,lga,INEC-CVR:1093,https://cvr.inecnigeria.org/locator/browse/state_id:4/page:2
+5,BAUCHI,BA,ALKALERI,Alkaleri,lga,INEC-CVR:1095,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,BAUCHI,Bauchi,lga,INEC-CVR:1096,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,BOGORO,Bogoro,lga,INEC-CVR:1097,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,DAMBAM,Dambam,lga,INEC-CVR:1098,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,DARAZO,Darazo,lga,INEC-CVR:1099,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,DASS,Dass,lga,INEC-CVR:1100,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,GAMAWA,Gamawa,lga,INEC-CVR:1101,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,GANJUWA,Ganjuwa,lga,INEC-CVR:1102,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,GIADE,Giade,lga,INEC-CVR:1103,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,ITAS/GADAU,Itas/Gadau,lga,INEC-CVR:1104,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,JAMA'ARE,Jama'are,lga,INEC-CVR:1105,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,KATAGUM,Katagum,lga,INEC-CVR:1106,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,KIRFI,Kirfi,lga,INEC-CVR:1107,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,MISAU,Misau,lga,INEC-CVR:1108,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,NINGI,Ningi,lga,INEC-CVR:1109,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,SHIRA,Shira,lga,INEC-CVR:1110,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,"TAFAWA BALEWA","Tafawa Balewa",lga,INEC-CVR:1111,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,TORO,Toro,lga,INEC-CVR:1112,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,WARJI,Warji,lga,INEC-CVR:1113,https://cvr.inecnigeria.org/locator/browse/5/
+5,BAUCHI,BA,ZAKI,Zaki,lga,INEC-CVR:1114,https://cvr.inecnigeria.org/locator/browse/state_id:5/page:2
+6,BAYELSA,BY,BRASS,Brass,lga,INEC-CVR:1116,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,EKEREMOR,Ekeremor,lga,INEC-CVR:1117,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,KOLOKUMA/OPOKUMA,Kolokuma/Opokuma,lga,INEC-CVR:1118,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,NEMBE,Nembe,lga,INEC-CVR:1119,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,OGBIA,Ogbia,lga,INEC-CVR:1120,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,SAGBAMA,Sagbama,lga,INEC-CVR:1121,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,"SOUTHERN IJAW","Southern Ijaw",lga,INEC-CVR:1122,https://cvr.inecnigeria.org/locator/browse/6/
+6,BAYELSA,BY,YENAGOA,Yenagoa,lga,INEC-CVR:1123,https://cvr.inecnigeria.org/locator/browse/6/
+7,BENUE,BE,ADO,Ado,lga,INEC-CVR:1125,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,AGATU,Agatu,lga,INEC-CVR:1126,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,APA,Apa,lga,INEC-CVR:1127,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,BURUKU,Buruku,lga,INEC-CVR:1128,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,GBOKO,Gboko,lga,INEC-CVR:1129,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,GUMA,Guma,lga,INEC-CVR:1130,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,"GWER EAST","Gwer East",lga,INEC-CVR:1131,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,"GWER WEST","Gwer West",lga,INEC-CVR:1132,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,KATSINA-ALA,Katsina-Ala,lga,INEC-CVR:1133,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,KONSHISHA,Konshisha,lga,INEC-CVR:1134,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,KWANDE,Kwande,lga,INEC-CVR:1135,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,LOGO,Logo,lga,INEC-CVR:1136,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,MAKURDI,Makurdi,lga,INEC-CVR:1137,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OBI,Obi,lga,INEC-CVR:1138,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OGBADIBO,Ogbadibo,lga,INEC-CVR:1139,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OHIMINI,Ohimini,lga,INEC-CVR:1141,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OJU,Oju,lga,INEC-CVR:1140,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OKPOKWU,Okpokwu,lga,INEC-CVR:1142,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,OTUKPO,Otukpo,lga,INEC-CVR:1143,https://cvr.inecnigeria.org/locator/browse/7/
+7,BENUE,BE,TARKA,Tarka,lga,INEC-CVR:1144,https://cvr.inecnigeria.org/locator/browse/state_id:7/page:2
+7,BENUE,BE,UKUM,Ukum,lga,INEC-CVR:1145,https://cvr.inecnigeria.org/locator/browse/state_id:7/page:2
+7,BENUE,BE,USHONGO,Ushongo,lga,INEC-CVR:1146,https://cvr.inecnigeria.org/locator/browse/state_id:7/page:2
+7,BENUE,BE,VANDEIKYA,Vandeikya,lga,INEC-CVR:1147,https://cvr.inecnigeria.org/locator/browse/state_id:7/page:2
+8,BORNO,BO,ABADAM,Abadam,lga,INEC-CVR:1149,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,"ASKIRA / UBA",Askira/Uba,lga,INEC-CVR:1150,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,BAMA,Bama,lga,INEC-CVR:1151,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,BAYO,Bayo,lga,INEC-CVR:1152,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,BIU,Biu,lga,INEC-CVR:1153,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,CHIBOK,Chibok,lga,INEC-CVR:1154,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,DAMBOA,Damboa,lga,INEC-CVR:1155,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,DIKWA,Dikwa,lga,INEC-CVR:1156,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,GUBIO,Gubio,lga,INEC-CVR:1157,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,GUZAMALA,Guzamala,lga,INEC-CVR:1158,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,GWOZA,Gwoza,lga,INEC-CVR:1159,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,HAWUL,Hawul,lga,INEC-CVR:1160,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,JERE,Jere,lga,INEC-CVR:1161,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,KAGA,Kaga,lga,INEC-CVR:1162,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,"KALA BALGE","Kala Balge",lga,INEC-CVR:1163,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,KONDUGA,Konduga,lga,INEC-CVR:1164,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,KUKAWA,Kukawa,lga,INEC-CVR:1165,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,"KWAYA / KUSAR",Kwaya/Kusar,lga,INEC-CVR:1166,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,MAFA,Mafa,lga,INEC-CVR:1167,https://cvr.inecnigeria.org/locator/browse/8/
+8,BORNO,BO,MAGUMERI,Magumeri,lga,INEC-CVR:1168,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,"MAIDUGURI M. C.","Maiduguri M. C.",lga,INEC-CVR:1169,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,MARTE,Marte,lga,INEC-CVR:1170,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,MOBBAR,Mobbar,lga,INEC-CVR:1171,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,MONGUNO,Monguno,lga,INEC-CVR:1172,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,NGALA,Ngala,lga,INEC-CVR:1173,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,NGANZAI,Nganzai,lga,INEC-CVR:1174,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+8,BORNO,BO,SHANI,Shani,lga,INEC-CVR:1175,https://cvr.inecnigeria.org/locator/browse/state_id:8/page:2
+9,"CROSS RIVER",CR,ABI,Abi,lga,INEC-CVR:1177,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,AKAMKPA,Akamkpa,lga,INEC-CVR:1178,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,AKPABUYO,Akpabuyo,lga,INEC-CVR:1179,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,BAKASSI,Bakassi,lga,INEC-CVR:1180,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,BEKWARRA,Bekwarra,lga,INEC-CVR:1181,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,BIASE,Biase,lga,INEC-CVR:1182,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,BOKI,Boki,lga,INEC-CVR:1183,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,"CALABAR MUNICIPALITY","Calabar Municipality",lga,INEC-CVR:1184,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,"CALABAR SOUTH","Calabar South",lga,INEC-CVR:1185,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,ETUNG,Etung,lga,INEC-CVR:1186,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,IKOM,Ikom,lga,INEC-CVR:1187,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,OBANLIKU,Obanliku,lga,INEC-CVR:1188,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,OBUBRA,Obubra,lga,INEC-CVR:1189,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,OBUDU,Obudu,lga,INEC-CVR:1190,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,ODUKPANI,Odukpani,lga,INEC-CVR:1191,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,OGOJA,Ogoja,lga,INEC-CVR:1192,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,YAKURR,Yakurr,lga,INEC-CVR:1193,https://cvr.inecnigeria.org/locator/browse/9/
+9,"CROSS RIVER",CR,YALA,Yala,lga,INEC-CVR:1194,https://cvr.inecnigeria.org/locator/browse/9/
+10,DELTA,DE,"ANIOCHA NORTH","Aniocha North",lga,INEC-CVR:1196,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"ANIOCHA - SOUTH",Aniocha-South,lga,INEC-CVR:1197,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,BOMADI,Bomadi,lga,INEC-CVR:1198,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,BURUTU,Burutu,lga,INEC-CVR:1199,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"ETHIOPE EAST","Ethiope East",lga,INEC-CVR:1200,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"ETHIOPE WEST","Ethiope West",lga,INEC-CVR:1201,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"IKA NORTH- EAST","Ika North-East",lga,INEC-CVR:1202,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"IKA - SOUTH",Ika-South,lga,INEC-CVR:1203,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"ISOKO NORTH","Isoko North",lga,INEC-CVR:1204,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"ISOKO SOUTH","Isoko South",lga,INEC-CVR:1205,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"NDOKWA EAST","Ndokwa East",lga,INEC-CVR:1206,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"NDOKWA WEST","Ndokwa West",lga,INEC-CVR:1207,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,OKPE,Okpe,lga,INEC-CVR:1208,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"OSHIMILI - NORTH",Oshimili-North,lga,INEC-CVR:1209,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"OSHIMILI - SOUTH",Oshimili-South,lga,INEC-CVR:1210,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,PATANI,Patani,lga,INEC-CVR:1211,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,SAPELE,Sapele,lga,INEC-CVR:1212,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,UDU,Udu,lga,INEC-CVR:1213,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"UGHELLI NORTH","Ughelli North",lga,INEC-CVR:1214,https://cvr.inecnigeria.org/locator/browse/10/
+10,DELTA,DE,"UGHELLI SOUTH","Ughelli South",lga,INEC-CVR:1215,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+10,DELTA,DE,UKWUANI,Ukwuani,lga,INEC-CVR:1216,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+10,DELTA,DE,UVWIE,Uvwie,lga,INEC-CVR:1217,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+10,DELTA,DE,"WARRI NORTH","Warri North",lga,INEC-CVR:1218,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+10,DELTA,DE,"WARRI SOUTH","Warri South",lga,INEC-CVR:1219,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+10,DELTA,DE,"WARRI SOUTH WEST","Warri South West",lga,INEC-CVR:1220,https://cvr.inecnigeria.org/locator/browse/state_id:10/page:2
+11,EBONYI,EB,ABAKALIKI,Abakaliki,lga,INEC-CVR:1222,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,"AFIKPO NORTH","Afikpo North",lga,INEC-CVR:1223,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,"AFIKPO SOUTH","Afikpo South",lga,INEC-CVR:1224,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,EBONYI,Ebonyi,lga,INEC-CVR:1225,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,"EZZA NORTH","Ezza North",lga,INEC-CVR:1226,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,"EZZA SOUTH","Ezza South",lga,INEC-CVR:1227,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,IKWO,Ikwo,lga,INEC-CVR:1229,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,ISHIELU,Ishielu,lga,INEC-CVR:1228,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,IVO,Ivo,lga,INEC-CVR:1230,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,IZZI,Izzi,lga,INEC-CVR:1231,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,OHAOZARA,Ohaozara,lga,INEC-CVR:1232,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,OHAUKWU,Ohaukwu,lga,INEC-CVR:1233,https://cvr.inecnigeria.org/locator/browse/11/
+11,EBONYI,EB,ONICHA,Onicha,lga,INEC-CVR:1234,https://cvr.inecnigeria.org/locator/browse/11/
+12,EDO,ED,"AKOKO EDO","Akoko Edo",lga,INEC-CVR:1236,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,EGOR,Egor,lga,INEC-CVR:1237,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ESAN CENTRAL","Esan Central",lga,INEC-CVR:1238,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ESAN NORTH EAST","Esan North East",lga,INEC-CVR:1239,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ESAN SOUTH EAST","Esan South East",lga,INEC-CVR:1240,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ESAN WEST","Esan West",lga,INEC-CVR:1241,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ETSAKO CENTRAL","Etsako Central",lga,INEC-CVR:1242,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ETSAKO EAST","Etsako East",lga,INEC-CVR:1243,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"ETSAKO WEST","Etsako West",lga,INEC-CVR:1244,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,IGUEBEN,Igueben,lga,INEC-CVR:1245,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,IKPOBA/OKHA,Ikpoba/Okha,lga,INEC-CVR:1246,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,OREDO,Oredo,lga,INEC-CVR:1247,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,ORHIONMWON,Orhionmwon,lga,INEC-CVR:1248,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"OVIA NORTH EAST","Ovia North East",lga,INEC-CVR:1249,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"OVIA SOUTH WEST","Ovia South West",lga,INEC-CVR:1250,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"OWAN EAST","Owan East",lga,INEC-CVR:1251,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,"OWAN WEST","Owan West",lga,INEC-CVR:1252,https://cvr.inecnigeria.org/locator/browse/12/
+12,EDO,ED,UHUNMWODE,Uhunmwode,lga,INEC-CVR:1253,https://cvr.inecnigeria.org/locator/browse/12/
+13,EKITI,EK,"ADO EKITI","Ado Ekiti",lga,INEC-CVR:1255,https://cvr.inecnigeria.org/locator/viewCentre/1255
+13,EKITI,EK,EFON,Efon,lga,INEC-CVR:1256,https://cvr.inecnigeria.org/locator/viewCentre/1256
+13,EKITI,EK,"EKITI EAST","Ekiti East",lga,INEC-CVR:1257,https://cvr.inecnigeria.org/locator/viewCentre/1257
+13,EKITI,EK,"EKITI SOUTH WEST","Ekiti South West",lga,INEC-CVR:1259,https://cvr.inecnigeria.org/locator/viewCentre/1259
+13,EKITI,EK,"EKITI WEST","Ekiti West",lga,INEC-CVR:1258,https://cvr.inecnigeria.org/locator/viewCentre/1258
+13,EKITI,EK,EMURE,Emure,lga,INEC-CVR:1260,https://cvr.inecnigeria.org/locator/viewCentre/1260
+13,EKITI,EK,GBONYIN,Gbonyin,lga,INEC-CVR:1261,https://cvr.inecnigeria.org/locator/viewCentre/1261
+13,EKITI,EK,"IDO OSI","Ido Osi",lga,INEC-CVR:1262,https://cvr.inecnigeria.org/locator/viewCentre/1262
+13,EKITI,EK,IJERO,Ijero,lga,INEC-CVR:1263,https://cvr.inecnigeria.org/locator/viewCentre/1263
+13,EKITI,EK,IKERE,Ikere,lga,INEC-CVR:1264,https://cvr.inecnigeria.org/locator/viewCentre/1264
+13,EKITI,EK,IKOLE,Ikole,lga,INEC-CVR:1265,https://cvr.inecnigeria.org/locator/viewCentre/1265
+13,EKITI,EK,ILEJEMEJE,Ilejemeje,lga,INEC-CVR:1266,https://cvr.inecnigeria.org/locator/viewCentre/1266
+13,EKITI,EK,IREPODUN/IFELODUN,Irepodun/Ifelodun,lga,INEC-CVR:1267,https://cvr.inecnigeria.org/locator/viewCentre/1267
+13,EKITI,EK,ISE-ORUN,Ise-Orun,lga,INEC-CVR:1268,https://cvr.inecnigeria.org/locator/viewCentre/1268
+13,EKITI,EK,MOBA,Moba,lga,INEC-CVR:1269,https://cvr.inecnigeria.org/locator/viewCentre/1269
+13,EKITI,EK,OYE,Oye,lga,INEC-CVR:1270,https://cvr.inecnigeria.org/locator/viewCentre/1270
+14,ENUGU,EN,ANINRI,Aninri,lga,INEC-CVR:1272,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,AWGU,Awgu,lga,INEC-CVR:1273,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"ENUGU EAST","Enugu East",lga,INEC-CVR:1274,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"ENUGU NORTH","Enugu North",lga,INEC-CVR:1275,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"ENUGU SOUTH","Enugu South",lga,INEC-CVR:1276,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,EZEAGU,Ezeagu,lga,INEC-CVR:1277,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"IGBO ETITI","Igbo Etiti",lga,INEC-CVR:1278,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"IGBO EZE NORTH","Igbo Eze North",lga,INEC-CVR:1279,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"IGBO EZE SOUTH","Igbo Eze South",lga,INEC-CVR:1280,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"ISI UZO","Isi Uzo",lga,INEC-CVR:1281,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"NKANU EAST","Nkanu East",lga,INEC-CVR:1282,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,"NKANU WEST","Nkanu West",lga,INEC-CVR:1283,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,NSUKKA,Nsukka,lga,INEC-CVR:1284,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,OJI-RIVER,Oji-River,lga,INEC-CVR:1285,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,UDENU,Udenu,lga,INEC-CVR:1286,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,UDI,Udi,lga,INEC-CVR:1287,https://cvr.inecnigeria.org/locator/browse/14/
+14,ENUGU,EN,UZO-UWANI,Uzo-Uwani,lga,INEC-CVR:1288,https://cvr.inecnigeria.org/locator/browse/14/
+15,FCT,FC,ABAJI,Abaji,area_council,INEC-CVR:1290,https://cvr.inecnigeria.org/locator/browse/15/
+15,FCT,FC,MUNICIPAL,"Abuja Municipal Area Council",area_council,INEC-CVR:1291,https://cvr.inecnigeria.org/locator/browse/15/
+15,FCT,FC,BWARI,Bwari,area_council,INEC-CVR:1292,https://cvr.inecnigeria.org/locator/browse/15/
+15,FCT,FC,GWAGWALADA,Gwagwalada,area_council,INEC-CVR:1293,https://cvr.inecnigeria.org/locator/browse/15/
+15,FCT,FC,KUJE,Kuje,area_council,INEC-CVR:1294,https://cvr.inecnigeria.org/locator/browse/15/
+15,FCT,FC,KWALI,Kwali,area_council,INEC-CVR:1295,https://cvr.inecnigeria.org/locator/browse/15/
+16,GOMBE,GO,AKKO,Akko,lga,INEC-CVR:1297,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,BALANGA,Balanga,lga,INEC-CVR:1298,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,BILLIRI,Billiri,lga,INEC-CVR:1299,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,DUKKU,Dukku,lga,INEC-CVR:1300,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,FUNAKAYE,Funakaye,lga,INEC-CVR:1301,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,GOMBE,Gombe,lga,INEC-CVR:1302,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,KALTUNGO,Kaltungo,lga,INEC-CVR:1303,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,KWAMI,Kwami,lga,INEC-CVR:1304,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,NAFADA,Nafada,lga,INEC-CVR:1305,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,SHONGOM,Shongom,lga,INEC-CVR:1306,https://cvr.inecnigeria.org/locator/browse/16/
+16,GOMBE,GO,"YALMALTU/ DEBA",Yalmaltu/Deba,lga,INEC-CVR:1307,https://cvr.inecnigeria.org/locator/browse/16/
+17,IMO,IM,"ABOH MBAISE","Aboh Mbaise",lga,INEC-CVR:1309,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"AHIAZU MBAISE","Ahiazu Mbaise",lga,INEC-CVR:1310,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"EHIME MBANO","Ehime Mbano",lga,INEC-CVR:1311,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"EZINIHITTE MBAISE","Ezinihitte Mbaise",lga,INEC-CVR:1312,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"IDEATO NORTH","Ideato North",lga,INEC-CVR:1313,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"IDEATO SOUTH","Ideato South",lga,INEC-CVR:1314,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"IHITTE UBOMA","Ihitte Uboma",lga,INEC-CVR:1315,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,IKEDURU,Ikeduru,lga,INEC-CVR:1316,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"ISIALA MBANO","Isiala Mbano",lga,INEC-CVR:1317,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,ISU,Isu,lga,INEC-CVR:1318,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,MBAITOLI,Mbaitoli,lga,INEC-CVR:1319,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"NGOR OKPALA","Ngor Okpala",lga,INEC-CVR:1320,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,NJABA,Njaba,lga,INEC-CVR:1321,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,NKWERRE,Nkwerre,lga,INEC-CVR:1322,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,NWANGELE,Nwangele,lga,INEC-CVR:1323,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,OBOWO,Obowo,lga,INEC-CVR:1324,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,OGUTA,Oguta,lga,INEC-CVR:1325,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,"OHAJI EGBEMA","Ohaji Egbema",lga,INEC-CVR:1326,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,OKIGWE,Okigwe,lga,INEC-CVR:1327,https://cvr.inecnigeria.org/locator/browse/17/
+17,IMO,IM,ONUIMO,Onuimo,lga,INEC-CVR:1328,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,ORLU,Orlu,lga,INEC-CVR:1329,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,ORSU,Orsu,lga,INEC-CVR:1330,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,"ORU EAST","Oru East",lga,INEC-CVR:1331,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,"ORU WEST","Oru West",lga,INEC-CVR:1332,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,"OWERRI MUNICIPAL","Owerri Municipal",lga,INEC-CVR:1333,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,"OWERRI NORTH","Owerri North",lga,INEC-CVR:1334,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+17,IMO,IM,"OWERRI WEST","Owerri West",lga,INEC-CVR:1335,https://cvr.inecnigeria.org/locator/browse/state_id:17/page:2
+18,JIGAWA,JI,AUYO,Auyo,lga,INEC-CVR:1337,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,BABURA,Babura,lga,INEC-CVR:1338,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,"BIRNIN KUDU","Birnin Kudu",lga,INEC-CVR:1339,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,BIRNIWA,Birniwa,lga,INEC-CVR:1340,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,BUJI,Buji,lga,INEC-CVR:1341,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,DUTSE,Dutse,lga,INEC-CVR:1342,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GAGARAWA,Gagarawa,lga,INEC-CVR:1343,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GARKI,Garki,lga,INEC-CVR:1344,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GUMEL,Gumel,lga,INEC-CVR:1345,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GURI,Guri,lga,INEC-CVR:1346,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GWARAM,Gwaram,lga,INEC-CVR:1347,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,GWIWA,Gwiwa,lga,INEC-CVR:1348,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,HADEJIA,Hadejia,lga,INEC-CVR:1349,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,JAHUN,Jahun,lga,INEC-CVR:1350,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,"KAFIN HAUSA","Kafin Hausa",lga,INEC-CVR:1351,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,KAUGAMA,Kaugama,lga,INEC-CVR:1352,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,KAZAURE,Kazaure,lga,INEC-CVR:1353,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,"KIRIKA SAMMA","Kirika Samma",lga,INEC-CVR:1354,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,KIYAWA,Kiyawa,lga,INEC-CVR:1355,https://cvr.inecnigeria.org/locator/browse/18/
+18,JIGAWA,JI,MAIGATARI,Maigatari,lga,INEC-CVR:1356,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,"MALAM MADORI","Malam Madori",lga,INEC-CVR:1357,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,MIGA,Miga,lga,INEC-CVR:1358,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,RINGIM,Ringim,lga,INEC-CVR:1359,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,RONI,Roni,lga,INEC-CVR:1360,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,SULE-TANKARKAR,Sule-Tankarkar,lga,INEC-CVR:1361,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,TAURA,Taura,lga,INEC-CVR:1362,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+18,JIGAWA,JI,YANKWASHI,Yankwashi,lga,INEC-CVR:1363,https://cvr.inecnigeria.org/locator/browse/state_id:18/page:2
+19,KADUNA,KD,"BIRNIN GWARI","Birnin Gwari",lga,INEC-CVR:1365,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,CHIKUN,Chikun,lga,INEC-CVR:1366,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,GIWA,Giwa,lga,INEC-CVR:1367,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,IGABI,Igabi,lga,INEC-CVR:1368,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,IKARA,Ikara,lga,INEC-CVR:1369,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,JABA,Jaba,lga,INEC-CVR:1370,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,JEMA'A,Jema'a,lga,INEC-CVR:1371,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KACHIA,Kachia,lga,INEC-CVR:1372,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,"KADUNA NORTH","Kaduna North",lga,INEC-CVR:1373,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,"KADUNA SOUTH","Kaduna South",lga,INEC-CVR:1374,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KAGARKO,Kagarko,lga,INEC-CVR:1375,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KAJURU,Kajuru,lga,INEC-CVR:1376,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KAURA,Kaura,lga,INEC-CVR:1377,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KAURU,Kauru,lga,INEC-CVR:1378,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KUBAU,Kubau,lga,INEC-CVR:1379,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,KUDAN,Kudan,lga,INEC-CVR:1380,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,LERE,Lere,lga,INEC-CVR:1381,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,MAKARFI,Makarfi,lga,INEC-CVR:1382,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,"SABON GARI","Sabon Gari",lga,INEC-CVR:1383,https://cvr.inecnigeria.org/locator/browse/19/
+19,KADUNA,KD,SANGA,Sanga,lga,INEC-CVR:1384,https://cvr.inecnigeria.org/locator/browse/state_id:19/page:2
+19,KADUNA,KD,SOBA,Soba,lga,INEC-CVR:1385,https://cvr.inecnigeria.org/locator/browse/state_id:19/page:2
+19,KADUNA,KD,"ZANGON KATAF","Zangon Kataf",lga,INEC-CVR:1386,https://cvr.inecnigeria.org/locator/browse/state_id:19/page:2
+19,KADUNA,KD,ZARIA,Zaria,lga,INEC-CVR:1387,https://cvr.inecnigeria.org/locator/browse/state_id:19/page:2
+20,KANO,KN,AJINGI,Ajingi,lga,INEC-CVR:1389,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,ALBASU,Albasu,lga,INEC-CVR:1390,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,BAGWAI,Bagwai,lga,INEC-CVR:1391,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,BEBEJI,Bebeji,lga,INEC-CVR:1392,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,BICHI,Bichi,lga,INEC-CVR:1393,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,BUNKURE,Bunkure,lga,INEC-CVR:1394,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,DALA,Dala,lga,INEC-CVR:1395,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,DANBATA,Danbata,lga,INEC-CVR:1396,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,"DAWAKI KUDU","Dawaki Kudu",lga,INEC-CVR:1397,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,"DAWAKI TOFA","Dawaki Tofa",lga,INEC-CVR:1398,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,DOGUWA,Doguwa,lga,INEC-CVR:1399,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,FAGGE,Fagge,lga,INEC-CVR:1400,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GABASAWA,Gabasawa,lga,INEC-CVR:1401,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GARKO,Garko,lga,INEC-CVR:1402,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,"GARUN MALAM","Garun Malam",lga,INEC-CVR:1403,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GAYA,Gaya,lga,INEC-CVR:1404,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GEZAWA,Gezawa,lga,INEC-CVR:1405,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GWALE,Gwale,lga,INEC-CVR:1406,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,GWARZO,Gwarzo,lga,INEC-CVR:1407,https://cvr.inecnigeria.org/locator/browse/20/
+20,KANO,KN,KABO,Kabo,lga,INEC-CVR:1408,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,"KANO MUNICIPAL","Kano Municipal",lga,INEC-CVR:1409,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KARAYE,Karaye,lga,INEC-CVR:1410,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KIBIYA,Kibiya,lga,INEC-CVR:1411,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KIRU,Kiru,lga,INEC-CVR:1412,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KUMBOTSO,Kumbotso,lga,INEC-CVR:1413,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KUNCHI,Kunchi,lga,INEC-CVR:1414,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,KURA,Kura,lga,INEC-CVR:1415,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,MADOBI,Madobi,lga,INEC-CVR:1416,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,MAKODA,Makoda,lga,INEC-CVR:1417,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,MINJIBIR,Minjibir,lga,INEC-CVR:1418,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,NASARAWA,Nasarawa,lga,INEC-CVR:1419,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,RANO,Rano,lga,INEC-CVR:1420,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,"RIMIN GADO","Rimin Gado",lga,INEC-CVR:1421,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,ROGO,Rogo,lga,INEC-CVR:1422,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,SHANONO,Shanono,lga,INEC-CVR:1423,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,SUMAILA,Sumaila,lga,INEC-CVR:1424,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,TAKAI,Takai,lga,INEC-CVR:1425,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,TARAUNI,Tarauni,lga,INEC-CVR:1426,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,TOFA,Tofa,lga,INEC-CVR:1427,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:2
+20,KANO,KN,TSANYAWA,Tsanyawa,lga,INEC-CVR:1428,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:3
+20,KANO,KN,"TUDUN WADA","Tudun Wada",lga,INEC-CVR:1429,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:3
+20,KANO,KN,UNGOGO,Ungogo,lga,INEC-CVR:1430,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:3
+20,KANO,KN,WARAWA,Warawa,lga,INEC-CVR:1431,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:3
+20,KANO,KN,WUDIL,Wudil,lga,INEC-CVR:1432,https://cvr.inecnigeria.org/locator/browse/state_id:20/page:3
+21,KATSINA,KT,BAKORI,Bakori,lga,INEC-CVR:1434,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,BATAGARAWA,Batagarawa,lga,INEC-CVR:1435,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,BATSARI,Batsari,lga,INEC-CVR:1436,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,BAURE,Baure,lga,INEC-CVR:1437,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,BINDAWA,Bindawa,lga,INEC-CVR:1438,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,CHARANCHI,Charanchi,lga,INEC-CVR:1439,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,"DAN MUSA","Dan Musa",lga,INEC-CVR:1442,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,DANDUME,Dandume,lga,INEC-CVR:1440,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,DANJA,Danja,lga,INEC-CVR:1441,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,DAURA,Daura,lga,INEC-CVR:1443,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,DUTSI,Dutsi,lga,INEC-CVR:1444,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,DUTSIN-MA,Dutsin-Ma,lga,INEC-CVR:1445,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,FASKARI,Faskari,lga,INEC-CVR:1446,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,FUNTUA,Funtua,lga,INEC-CVR:1447,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,INGAWA,Ingawa,lga,INEC-CVR:1448,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,JIBIA,Jibia,lga,INEC-CVR:1449,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,KAFUR,Kafur,lga,INEC-CVR:1450,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,KAITA,Kaita,lga,INEC-CVR:1451,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,KANKARA,Kankara,lga,INEC-CVR:1452,https://cvr.inecnigeria.org/locator/browse/21/
+21,KATSINA,KT,KANKIA,Kankia,lga,INEC-CVR:1453,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,KATSINA,Katsina,lga,INEC-CVR:1454,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,KURFI,Kurfi,lga,INEC-CVR:1455,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,KUSADA,Kusada,lga,INEC-CVR:1456,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MAI'ADUA,Mai'adua,lga,INEC-CVR:1457,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MALUFASHI,Malufashi,lga,INEC-CVR:1458,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MANI,Mani,lga,INEC-CVR:1459,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MASHI,Mashi,lga,INEC-CVR:1460,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MATAZU,Matazu,lga,INEC-CVR:1461,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,MUSAWA,Musawa,lga,INEC-CVR:1462,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,RIMI,Rimi,lga,INEC-CVR:1463,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,SABUWA,Sabuwa,lga,INEC-CVR:1464,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,SAFANA,Safana,lga,INEC-CVR:1465,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,SANDAMU,Sandamu,lga,INEC-CVR:1466,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+21,KATSINA,KT,ZANGO,Zango,lga,INEC-CVR:1467,https://cvr.inecnigeria.org/locator/browse/state_id:21/page:2
+22,KEBBI,KE,ALIERO,Aliero,lga,INEC-CVR:1469,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,AREWA,Arewa,lga,INEC-CVR:1470,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,ARGUNGU,Argungu,lga,INEC-CVR:1471,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,AUGIE,Augie,lga,INEC-CVR:1472,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,BAGUDO,Bagudo,lga,INEC-CVR:1473,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,"BIRNIN KEBBI","Birnin Kebbi",lga,INEC-CVR:1474,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,BUNZA,Bunza,lga,INEC-CVR:1475,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,DANDI,Dandi,lga,INEC-CVR:1476,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,FAKAI,Fakai,lga,INEC-CVR:1477,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,GWANDU,Gwandu,lga,INEC-CVR:1478,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,JEGA,Jega,lga,INEC-CVR:1479,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,KALGO,Kalgo,lga,INEC-CVR:1480,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,KOKO/BESSE,Koko/Besse,lga,INEC-CVR:1481,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,MAIYAMA,Maiyama,lga,INEC-CVR:1482,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,NGASKI,Ngaski,lga,INEC-CVR:1483,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,SAKABA,Sakaba,lga,INEC-CVR:1484,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,SHANGA,Shanga,lga,INEC-CVR:1485,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,SURU,Suru,lga,INEC-CVR:1486,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,WASAGU/DANKO,Wasagu/Danko,lga,INEC-CVR:1487,https://cvr.inecnigeria.org/locator/browse/22/
+22,KEBBI,KE,YAURI,Yauri,lga,INEC-CVR:1488,https://cvr.inecnigeria.org/locator/browse/state_id:22/page:2
+22,KEBBI,KE,ZURU,Zuru,lga,INEC-CVR:1489,https://cvr.inecnigeria.org/locator/browse/state_id:22/page:2
+23,KOGI,KO,ADAVI,Adavi,lga,INEC-CVR:1491,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,AJAOKUTA,Ajaokuta,lga,INEC-CVR:1492,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,ANKPA,Ankpa,lga,INEC-CVR:1493,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,BASSA,Bassa,lga,INEC-CVR:1494,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,DEKINA,Dekina,lga,INEC-CVR:1495,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,IBAJI,Ibaji,lga,INEC-CVR:1496,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,IDAH,Idah,lga,INEC-CVR:1497,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,IGALAMELA/ODOLU,Igalamela/Odolu,lga,INEC-CVR:1498,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,IJUMU,Ijumu,lga,INEC-CVR:1499,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,KABBA/BUNU,Kabba/Bunu,lga,INEC-CVR:1500,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,"KOGI . K. K.","Kogi . K. K.",lga,INEC-CVR:1501,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,LOKOJA,Lokoja,lga,INEC-CVR:1502,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,"MOPA MORO","Mopa Moro",lga,INEC-CVR:1503,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,OFU,Ofu,lga,INEC-CVR:1504,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,"OGORI MANGOGO","Ogori Mangogo",lga,INEC-CVR:1505,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,OKEHI,Okehi,lga,INEC-CVR:1506,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,OKENE,Okene,lga,INEC-CVR:1507,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,OLAMABORO,Olamaboro,lga,INEC-CVR:1508,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,OMALA,Omala,lga,INEC-CVR:1509,https://cvr.inecnigeria.org/locator/browse/23/
+23,KOGI,KO,"YAGBA EAST","Yagba East",lga,INEC-CVR:1510,https://cvr.inecnigeria.org/locator/browse/state_id:23/page:2
+23,KOGI,KO,"YAGBA WEST","Yagba West",lga,INEC-CVR:1511,https://cvr.inecnigeria.org/locator/browse/state_id:23/page:2
+24,KWARA,KW,ASA,Asa,lga,INEC-CVR:1513,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,BARUTEN,Baruten,lga,INEC-CVR:1514,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,EDU,Edu,lga,INEC-CVR:1515,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,EKITI,Ekiti,lga,INEC-CVR:1516,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,IFELODUN,Ifelodun,lga,INEC-CVR:1517,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,"ILORIN EAST","Ilorin East",lga,INEC-CVR:1518,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,ILORIN-SOUTH,Ilorin-South,lga,INEC-CVR:1519,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,ILORIN-WEST,Ilorin-West,lga,INEC-CVR:1520,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,IREPODUN,Irepodun,lga,INEC-CVR:1521,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,ISIN,Isin,lga,INEC-CVR:1522,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,KAIAMA,Kaiama,lga,INEC-CVR:1523,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,MORO,Moro,lga,INEC-CVR:1524,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,OFFA,Offa,lga,INEC-CVR:1525,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,"OKE - ERO",Oke-Ero,lga,INEC-CVR:1526,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,OYUN,Oyun,lga,INEC-CVR:1527,https://cvr.inecnigeria.org/locator/browse/24/
+24,KWARA,KW,PATIGI,Patigi,lga,INEC-CVR:1528,https://cvr.inecnigeria.org/locator/browse/24/
+25,LAGOS,LA,AGEGE,Agege,lga,INEC-CVR:1530,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,AJEROMI/IFELODUN,Ajeromi/Ifelodun,lga,INEC-CVR:1531,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,ALIMOSHO,Alimosho,lga,INEC-CVR:1532,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,AMUWO-ODOFIN,Amuwo-Odofin,lga,INEC-CVR:1533,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,APAPA,Apapa,lga,INEC-CVR:1534,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,BADAGRY,Badagry,lga,INEC-CVR:1535,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,EPE,Epe,lga,INEC-CVR:1536,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,ETI-OSA,Eti-Osa,lga,INEC-CVR:1537,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,IBEJU/LEKKI,Ibeju/Lekki,lga,INEC-CVR:1538,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,IFAKO-IJAYE,Ifako-Ijaye,lga,INEC-CVR:1539,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,IKEJA,Ikeja,lga,INEC-CVR:1540,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,IKORODU,Ikorodu,lga,INEC-CVR:1541,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,KOSOFE,Kosofe,lga,INEC-CVR:1542,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,"LAGOS ISLAND","Lagos Island",lga,INEC-CVR:1543,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,"LAGOS MAINLAND","Lagos Mainland",lga,INEC-CVR:1544,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,MUSHIN,Mushin,lga,INEC-CVR:1545,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,OJO,Ojo,lga,INEC-CVR:1546,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,OSHODI/ISOLO,Oshodi/Isolo,lga,INEC-CVR:1547,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,SOMOLU,Somolu,lga,INEC-CVR:1548,https://cvr.inecnigeria.org/locator/browse/25/
+25,LAGOS,LA,SURULERE,Surulere,lga,INEC-CVR:1549,https://cvr.inecnigeria.org/locator/browse/state_id:25/page:2
+26,NASARAWA,NA,AKWANGA,Akwanga,lga,INEC-CVR:1551,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,AWE,Awe,lga,INEC-CVR:1552,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,DOMA,Doma,lga,INEC-CVR:1553,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,KARU,Karu,lga,INEC-CVR:1554,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,KEANA,Keana,lga,INEC-CVR:1555,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,KEFFI,Keffi,lga,INEC-CVR:1556,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,KOKONA,Kokona,lga,INEC-CVR:1557,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,LAFIA,Lafia,lga,INEC-CVR:1558,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,NASARAWA,Nasarawa,lga,INEC-CVR:1559,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,"NASARAWA EGGON","Nasarawa Eggon",lga,INEC-CVR:1560,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,OBI,Obi,lga,INEC-CVR:1561,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,TOTO,Toto,lga,INEC-CVR:1562,https://cvr.inecnigeria.org/locator/browse/26/
+26,NASARAWA,NA,WAMBA,Wamba,lga,INEC-CVR:1563,https://cvr.inecnigeria.org/locator/browse/26/
+27,NIGER,NI,AGAIE,Agaie,lga,INEC-CVR:1565,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,AGWARA,Agwara,lga,INEC-CVR:1566,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,BIDA,Bida,lga,INEC-CVR:1567,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,BORGU,Borgu,lga,INEC-CVR:1568,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,BOSSO,Bosso,lga,INEC-CVR:1569,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,CHANCHAGA,Chanchaga,lga,INEC-CVR:1570,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,EDATTI,Edatti,lga,INEC-CVR:1571,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,GBAKO,Gbako,lga,INEC-CVR:1572,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,GURARA,Gurara,lga,INEC-CVR:1573,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,KATCHA,Katcha,lga,INEC-CVR:1574,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,KONTAGORA,Kontagora,lga,INEC-CVR:1575,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,LAPAI,Lapai,lga,INEC-CVR:1576,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,LAVUN,Lavun,lga,INEC-CVR:1577,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,MAGAMA,Magama,lga,INEC-CVR:1578,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,MARIGA,Mariga,lga,INEC-CVR:1579,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,MASHEGU,Mashegu,lga,INEC-CVR:1580,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,MOKWA,Mokwa,lga,INEC-CVR:1581,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,MUNYA,Munya,lga,INEC-CVR:1582,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,PAIKORO,Paikoro,lga,INEC-CVR:1583,https://cvr.inecnigeria.org/locator/browse/27/
+27,NIGER,NI,RAFI,Rafi,lga,INEC-CVR:1584,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+27,NIGER,NI,RIJAU,Rijau,lga,INEC-CVR:1585,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+27,NIGER,NI,SHIRORO,Shiroro,lga,INEC-CVR:1586,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+27,NIGER,NI,SULEJA,Suleja,lga,INEC-CVR:1587,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+27,NIGER,NI,TAFA,Tafa,lga,INEC-CVR:1588,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+27,NIGER,NI,WUSHISHI,Wushishi,lga,INEC-CVR:1589,https://cvr.inecnigeria.org/locator/browse/state_id:27/page:2
+28,OGUN,OG,"ABEOKUTA NORTH","Abeokuta North",lga,INEC-CVR:1591,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"ABEOKUTA SOUTH","Abeokuta South",lga,INEC-CVR:1592,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"ADO ODO-OTA","Ado Odo-Ota",lga,INEC-CVR:1593,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"EGBADO NORTH","Egbado North",lga,INEC-CVR:1594,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"EGBADO SOUTH","Egbado South",lga,INEC-CVR:1595,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,EWEKORO,Ewekoro,lga,INEC-CVR:1596,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,IFO,Ifo,lga,INEC-CVR:1597,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"IJEBU EAST","Ijebu East",lga,INEC-CVR:1598,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"IJEBU NORTH","Ijebu North",lga,INEC-CVR:1599,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"IJEBU NORTH EAST","Ijebu North East",lga,INEC-CVR:1600,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"IJEBU ODE","Ijebu Ode",lga,INEC-CVR:1601,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,IKENNE,Ikenne,lga,INEC-CVR:1602,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,IMEKO/AFON,Imeko/Afon,lga,INEC-CVR:1603,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,IPOKIA,Ipokia,lga,INEC-CVR:1604,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,OBAFEMI/OWODE,Obafemi/Owode,lga,INEC-CVR:1605,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,ODEDA,Odeda,lga,INEC-CVR:1606,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,ODOGBOLU,Odogbolu,lga,INEC-CVR:1607,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"OGUN WATER SIDE","Ogun Water Side",lga,INEC-CVR:1608,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,"REMO NORTH","Remo North",lga,INEC-CVR:1609,https://cvr.inecnigeria.org/locator/browse/28/
+28,OGUN,OG,SAGAMU,Sagamu,lga,INEC-CVR:1610,https://cvr.inecnigeria.org/locator/browse/state_id:28/page:2
+29,ONDO,ON,"AKOKO NORTH EAST","Akoko North East",lga,INEC-CVR:1612,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"AKOKO NORTH WEST","Akoko North West",lga,INEC-CVR:1613,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"AKOKO SOUTH EAST","Akoko South East",lga,INEC-CVR:1614,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"AKOKO SOUTH WEST","Akoko South West",lga,INEC-CVR:1615,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"AKURE NORTH","Akure North",lga,INEC-CVR:1616,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"AKURE SOUTH","Akure South",lga,INEC-CVR:1617,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,ESE-ODO,Ese-Odo,lga,INEC-CVR:1618,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,IDANRE,Idanre,lga,INEC-CVR:1619,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,IFEDORE,Ifedore,lga,INEC-CVR:1620,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,ILAJE,Ilaje,lga,INEC-CVR:1621,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,ILEOLUJI/OKEIGBO,Ileoluji/Okeigbo,lga,INEC-CVR:1622,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,IRELE,Irele,lga,INEC-CVR:1623,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,ODIGBO,Odigbo,lga,INEC-CVR:1624,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,OKITIPUPA,Okitipupa,lga,INEC-CVR:1625,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"ONDO EAST","Ondo East",lga,INEC-CVR:1626,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,"ONDO WEST","Ondo West",lga,INEC-CVR:1627,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,OSE,Ose,lga,INEC-CVR:1628,https://cvr.inecnigeria.org/locator/browse/29/
+29,ONDO,ON,OWO,Owo,lga,INEC-CVR:1629,https://cvr.inecnigeria.org/locator/browse/29/
+30,OSUN,OS,"ATAKUMOSA EAST","Atakumosa East",lga,INEC-CVR:1631,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"ATAKUMOSA WEST","Atakumosa West",lga,INEC-CVR:1632,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,AYEDAADE,Ayedaade,lga,INEC-CVR:1633,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,AYEDIRE,Ayedire,lga,INEC-CVR:1634,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,BOLUWADURO,Boluwaduro,lga,INEC-CVR:1635,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,BORIPE,Boripe,lga,INEC-CVR:1636,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"EDE NORTH","Ede North",lga,INEC-CVR:1637,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"EDE SOUTH","Ede South",lga,INEC-CVR:1638,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,EGBEDORE,Egbedore,lga,INEC-CVR:1639,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,EJIGBO,Ejigbo,lga,INEC-CVR:1640,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"IFE CENTRAL","Ife Central",lga,INEC-CVR:1641,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"IFE EAST","Ife East",lga,INEC-CVR:1642,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"IFE NORTH","Ife North",lga,INEC-CVR:1643,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"IFE SOUTH","Ife South",lga,INEC-CVR:1644,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,IFEDAYO,Ifedayo,lga,INEC-CVR:1645,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,IFELODUN,Ifelodun,lga,INEC-CVR:1646,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,ILA,Ila,lga,INEC-CVR:1647,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"ILESA EAST","Ilesa East",lga,INEC-CVR:1648,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,"ILESA WEST","Ilesa West",lga,INEC-CVR:1649,https://cvr.inecnigeria.org/locator/browse/30/
+30,OSUN,OS,IREPODUN,Irepodun,lga,INEC-CVR:1650,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,IREWOLE,Irewole,lga,INEC-CVR:1651,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,ISOKAN,Isokan,lga,INEC-CVR:1652,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,IWO,Iwo,lga,INEC-CVR:1653,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,OBOKUN,Obokun,lga,INEC-CVR:1654,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,ODO-OTIN,Odo-Otin,lga,INEC-CVR:1655,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,OLA-OLUWA,Ola-Oluwa,lga,INEC-CVR:1656,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,OLORUNDA,Olorunda,lga,INEC-CVR:1657,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,ORIADE,Oriade,lga,INEC-CVR:1658,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,OROLU,Orolu,lga,INEC-CVR:1659,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+30,OSUN,OS,OSOGBO,Osogbo,lga,INEC-CVR:1660,https://cvr.inecnigeria.org/locator/browse/state_id:30/page:2
+31,OYO,OY,AFIJIO,Afijio,lga,INEC-CVR:1663,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,AKINYELE,Akinyele,lga,INEC-CVR:1664,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,ATIBA,Atiba,lga,INEC-CVR:1665,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,ATISBO,Atisbo,lga,INEC-CVR:1666,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,EGBEDA,Egbeda,lga,INEC-CVR:1667,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBADAN NORTH","Ibadan North",lga,INEC-CVR:1668,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBADAN NORTH EAST","Ibadan North East",lga,INEC-CVR:1669,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBADAN NORTH WEST","Ibadan North West",lga,INEC-CVR:1670,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBADAN SOUTH WEST","Ibadan South West",lga,INEC-CVR:1672,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBADAN SOUTH-EAST","Ibadan South-East",lga,INEC-CVR:1671,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBARAPA CENTRAL","Ibarapa Central",lga,INEC-CVR:1673,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBARAPA EAST","Ibarapa East",lga,INEC-CVR:1674,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,"IBARAPA NORTH","Ibarapa North",lga,INEC-CVR:1675,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,IDO,Ido,lga,INEC-CVR:1676,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,IREPO,Irepo,lga,INEC-CVR:1677,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,ISEYIN,Iseyin,lga,INEC-CVR:1678,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,ITESIWAJU,Itesiwaju,lga,INEC-CVR:1679,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,IWAJOWA,Iwajowa,lga,INEC-CVR:1680,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,KAJOLA,Kajola,lga,INEC-CVR:1681,https://cvr.inecnigeria.org/locator/browse/31/
+31,OYO,OY,LAGELU,Lagelu,lga,INEC-CVR:1682,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"OGBOMOSO NORTH","Ogbomoso North",lga,INEC-CVR:1683,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"OGBOMOSO SOUTH","Ogbomoso South",lga,INEC-CVR:1684,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,OGO-OLUWA,Ogo-Oluwa,lga,INEC-CVR:1685,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,OLORUNSOGO,Olorunsogo,lga,INEC-CVR:1686,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,OLUYOLE,Oluyole,lga,INEC-CVR:1687,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,ONA-ARA,Ona-Ara,lga,INEC-CVR:1688,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,OORELOPE,Oorelope,lga,INEC-CVR:1689,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"ORI IRE","Ori Ire",lga,INEC-CVR:1690,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"OYO EAST","Oyo East",lga,INEC-CVR:1691,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"OYO WEST","Oyo West",lga,INEC-CVR:1692,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"SAKI EAST","Saki East",lga,INEC-CVR:1693,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,"SAKI WEST","Saki West",lga,INEC-CVR:1694,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+31,OYO,OY,SURULERE,Surulere,lga,INEC-CVR:1695,https://cvr.inecnigeria.org/locator/browse/state_id:31/page:2
+32,PLATEAU,PL,"BARIKIN LADI","Barikin Ladi",lga,INEC-CVR:1697,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,BASSA,Bassa,lga,INEC-CVR:1698,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,BOKKOS,Bokkos,lga,INEC-CVR:1699,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"JOS EAST","Jos East",lga,INEC-CVR:1700,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"JOS NORTH","Jos North",lga,INEC-CVR:1701,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"JOS SOUTH","Jos South",lga,INEC-CVR:1702,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,KANAM,Kanam,lga,INEC-CVR:1703,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,KANKE,Kanke,lga,INEC-CVR:1704,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"LANGTANG NORTH","Langtang North",lga,INEC-CVR:1705,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"LANGTANG SOUTH","Langtang South",lga,INEC-CVR:1706,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,MANGU,Mangu,lga,INEC-CVR:1708,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,MIKANG,Mikang,lga,INEC-CVR:1707,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,PANKSHIN,Pankshin,lga,INEC-CVR:1709,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,"QUA'AN PAN","Qua'an Pan",lga,INEC-CVR:1710,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,RIYOM,Riyom,lga,INEC-CVR:1711,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,SHENDAM,Shendam,lga,INEC-CVR:1712,https://cvr.inecnigeria.org/locator/browse/32/
+32,PLATEAU,PL,WASE,Wase,lga,INEC-CVR:1713,https://cvr.inecnigeria.org/locator/browse/32/
+33,RIVERS,RI,ABUA-ODUAL,Abua-Odual,lga,INEC-CVR:1715,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,"AHOADA EAST","Ahoada East",lga,INEC-CVR:1716,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,"AHOADA WEST","Ahoada West",lga,INEC-CVR:1717,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,"AKUKU TORU","Akuku Toru",lga,INEC-CVR:1718,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,ANDONI,Andoni,lga,INEC-CVR:1719,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,ASARI-TORU,Asari-Toru,lga,INEC-CVR:1720,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,BONNY,Bonny,lga,INEC-CVR:1721,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,DEGEMA,Degema,lga,INEC-CVR:1722,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,ELEME,Eleme,lga,INEC-CVR:1723,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,EMOHUA,Emohua,lga,INEC-CVR:1724,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,ETCHE,Etche,lga,INEC-CVR:1725,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,GOKANA,Gokana,lga,INEC-CVR:1726,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,IKWERRE,Ikwerre,lga,INEC-CVR:1727,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,KHANA,Khana,lga,INEC-CVR:1728,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OBIO/AKPOR,Obio/Akpor,lga,INEC-CVR:1729,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OGBA/EGBEMA/NDONI,Ogba/Egbema/Ndoni,lga,INEC-CVR:1730,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OGU/BOLO,Ogu/Bolo,lga,INEC-CVR:1731,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OKRIKA,Okrika,lga,INEC-CVR:1732,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OMUMA,Omuma,lga,INEC-CVR:1733,https://cvr.inecnigeria.org/locator/browse/33/
+33,RIVERS,RI,OPOBO/NKORO,Opobo/Nkoro,lga,INEC-CVR:1734,https://cvr.inecnigeria.org/locator/browse/state_id:33/page:2
+33,RIVERS,RI,OYIGBO,Oyigbo,lga,INEC-CVR:1735,https://cvr.inecnigeria.org/locator/browse/state_id:33/page:2
+33,RIVERS,RI,"PORT HARCOURT","Port Harcourt",lga,INEC-CVR:1736,https://cvr.inecnigeria.org/locator/browse/state_id:33/page:2
+33,RIVERS,RI,TAI,Tai,lga,INEC-CVR:1737,https://cvr.inecnigeria.org/locator/browse/state_id:33/page:2
+34,SOKOTO,SO,BINJI,Binji,lga,INEC-CVR:1739,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,BODINGA,Bodinga,lga,INEC-CVR:1740,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,DANGE/SHUNI,Dange/Shuni,lga,INEC-CVR:1741,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,GADA,Gada,lga,INEC-CVR:1742,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,GORONYO,Goronyo,lga,INEC-CVR:1743,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,GUDU,Gudu,lga,INEC-CVR:1744,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,GWADABAWA,Gwadabawa,lga,INEC-CVR:1745,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,ILLELA,Illela,lga,INEC-CVR:1746,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,ISA,Isa,lga,INEC-CVR:1747,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,KEBBE,Kebbe,lga,INEC-CVR:1748,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,KWARE,Kware,lga,INEC-CVR:1749,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,RABAH,Rabah,lga,INEC-CVR:1750,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,S/BIRNI,S/Birni,lga,INEC-CVR:1751,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,SHAGARI,Shagari,lga,INEC-CVR:1752,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,SILAME,Silame,lga,INEC-CVR:1753,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,"SOKOTO NORTH","Sokoto North",lga,INEC-CVR:1754,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,"SOKOTO SOUTH","Sokoto South",lga,INEC-CVR:1755,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,TAMBUWAL,Tambuwal,lga,INEC-CVR:1756,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,TANGAZA,Tangaza,lga,INEC-CVR:1757,https://cvr.inecnigeria.org/locator/browse/34/
+34,SOKOTO,SO,TURETA,Tureta,lga,INEC-CVR:1758,https://cvr.inecnigeria.org/locator/browse/state_id:34/page:2
+34,SOKOTO,SO,WAMAKKO,Wamakko,lga,INEC-CVR:1759,https://cvr.inecnigeria.org/locator/browse/state_id:34/page:2
+34,SOKOTO,SO,WURNO,Wurno,lga,INEC-CVR:1760,https://cvr.inecnigeria.org/locator/browse/state_id:34/page:2
+34,SOKOTO,SO,YABO,Yabo,lga,INEC-CVR:1761,https://cvr.inecnigeria.org/locator/browse/state_id:34/page:2
+35,TARABA,TA,"ARDO - KOLA",Ardo-Kola,lga,INEC-CVR:1763,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,BALI,Bali,lga,INEC-CVR:1764,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,DONGA,Donga,lga,INEC-CVR:1765,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,GASHAKA,Gashaka,lga,INEC-CVR:1766,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,GASSOL,Gassol,lga,INEC-CVR:1767,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,IBI,Ibi,lga,INEC-CVR:1768,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,JALINGO,Jalingo,lga,INEC-CVR:1769,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,KARIM-LAMIDO,Karim-Lamido,lga,INEC-CVR:1770,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,KURMI,Kurmi,lga,INEC-CVR:1771,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,LAU,Lau,lga,INEC-CVR:1772,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,SARDAUNA,Sardauna,lga,INEC-CVR:1773,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,TAKUM,Takum,lga,INEC-CVR:1774,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,USSA,Ussa,lga,INEC-CVR:1775,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,WUKARI,Wukari,lga,INEC-CVR:1776,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,YORRO,Yorro,lga,INEC-CVR:1777,https://cvr.inecnigeria.org/locator/browse/35/
+35,TARABA,TA,ZING,Zing,lga,INEC-CVR:1778,https://cvr.inecnigeria.org/locator/browse/35/
+36,YOBE,YO,BADE,Bade,lga,INEC-CVR:1780,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,BURSARI,Bursari,lga,INEC-CVR:1781,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,DAMATURU,Damaturu,lga,INEC-CVR:1782,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,FIKA,Fika,lga,INEC-CVR:1783,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,FUNE,Fune,lga,INEC-CVR:1784,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,GEIDAM,Geidam,lga,INEC-CVR:1785,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,GUJBA,Gujba,lga,INEC-CVR:1786,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,GULANI,Gulani,lga,INEC-CVR:1787,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,JAKUSKO,Jakusko,lga,INEC-CVR:1788,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,KARASAWA,Karasawa,lga,INEC-CVR:1789,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,MACHINA,Machina,lga,INEC-CVR:1790,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,NANGERE,Nangere,lga,INEC-CVR:1791,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,NGURU,Nguru,lga,INEC-CVR:1792,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,POTISKUM,Potiskum,lga,INEC-CVR:1793,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,TARMUWA,Tarmuwa,lga,INEC-CVR:1794,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,YUNUSARI,Yunusari,lga,INEC-CVR:1795,https://cvr.inecnigeria.org/locator/browse/36/
+36,YOBE,YO,YUSUFARI,Yusufari,lga,INEC-CVR:1796,https://cvr.inecnigeria.org/locator/browse/36/
+37,ZAMFARA,ZA,ANKA,Anka,lga,INEC-CVR:1798,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,BAKURA,Bakura,lga,INEC-CVR:1799,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,"BIRNIN MAGAJI","Birnin Magaji",lga,INEC-CVR:1800,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,BUKKUYUM,Bukkuyum,lga,INEC-CVR:1801,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,BUNGUDU,Bungudu,lga,INEC-CVR:1802,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,GUMMI,Gummi,lga,INEC-CVR:1803,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,GUSAU,Gusau,lga,INEC-CVR:1804,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,"KAURA NAMODA","Kaura Namoda",lga,INEC-CVR:1805,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,MARADUN,Maradun,lga,INEC-CVR:1806,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,MARU,Maru,lga,INEC-CVR:1807,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,SHINKAFI,Shinkafi,lga,INEC-CVR:1808,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,"TALATA MAFARA","Talata Mafara",lga,INEC-CVR:1809,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,TSAFE,Tsafe,lga,INEC-CVR:1810,https://cvr.inecnigeria.org/locator/browse/37/
+37,ZAMFARA,ZA,ZURMI,Zurmi,lga,INEC-CVR:1811,https://cvr.inecnigeria.org/locator/browse/37/
