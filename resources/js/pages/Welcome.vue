@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
-import { dashboard, login, register } from '@/routes';
+import PublicFooter from '@/components/public/PublicFooter.vue';
+import PublicHeader from '@/components/public/PublicHeader.vue';
+import { register } from '@/routes';
+import heroImage from '../../images/lekki-ikoyi-link-bridge.jpg';
 
 type StateOption = {
     name: string;
@@ -10,241 +13,228 @@ type StateOption = {
 
 defineProps<{
     states: StateOption[];
+    businessCount: number;
 }>();
 
 const categories = [
     {
-        name: 'Restaurants & Food',
-        query: 'restaurants',
-        icon: '🍽️',
-        description: 'Restaurants, catering and food services',
+        name: 'Food & Drinks',
+        query: 'food drinks',
+        icon: '🍴',
+        box: 'bg-emerald-50',
     },
     {
-        name: 'Hotels & Travel',
-        query: 'hotels',
-        icon: '🏨',
-        description: 'Hotels, travel and hospitality services',
+        name: 'Retail & Shopping',
+        query: 'retail shopping',
+        icon: '🛒',
+        box: 'bg-amber-50',
     },
     {
-        name: 'Auto Services',
-        query: 'auto services',
-        icon: '🚗',
-        description: 'Repairs, rentals and automotive services',
-    },
-    {
-        name: 'Health & Wellness',
-        query: 'health',
-        icon: '🏥',
-        description: 'Clinics, pharmacies and wellness services',
-    },
-    {
-        name: 'Home Services',
+        name: 'Home & Living',
         query: 'home services',
-        icon: '🏠',
-        description: 'Repairs, cleaning and property services',
+        icon: '⌂',
+        box: 'bg-rose-50',
+    },
+    {
+        name: 'Health & Medical',
+        query: 'health medical',
+        icon: '♡',
+        box: 'bg-blue-50',
+    },
+    {
+        name: 'Education',
+        query: 'education',
+        icon: '🎓',
+        box: 'bg-violet-50',
+    },
+    {
+        name: 'Automotive',
+        query: 'automotive',
+        icon: '🔧',
+        box: 'bg-emerald-50',
     },
     {
         name: 'Professional Services',
         query: 'professional services',
-        icon: '💼',
-        description: 'Legal, accounting and business support',
+        icon: '▥',
+        box: 'bg-amber-50',
     },
     {
-        name: 'Beauty & Personal Care',
-        query: 'beauty',
-        icon: '✨',
-        description: 'Salons, spas and personal care',
+        name: 'Travel & Tourism',
+        query: 'travel tourism',
+        icon: '✈',
+        box: 'bg-cyan-50',
     },
     {
-        name: 'Education & Training',
-        query: 'education',
-        icon: '🎓',
-        description: 'Schools, training and learning services',
+        name: 'Tech & Electronics',
+        query: 'technology electronics',
+        icon: '▱',
+        box: 'bg-violet-50',
     },
 ];
 </script>
 
 <template>
-    <Head title="Find Trusted Businesses Across Nigeria">
+    <Head title="Find Nigerian Businesses, Easily">
         <meta
             name="description"
-            content="BusinessFinder Nigeria helps you discover trusted businesses, services and professionals across Nigeria."
+            content="Discover businesses and services across Nigeria with BusinessFinder Nigeria."
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/favicon.svg"
         />
     </Head>
 
-    <div class="min-h-screen bg-white text-slate-950">
-        <!-- Header -->
-        <header
-            class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur"
-        >
-            <div
-                class="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8"
-            >
-                <a
-                    href="/"
-                    class="flex items-center gap-3"
-                >
-                    <span
-                        class="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-600 text-sm font-black tracking-tight text-white shadow-sm"
-                    >
-                        BF
-                    </span>
-
-                    <span>
-                        <span
-                            class="block text-lg font-black leading-none tracking-tight text-slate-950"
-                        >
-                            BusinessFinder
-                        </span>
-                        <span
-                            class="mt-1 block text-[10px] font-bold uppercase tracking-[0.22em] text-emerald-600"
-                        >
-                            Nigeria
-                        </span>
-                    </span>
-                </a>
-
-                <nav class="flex items-center gap-2 sm:gap-3">
-                    <a
-                        href="#categories"
-                        class="hidden rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 transition hover:bg-slate-100 hover:text-slate-950 md:block"
-                    >
-                        Categories
-                    </a>
-
-                    <a
-                        href="#locations"
-                        class="hidden rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 transition hover:bg-slate-100 hover:text-slate-950 md:block"
-                    >
-                        Locations
-                    </a>
-
-                    <Link
-                        v-if="$page.props.auth.user"
-                        :href="dashboard()"
-                        class="rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-emerald-700"
-                    >
-                        Dashboard
-                    </Link>
-
-                    <template v-else>
-                        <Link
-                            :href="login()"
-                            class="hidden rounded-lg px-3 py-2.5 text-sm font-bold text-slate-700 transition hover:bg-slate-100 sm:block"
-                        >
-                            Log in
-                        </Link>
-
-                        <Link
-                            :href="register()"
-                            class="rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-emerald-700"
-                        >
-                            List your business
-                        </Link>
-                    </template>
-                </nav>
-            </div>
-        </header>
+    <div class="min-h-screen bg-white text-[#072c33]">
+        <PublicHeader active="home" />
 
         <main>
-            <!-- Hero -->
+            <!-- Approved hero -->
             <section
-                class="relative overflow-hidden bg-slate-950"
+                class="relative isolate overflow-hidden border-b border-slate-200"
             >
                 <div
-                    class="pointer-events-none absolute -left-32 top-20 h-96 w-96 rounded-full bg-emerald-500/20 blur-3xl"
+                    class="absolute inset-0 -z-20 bg-cover bg-center"
+                    :style="{
+                        backgroundImage: `url(${heroImage})`,
+                    }"
                 />
 
                 <div
-                    class="pointer-events-none absolute -right-40 -top-20 h-[34rem] w-[34rem] rounded-full bg-blue-500/15 blur-3xl"
+                    class="absolute inset-0 -z-10 bg-gradient-to-r from-white via-white/90 to-white/10"
                 />
 
                 <div
-                    class="relative mx-auto max-w-7xl px-5 py-20 sm:px-6 sm:py-24 lg:px-8 lg:py-32"
+                    class="absolute inset-0 -z-10 bg-gradient-to-t from-slate-100/60 via-transparent to-sky-100/20"
+                />
+
+                <div
+                    class="mx-auto flex min-h-[500px] max-w-[1500px] flex-col justify-between px-5 py-10 sm:px-7 lg:px-10 lg:py-12"
                 >
-                    <div class="max-w-4xl">
+                    <div class="grid lg:grid-cols-12">
                         <div
-                            class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-emerald-300"
+                            class="max-w-3xl lg:col-span-7"
                         >
-                            <span
-                                class="h-2 w-2 rounded-full bg-emerald-400"
-                            />
-                            Nationwide Nigerian business discovery
+                            <p
+                                class="text-xs font-black uppercase tracking-[0.28em] text-slate-600 sm:text-sm"
+                            >
+                                Discover
+                                <span class="px-2">•</span>
+                                Connect
+                                <span class="px-2">•</span>
+                                Grow
+                            </p>
+
+                            <h1
+                                class="mt-5 max-w-3xl text-[44px] font-black leading-[0.98] tracking-[-0.055em] text-[#052d33] sm:text-6xl lg:text-[70px]"
+                            >
+                                Find Nigerian
+                                <br />
+                                Businesses, Easily
+                            </h1>
+
+                            <p
+                                class="mt-5 max-w-2xl text-base font-medium leading-7 text-slate-700 sm:text-xl"
+                            >
+                                Your trusted directory for local
+                                businesses across Nigeria.
+                                Search, discover and connect with
+                                businesses in your area.
+                            </p>
                         </div>
 
-                        <h1
-                            class="max-w-4xl text-4xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl"
+                        <div
+                            class="hidden justify-end pt-4 lg:col-span-5 lg:flex"
                         >
-                            Find Trusted Businesses
-                            <span class="text-emerald-400">
-                                Across Nigeria
-                            </span>
-                        </h1>
-
-                        <p
-                            class="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg"
-                        >
-                            Discover local businesses,
-                            professionals and services with
-                            transparent listing, verification and
-                            location information.
-                        </p>
-
-                        <!-- Search -->
-                        <form
-                            action="/search"
-                            method="get"
-                            class="mt-9 grid gap-3 rounded-2xl bg-white p-3 shadow-2xl shadow-black/30 md:grid-cols-[1.4fr_1fr_auto]"
-                        >
-                            <label
-                                class="flex min-h-14 items-center gap-3 rounded-xl bg-slate-50 px-4"
+                            <p
+                                class="max-w-[290px] rotate-[-5deg] text-right text-2xl font-semibold italic leading-tight text-emerald-900"
                             >
-                                <svg
-                                    class="h-5 w-5 shrink-0 text-slate-400"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
+                                Supporting
+                                <br />
+                                Nigerian Businesses
+                                <br />
+                                Stronger Together.
+                                <span
+                                    class="mt-2 block h-1 w-32 rounded-full bg-emerald-500"
+                                />
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Search bar -->
+                    <form
+                        action="/search"
+                        method="get"
+                        class="mt-10 grid max-w-[1000px] gap-2 rounded-2xl bg-white p-2.5 shadow-[0_18px_50px_rgba(15,23,42,0.18)] md:grid-cols-[1.25fr_0.85fr_auto]"
+                    >
+                        <label
+                            class="flex min-h-[66px] items-center gap-4 rounded-xl px-4"
+                        >
+                            <svg
+                                class="h-7 w-7 shrink-0 text-slate-800"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <circle
+                                    cx="11"
+                                    cy="11"
+                                    r="7"
+                                />
+                                <path
+                                    d="m20 20-3.5-3.5"
+                                />
+                            </svg>
+
+                            <span class="min-w-0 flex-1">
+                                <span
+                                    class="block text-sm font-black text-slate-800"
                                 >
-                                    <circle
-                                        cx="11"
-                                        cy="11"
-                                        r="7"
-                                    />
-                                    <path d="m20 20-3.5-3.5" />
-                                </svg>
+                                    What are you looking for?
+                                </span>
 
                                 <input
-                                    name="q"
                                     type="search"
-                                    placeholder="What business or service do you need?"
-                                    class="w-full border-0 bg-transparent text-sm font-medium text-slate-950 outline-none placeholder:text-slate-400 sm:text-base"
+                                    name="q"
+                                    class="mt-0.5 w-full border-0 bg-transparent p-0 text-sm text-slate-600 outline-none placeholder:text-slate-400"
+                                    placeholder="e.g. restaurant, salon, mechanic..."
                                 />
-                            </label>
+                            </span>
+                        </label>
 
-                            <label
-                                class="flex min-h-14 items-center gap-3 rounded-xl bg-slate-50 px-4"
+                        <label
+                            class="flex min-h-[66px] items-center gap-4 border-t border-slate-200 px-4 md:border-l md:border-t-0"
+                        >
+                            <svg
+                                class="h-6 w-6 shrink-0 text-slate-800"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
                             >
-                                <svg
-                                    class="h-5 w-5 shrink-0 text-slate-400"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
+                                <path
+                                    d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"
+                                />
+                                <circle
+                                    cx="12"
+                                    cy="10"
+                                    r="2.5"
+                                />
+                            </svg>
+
+                            <span class="min-w-0 flex-1">
+                                <span
+                                    class="block text-sm font-black text-slate-800"
                                 >
-                                    <path
-                                        d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"
-                                    />
-                                    <circle
-                                        cx="12"
-                                        cy="10"
-                                        r="2.5"
-                                    />
-                                </svg>
+                                    Location
+                                </span>
 
                                 <select
                                     name="location"
-                                    class="w-full cursor-pointer border-0 bg-transparent text-sm font-semibold text-slate-700 outline-none sm:text-base"
+                                    class="mt-0.5 w-full cursor-pointer border-0 bg-transparent p-0 text-sm text-slate-500 outline-none"
                                 >
                                     <option value="">
                                         All Nigeria
@@ -258,357 +248,358 @@ const categories = [
                                         {{ state.name }}
                                     </option>
                                 </select>
-                            </label>
-
-                            <button
-                                type="submit"
-                                class="min-h-14 rounded-xl bg-emerald-600 px-7 text-sm font-black text-white shadow-sm transition hover:bg-emerald-700 active:scale-[0.98] sm:text-base"
-                            >
-                                Search
-                            </button>
-                        </form>
-
-                        <div
-                            class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-slate-400"
-                        >
-                            <span class="font-semibold text-slate-300">
-                                Popular:
                             </span>
+                        </label>
 
-                            <a
-                                href="/search?q=restaurants"
-                                class="transition hover:text-emerald-300"
+                        <button
+                            type="submit"
+                            class="flex min-h-[62px] items-center justify-center gap-3 rounded-xl bg-emerald-600 px-10 text-base font-black text-white shadow-sm transition hover:bg-emerald-700 active:scale-[0.99]"
+                        >
+                            <svg
+                                class="h-5 w-5"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2.4"
                             >
-                                Restaurants
-                            </a>
+                                <circle
+                                    cx="11"
+                                    cy="11"
+                                    r="7"
+                                />
+                                <path
+                                    d="m20 20-3.5-3.5"
+                                />
+                            </svg>
+                            Search
+                        </button>
+                    </form>
 
-                            <a
-                                href="/search?q=hotels"
-                                class="transition hover:text-emerald-300"
+                    <div
+                        class="mt-7 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-bold text-slate-700"
+                    >
+                        <span
+                            class="inline-flex items-center gap-2"
+                        >
+                            <span
+                                class="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-600 text-xs text-white"
                             >
-                                Hotels
-                            </a>
+                                ✓
+                            </span>
+                            Real business data only
+                        </span>
 
-                            <a
-                                href="/search?q=car%20rentals"
-                                class="transition hover:text-emerald-300"
-                            >
-                                Car Rentals
-                            </a>
+                        <span
+                            class="inline-flex items-center gap-2"
+                        >
+                            <span class="text-emerald-700">
+                                ◉
+                            </span>
+                            37 States &amp; FCT
+                        </span>
 
-                            <a
-                                href="/search?q=plumbers"
-                                class="transition hover:text-emerald-300"
-                            >
-                                Plumbers
-                            </a>
-                        </div>
+                        <span
+                            class="inline-flex items-center gap-2"
+                        >
+                            <span class="text-emerald-700">
+                                ▥
+                            </span>
+                            774 LGAs &amp; Area Councils
+                        </span>
                     </div>
                 </div>
-            </section>
 
-            <!-- Coverage strip -->
-            <section class="border-b border-slate-200 bg-white">
                 <div
-                    class="mx-auto grid max-w-7xl grid-cols-1 divide-y divide-slate-200 px-5 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-6 lg:px-8"
+                    class="absolute bottom-4 right-5 hidden rounded-lg bg-slate-900/75 px-4 py-2 text-xs font-semibold text-white backdrop-blur md:block lg:right-10"
                 >
-                    <div class="py-7 text-center">
-                        <div class="text-2xl font-black text-slate-950">
-                            37
-                        </div>
-                        <div class="mt-1 text-sm font-medium text-slate-500">
-                            States &amp; FCT
-                        </div>
-                    </div>
-
-                    <div class="py-7 text-center">
-                        <div class="text-2xl font-black text-slate-950">
-                            774
-                        </div>
-                        <div class="mt-1 text-sm font-medium text-slate-500">
-                            LGAs &amp; Area Councils
-                        </div>
-                    </div>
-
-                    <div class="py-7 text-center">
-                        <div class="text-2xl font-black text-emerald-600">
-                            Nationwide
-                        </div>
-                        <div class="mt-1 text-sm font-medium text-slate-500">
-                            Search coverage foundation
-                        </div>
-                    </div>
+                    ⌖ Lekki–Ikoyi Link Bridge, Lagos
                 </div>
             </section>
 
             <!-- Categories -->
             <section
                 id="categories"
-                class="bg-slate-50 py-20"
+                class="bg-white py-10 sm:py-14"
             >
                 <div
-                    class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"
+                    class="mx-auto max-w-[1500px] px-5 sm:px-7 lg:px-10"
                 >
                     <div
-                        class="flex flex-col justify-between gap-5 md:flex-row md:items-end"
+                        class="flex items-end justify-between gap-6"
                     >
                         <div>
-                            <p
-                                class="text-sm font-black uppercase tracking-[0.18em] text-emerald-600"
-                            >
-                                Discover services
-                            </p>
-
                             <h2
-                                class="mt-2 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl"
+                                class="text-2xl font-black tracking-tight text-[#062c31] sm:text-3xl"
                             >
-                                Browse popular categories
+                                Browse by Category
                             </h2>
 
                             <p
-                                class="mt-3 max-w-2xl text-slate-500"
+                                class="mt-1 text-sm text-slate-500"
                             >
-                                Start with a service and narrow your
-                                search by location.
+                                Start with the type of business
+                                or service you need.
                             </p>
                         </div>
+
+                        <a
+                            href="/search"
+                            class="hidden items-center gap-2 text-sm font-black text-emerald-700 sm:flex"
+                        >
+                            View All Categories
+                            <span>→</span>
+                        </a>
                     </div>
 
                     <div
-                        class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
+                        class="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10"
                     >
                         <a
                             v-for="category in categories"
                             :key="category.name"
                             :href="
                                 '/search?q=' +
-                                encodeURIComponent(category.query)
+                                encodeURIComponent(
+                                    category.query
+                                )
                             "
-                            class="group rounded-2xl border border-slate-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-emerald-200 hover:shadow-xl hover:shadow-slate-200/60"
+                            class="group text-center"
                         >
                             <span
-                                class="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-2xl transition group-hover:scale-105"
+                                :class="[
+                                    category.box,
+                                    'mx-auto flex h-[72px] w-full items-center justify-center rounded-xl border border-slate-100 text-3xl transition duration-200 group-hover:-translate-y-1 group-hover:shadow-md',
+                                ]"
                             >
                                 {{ category.icon }}
                             </span>
 
-                            <h3
-                                class="mt-5 font-black text-slate-950"
+                            <span
+                                class="mt-3 block text-sm font-bold leading-tight text-slate-800"
                             >
                                 {{ category.name }}
-                            </h3>
+                            </span>
+                        </a>
 
-                            <p
-                                class="mt-2 text-sm leading-6 text-slate-500"
+                        <a
+                            href="/search"
+                            class="group text-center"
+                        >
+                            <span
+                                class="mx-auto flex h-[72px] w-full items-center justify-center rounded-xl border border-slate-100 bg-slate-50 text-3xl transition duration-200 group-hover:-translate-y-1 group-hover:shadow-md"
                             >
-                                {{ category.description }}
-                            </p>
+                                •••
+                            </span>
 
                             <span
-                                class="mt-5 inline-flex items-center gap-2 text-sm font-bold text-emerald-700"
+                                class="mt-3 block text-sm font-bold text-slate-800"
                             >
-                                Explore
-                                <span
-                                    class="transition group-hover:translate-x-1"
-                                >
-                                    →
-                                </span>
+                                More Categories
                             </span>
                         </a>
                     </div>
                 </div>
             </section>
 
-            <!-- Locations -->
+            <!-- Featured business section, real-data safe -->
             <section
-                id="locations"
-                class="py-20"
+                class="border-y border-slate-100 bg-slate-50/60 py-12"
             >
                 <div
-                    class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"
-                >
-                    <div class="max-w-2xl">
-                        <p
-                            class="text-sm font-black uppercase tracking-[0.18em] text-emerald-600"
-                        >
-                            Search by place
-                        </p>
-
-                        <h2
-                            class="mt-2 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl"
-                        >
-                            Find businesses by location
-                        </h2>
-
-                        <p class="mt-3 text-slate-500">
-                            Our location foundation covers every
-                            Nigerian state, the FCT and all 774 local
-                            government areas and area councils.
-                        </p>
-                    </div>
-
-                    <div
-                        class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4"
-                    >
-                        <a
-                            v-for="state in states.slice(0, 12)"
-                            :key="state.code"
-                            :href="
-                                '/search?location=' +
-                                encodeURIComponent(state.slug)
-                            "
-                            class="flex items-center justify-between rounded-xl border border-slate-200 px-4 py-4 font-bold text-slate-700 transition hover:border-emerald-300 hover:bg-emerald-50 hover:text-emerald-800"
-                        >
-                            <span>{{ state.name }}</span>
-                            <span class="text-slate-300">→</span>
-                        </a>
-                    </div>
-
-                    <a
-                        href="/search"
-                        class="mt-7 inline-flex items-center gap-2 rounded-xl border border-slate-300 px-5 py-3 text-sm font-black text-slate-800 transition hover:border-slate-950"
-                    >
-                        Browse all Nigeria
-                        <span>→</span>
-                    </a>
-                </div>
-            </section>
-
-            <!-- Trust -->
-            <section class="bg-emerald-950 py-20 text-white">
-                <div
-                    class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 lg:grid-cols-2 lg:px-8"
-                >
-                    <div>
-                        <p
-                            class="text-sm font-black uppercase tracking-[0.18em] text-emerald-300"
-                        >
-                            Built for trust
-                        </p>
-
-                        <h2
-                            class="mt-3 text-3xl font-black tracking-tight sm:text-4xl"
-                        >
-                            Business discovery with clearer signals.
-                        </h2>
-
-                        <p
-                            class="mt-5 max-w-xl leading-7 text-emerald-100/80"
-                        >
-                            BusinessFinder distinguishes listed
-                            businesses from verified businesses and
-                            keeps provenance, claim and verification
-                            information separate.
-                        </p>
-                    </div>
-
-                    <div class="grid gap-4 sm:grid-cols-2">
-                        <div
-                            class="rounded-2xl border border-white/10 bg-white/5 p-6"
-                        >
-                            <div class="text-xl">✓</div>
-                            <h3 class="mt-4 font-black">
-                                Transparent status
-                            </h3>
-                            <p
-                                class="mt-2 text-sm leading-6 text-emerald-100/70"
-                            >
-                                Imported businesses are not labelled
-                                verified unless verification has
-                                actually taken place.
-                            </p>
-                        </div>
-
-                        <div
-                            class="rounded-2xl border border-white/10 bg-white/5 p-6"
-                        >
-                            <div class="text-xl">⌖</div>
-                            <h3 class="mt-4 font-black">
-                                Local discovery
-                            </h3>
-                            <p
-                                class="mt-2 text-sm leading-6 text-emerald-100/70"
-                            >
-                                Search is being structured around real
-                                Nigerian geography, categories and
-                                service areas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Business owners -->
-            <section class="py-20">
-                <div
-                    class="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"
+                    class="mx-auto max-w-[1500px] px-5 sm:px-7 lg:px-10"
                 >
                     <div
-                        class="overflow-hidden rounded-3xl bg-slate-950 px-6 py-10 sm:px-10 lg:flex lg:items-center lg:justify-between lg:px-14"
+                        class="flex items-end justify-between gap-5"
                     >
                         <div>
-                            <p
-                                class="text-sm font-black uppercase tracking-[0.18em] text-emerald-400"
-                            >
-                                For business owners
-                            </p>
-
                             <h2
-                                class="mt-3 max-w-2xl text-3xl font-black tracking-tight text-white"
+                                class="text-2xl font-black tracking-tight text-[#062c31] sm:text-3xl"
                             >
-                                Build your presence where Nigerian
-                                customers are searching.
+                                Featured Businesses
                             </h2>
 
                             <p
-                                class="mt-4 max-w-2xl text-slate-400"
+                                class="mt-1 text-sm text-slate-500"
                             >
-                                Create an account now. Business claims,
-                                verification and profile tools are
-                                being rolled out progressively.
+                                Discover businesses published
+                                on BusinessFinder Nigeria.
                             </p>
+                        </div>
+                    </div>
+
+                    <div
+                        v-if="businessCount === 0"
+                        class="mt-7 overflow-hidden rounded-2xl border border-emerald-100 bg-white"
+                    >
+                        <div
+                            class="grid lg:grid-cols-[1fr_auto]"
+                        >
+                            <div class="p-8 sm:p-10">
+                                <div
+                                    class="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-2xl"
+                                >
+                                    ⌖
+                                </div>
+
+                                <h3
+                                    class="mt-5 text-xl font-black text-slate-900"
+                                >
+                                    Real business listings are
+                                    being prepared
+                                </h3>
+
+                                <p
+                                    class="mt-3 max-w-2xl text-sm leading-6 text-slate-500"
+                                >
+                                    We are validating real Nigerian
+                                    business data before publishing
+                                    public listings. BusinessFinder
+                                    does not create fake businesses,
+                                    ratings or reviews to fill the
+                                    directory.
+                                </p>
+                            </div>
+
+                            <div
+                                class="flex items-center border-t border-emerald-100 bg-emerald-50/60 p-8 lg:border-l lg:border-t-0"
+                            >
+                                <Link
+                                    :href="register()"
+                                    class="rounded-xl bg-emerald-600 px-6 py-3 text-sm font-black text-white hover:bg-emerald-700"
+                                >
+                                    Add Your Business →
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        v-else
+                        class="mt-7 rounded-2xl border border-slate-200 bg-white p-8 text-slate-600"
+                    >
+                        {{ businessCount }} business records are
+                        currently being prepared for public
+                        directory presentation.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Real location browsing -->
+            <section
+                id="locations"
+                class="bg-white py-14"
+            >
+                <div
+                    class="mx-auto max-w-[1500px] px-5 sm:px-7 lg:px-10"
+                >
+                    <div>
+                        <h2
+                            class="text-2xl font-black tracking-tight text-[#062c31] sm:text-3xl"
+                        >
+                            Browse by Location
+                        </h2>
+
+                        <p
+                            class="mt-1 text-sm text-slate-500"
+                        >
+                            Explore BusinessFinder's real
+                            nationwide geography foundation.
+                        </p>
+                    </div>
+
+                    <div
+                        class="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8"
+                    >
+                        <a
+                            v-for="state in states.slice(0, 8)"
+                            :key="state.code"
+                            :href="
+                                '/search?location=' +
+                                encodeURIComponent(
+                                    state.slug
+                                )
+                            "
+                            class="flex min-h-[72px] items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 transition hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-md"
+                        >
+                            <span
+                                class="text-xl text-emerald-700"
+                            >
+                                ⌖
+                            </span>
+
+                            <span>
+                                <span
+                                    class="block text-sm font-black text-slate-800"
+                                >
+                                    {{ state.name }}
+                                </span>
+
+                                <span
+                                    class="mt-0.5 block text-xs text-slate-400"
+                                >
+                                    Explore location
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="mt-7">
+                        <a
+                            href="/search"
+                            class="inline-flex items-center gap-2 text-sm font-black text-emerald-700"
+                        >
+                            View all Nigerian locations
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Business-owner CTA -->
+            <section
+                class="pb-14"
+            >
+                <div
+                    class="mx-auto max-w-[1500px] px-5 sm:px-7 lg:px-10"
+                >
+                    <div
+                        class="flex flex-col gap-6 rounded-2xl border border-emerald-100 bg-gradient-to-r from-emerald-50 to-teal-50 px-6 py-7 sm:flex-row sm:items-center sm:justify-between sm:px-9"
+                    >
+                        <div class="flex items-center gap-5">
+                            <div
+                                class="flex h-14 w-14 items-center justify-center rounded-xl bg-white text-3xl shadow-sm"
+                            >
+                                🏪
+                            </div>
+
+                            <div>
+                                <h2
+                                    class="text-xl font-black text-[#062c31]"
+                                >
+                                    List Your Business on
+                                    BusinessFinder Nigeria
+                                </h2>
+
+                                <p
+                                    class="mt-1 text-sm text-slate-600"
+                                >
+                                    Build your presence and get
+                                    ready to connect with customers.
+                                </p>
+                            </div>
                         </div>
 
                         <Link
                             :href="register()"
-                            class="mt-7 inline-flex rounded-xl bg-emerald-500 px-6 py-3.5 text-sm font-black text-emerald-950 transition hover:bg-emerald-400 lg:mt-0"
+                            class="inline-flex shrink-0 items-center justify-center rounded-xl bg-emerald-600 px-7 py-3.5 text-sm font-black text-white hover:bg-emerald-700"
                         >
-                            Get started
+                            Add Your Business →
                         </Link>
                     </div>
                 </div>
             </section>
         </main>
 
-        <footer class="border-t border-slate-200 bg-white">
-            <div
-                class="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 text-sm text-slate-500 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8"
-            >
-                <div class="font-semibold">
-                    © 2026 BusinessFinder Nigeria
-                </div>
-
-                <div class="flex flex-wrap gap-5">
-                    <a
-                        href="#categories"
-                        class="hover:text-slate-950"
-                    >
-                        Categories
-                    </a>
-                    <a
-                        href="#locations"
-                        class="hover:text-slate-950"
-                    >
-                        Locations
-                    </a>
-                    <Link
-                        :href="login()"
-                        class="hover:text-slate-950"
-                    >
-                        Business login
-                    </Link>
-                </div>
-            </div>
-        </footer>
+        <PublicFooter />
     </div>
 </template>

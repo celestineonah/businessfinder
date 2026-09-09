@@ -30,6 +30,7 @@ Route::get('/', function () {
         'Welcome',
         [
             'states' => $states,
+            'businessCount' => DB::table('businesses')->count(),
         ]
     );
 })->name('home');
