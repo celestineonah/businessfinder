@@ -1,0 +1,10 @@
+geoname_id,place_name,final_decision,canonical_name,parent_city,review_reason,evidence_source,review_status
+2566696,Akowonjo,area,Akowonjo,Lagos,Locality within the Lagos urban hierarchy rather than a separate V1 city,Lagos State government locality references,reviewed
+2350523,Alasia,area,Alasia,Lagos,State infrastructure records place Alasia within Ojo and it is retained as a Lagos area,Lagos State infrastructure records,reviewed
+2350434,Aliayabiagba,area,Aliayabiagba,Lagos,Populated locality inside Ajeromi Ifelodun and not promoted to a separate V1 city,GeoNames plus GRID3 boundary evidence,reviewed
+2566676,Alimosho,area,Alimosho,Lagos,Major Lagos LGA and planning district represented as a Lagos area in the BusinessFinder hierarchy,Lagos State planning and local government sources,reviewed
+2344082,Ebute Ikorodu,city,Ikorodu,,GeoNames populated-place record represents the Ikorodu urban centre and is retained as canonical Ikorodu city,Lagos State local government structure plus GeoNames,reviewed
+2343252,Epe,city,Epe,,Official Lagos State material explicitly identifies Epe Town and it is retained as a distinct V1 city,Lagos State government transport service,reviewed
+2337313,Irewe,area,Irewe,Lagos,Conservative V1 treatment as a riverine Lagos locality rather than promoting it to a standalone city,GeoNames plus GRID3 boundary evidence,reviewed
+7732748,Lekki,area,Lekki,Lagos,Official Lagos State material treats Lekki as an area and planning locality within Lagos,Lagos State planning and PPP sources,reviewed
+2566633,Obalende,area,Obalende,Lagos,Official Lagos structure places Obalende within Ikoyi Obalende and it is represented as a Lagos area,Lagos State local government sources,reviewed
