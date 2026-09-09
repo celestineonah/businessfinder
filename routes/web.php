@@ -140,6 +140,18 @@ Route::get('/search', function (Request $request) {
                         ->whereColumn('bc.business_id', 'b.id')
                         ->where('c.is_active', true)
                         ->where('c.name', 'like', $like);
+                })
+                ->orWhereExists(function ($sourceQuery) use ($like) {
+                    $sourceQuery
+                        ->selectRaw('1')
+                        ->from('business_sources as bs')
+                        ->whereColumn('bs.business_id', 'b.id')
+                        ->where('bs.is_active', true)
+                        ->whereNotNull('bs.metadata')
+                        ->whereRaw(
+                            "JSON_UNQUOTE(JSON_EXTRACT(bs.metadata, '$.category_hint')) like ?",
+                            [$like]
+                        );
                 });
         });
     }
@@ -167,6 +179,19 @@ Route::get('/search', function (Request $request) {
                 ->limit(1)
                 ->select('c.name');
         }, 'category_name')
+        ->selectSub(function ($sourceQuery) {
+            $sourceQuery
+                ->from('business_sources as bs')
+                ->whereColumn('bs.business_id', 'b.id')
+                ->where('bs.is_active', true)
+                ->whereNotNull('bs.metadata')
+                ->orderByDesc('bs.confidence_score')
+                ->orderBy('bs.id')
+                ->limit(1)
+                ->selectRaw(
+                    "JSON_UNQUOTE(JSON_EXTRACT(bs.metadata, '$.category_hint'))"
+                );
+        }, 'category_hint')
         ->selectSub(function ($verificationQuery) {
             $verificationQuery
                 ->from('business_verifications as bv')
@@ -195,11 +220,21 @@ Route::get('/search', function (Request $request) {
                 $business->state_name,
             ])->filter()->unique()->implode(', ');
 
+            $category = $business->category_name;
+
+            if (! $category && $business->category_hint) {
+                $category = Str::of((string) $business->category_hint)
+                    ->after(':')
+                    ->replace('_', ' ')
+                    ->title()
+                    ->toString();
+            }
+
             return [
                 'name' => $business->name,
                 'slug' => $business->slug,
                 'shortDescription' => $business->short_description,
-                'category' => $business->category_name,
+                'category' => $category,
                 'location' => $location !== '' ? $location : null,
                 'state' => $business->state_name,
                 'lga' => $business->lga_name,

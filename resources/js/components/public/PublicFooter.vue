@@ -82,11 +82,25 @@ const year = new Date().getFullYear();
                     All rights reserved.
                 </p>
 
-                <p>
-                    Lagos bridge photograph:
-                    Chippla / Wikimedia Commons,
-                    CC BY-SA 3.0.
-                </p>
+                <div class="space-y-1 text-right">
+                    <p>
+                        Business data may include
+                        <a
+                            href="https://www.openstreetmap.org/copyright"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="font-semibold text-slate-500 hover:text-emerald-700"
+                        >
+                            © OpenStreetMap contributors
+                        </a>, ODbL.
+                    </p>
+
+                    <p>
+                        Lagos bridge photograph:
+                        Chippla / Wikimedia Commons,
+                        CC BY-SA 3.0.
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
