@@ -18,6 +18,7 @@ void createInertiaApp({
                 'BusinessShow',
                 'AddBusiness',
                 'Dashboard',
+                'BusinessClaim',
             ].includes(name):
                 return null;
             case name.startsWith('auth/'):
