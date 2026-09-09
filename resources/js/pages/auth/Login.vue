@@ -19,8 +19,8 @@ import PasskeyVerify from '@/components/PasskeyVerify.vue';
 
 defineOptions({
     layout: {
-        title: 'Log in to your account',
-        description: 'Enter your email and password below to log in',
+        title: 'Welcome Back',
+        description: 'Sign in to manage your BusinessFinder Nigeria account and business listings.',
     },
 });
 
@@ -98,7 +98,7 @@ defineProps<{
 
             <Button
                 type="submit"
-                class="mt-4 w-full"
+                class="mt-4 w-full bg-emerald-600 text-white hover:bg-emerald-700"
                 :tabindex="4"
                 :disabled="processing"
                 data-test="login-button"
@@ -110,8 +110,8 @@ defineProps<{
 
         <!-- @chisel-registration -->
         <div class="text-muted-foreground text-center text-sm">
-            Don't have an account?
-            <TextLink :href="register()" :tabindex="5">Sign up</TextLink>
+            New to BusinessFinder Nigeria?
+            <TextLink :href="register()" :tabindex="5">Create an account</TextLink>
         </div>
         <!-- @end-chisel-registration -->
     </Form>

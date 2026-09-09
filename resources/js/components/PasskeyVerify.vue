@@ -41,7 +41,7 @@ const { verify, isLoading, error, isSupported } = usePasskeyVerify({
             <Button
                 type="button"
                 variant="outline"
-                class="w-full"
+                class="w-full border-slate-200 bg-white font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-800"
                 @click="verify"
                 :disabled="isLoading"
             >
@@ -61,7 +61,7 @@ const { verify, isLoading, error, isSupported } = usePasskeyVerify({
 
         <div class="relative my-6">
             <div class="absolute inset-0 flex items-center">
-                <Separator class="w-full" />
+                <Separator class="w-full border-slate-200 bg-white font-bold text-slate-700 hover:bg-emerald-50 hover:text-emerald-800" />
             </div>
             <div class="relative flex justify-center text-xs uppercase">
                 <span class="bg-background text-muted-foreground px-2">

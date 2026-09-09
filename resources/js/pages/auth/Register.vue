@@ -16,8 +16,8 @@ defineProps<{
 
 defineOptions({
     layout: {
-        title: 'Create an account',
-        description: 'Enter your details below to create your account',
+        title: 'Create Your Account',
+        description: 'Join BusinessFinder Nigeria to add and manage your business listings.',
     },
 });
 </script>
@@ -91,23 +91,23 @@ defineOptions({
 
             <Button
                 type="submit"
-                class="mt-2 w-full"
+                class="mt-2 w-full bg-emerald-600 text-white hover:bg-emerald-700"
                 tabindex="5"
                 :disabled="processing"
                 data-test="register-user-button"
             >
                 <Spinner v-if="processing" />
-                Create account
+                Create My Account
             </Button>
         </div>
 
         <div class="text-muted-foreground text-center text-sm">
-            Already have an account?
+            Already using BusinessFinder Nigeria?
             <TextLink
                 :href="login()"
                 class="underline underline-offset-4"
                 :tabindex="6"
-                >Log in</TextLink
+                >Sign in</TextLink
             >
         </div>
     </Form>
