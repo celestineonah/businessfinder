@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import BrandLogo from '@/components/public/BrandLogo.vue';
 import {
     Head,
     Link,
@@ -126,11 +125,43 @@ function titleCase(
         >
             <a
                 href="/"
-                class="flex items-center"
+                class="flex items-center gap-2"
             >
-                <BrandLogo
-                    class="h-8 w-auto max-w-[215px]"
-                />
+                <svg
+                    viewBox="0 0 50 56"
+                    class="h-9 w-8"
+                    aria-hidden="true"
+                >
+                    <ellipse
+                        cx="25"
+                        cy="50"
+                        rx="18"
+                        ry="4"
+                        fill="#16a34a"
+                        opacity=".9"
+                    />
+
+                    <path
+                        d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
+                        fill="#078844"
+                    />
+
+                    <circle
+                        cx="25"
+                        cy="22"
+                        r="8"
+                        fill="white"
+                    />
+                </svg>
+
+                <span
+                    class="font-black tracking-tight"
+                >
+                    BusinessFinder
+                    <span class="text-emerald-600">
+                        Nigeria
+                    </span>
+                </span>
             </a>
 
             <button
@@ -168,11 +199,43 @@ function titleCase(
                     >
                         <a
                             href="/"
-                            class="flex items-center"
+                            class="flex items-center gap-2.5"
                         >
-                            <BrandLogo
-                                class="h-8 w-auto max-w-[215px]"
-                            />
+                            <svg
+                                viewBox="0 0 50 56"
+                                class="h-10 w-9"
+                                aria-hidden="true"
+                            >
+                                <ellipse
+                                    cx="25"
+                                    cy="50"
+                                    rx="18"
+                                    ry="4"
+                                    fill="#16a34a"
+                                    opacity=".9"
+                                />
+
+                                <path
+                                    d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
+                                    fill="#078844"
+                                />
+
+                                <circle
+                                    cx="25"
+                                    cy="22"
+                                    r="8"
+                                    fill="white"
+                                />
+                            </svg>
+
+                            <span
+                                class="text-lg font-black tracking-[-0.03em]"
+                            >
+                                BusinessFinder
+                                <span class="text-emerald-600">
+                                    Nigeria
+                                </span>
+                            </span>
                         </a>
                     </div>
 

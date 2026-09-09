@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import BrandLogo from '@/components/public/BrandLogo.vue';
 import { Link } from '@inertiajs/vue3';
 import {
     BadgeCheck,
@@ -41,14 +40,42 @@ defineProps<{
                 >
                     <Link
                         :href="home()"
-                        class="inline-flex w-fit items-center"
+                        class="inline-flex w-fit items-center gap-3"
                     >
-                        <span
-                            class="rounded-2xl bg-white/95 px-4 py-3 shadow-sm"
+                        <svg
+                            viewBox="0 0 50 56"
+                            class="h-12 w-11 shrink-0"
+                            aria-hidden="true"
                         >
-                            <BrandLogo
-                                class="h-10 w-auto max-w-[275px]"
+                            <ellipse
+                                cx="25"
+                                cy="50"
+                                rx="18"
+                                ry="4"
+                                fill="#34d399"
+                                opacity=".92"
                             />
+
+                            <path
+                                d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
+                                fill="#10b981"
+                            />
+
+                            <circle
+                                cx="25"
+                                cy="22"
+                                r="8"
+                                fill="white"
+                            />
+                        </svg>
+
+                        <span
+                            class="text-2xl font-black tracking-[-0.035em] text-white"
+                        >
+                            BusinessFinder
+                            <span class="text-emerald-300">
+                                Nigeria
+                            </span>
                         </span>
                     </Link>
 
@@ -152,11 +179,43 @@ defineProps<{
                 >
                     <Link
                         :href="home()"
-                        class="flex items-center lg:hidden"
+                        class="flex items-center gap-2.5 lg:hidden"
                     >
-                        <BrandLogo
-                            class="h-8 w-auto max-w-[220px]"
-                        />
+                        <svg
+                            viewBox="0 0 50 56"
+                            class="h-10 w-9"
+                            aria-hidden="true"
+                        >
+                            <ellipse
+                                cx="25"
+                                cy="50"
+                                rx="18"
+                                ry="4"
+                                fill="#16a34a"
+                                opacity=".9"
+                            />
+
+                            <path
+                                d="M25 3C13.95 3 5 11.95 5 23c0 15 20 27 20 27s20-12 20-27C45 11.95 36.05 3 25 3Z"
+                                fill="#078844"
+                            />
+
+                            <circle
+                                cx="25"
+                                cy="22"
+                                r="8"
+                                fill="white"
+                            />
+                        </svg>
+
+                        <span
+                            class="font-black tracking-tight text-[#062c31]"
+                        >
+                            BusinessFinder
+                            <span class="text-emerald-600">
+                                Nigeria
+                            </span>
+                        </span>
                     </Link>
 
                     <Link
