@@ -28,3 +28,4 @@ yarn-error.log
 /.vscode
 /.zed
 /error_log
+/storage/framework/cron-*.tmp
