@@ -21,8 +21,6 @@ fi
 
 rm -f "$TMP"
 
-# Stage 6E.1 nationwide population watchdog.
-# This uses the existing Hostinger scheduler cron, so no new hPanel cron is needed.
 if [ -x "$WATCHDOG" ]; then
     "$WATCHDOG" >/dev/null 2>&1 || true
 fi

@@ -3,17 +3,20 @@ set -u
 
 APP="/home/u699775886/businessfinder-app"
 PHP84="/opt/alt/php84/usr/bin/php"
+OUTDIR="$APP/storage/app/imports/businesses/osm"
 LOG="$APP/storage/logs/stage-6e-osm-population.log"
-PIDFILE="$APP/storage/app/imports/businesses/osm/population.pid"
-RUNNER="$APP/scripts/data/populate-osm-businesses-resilient.sh"
+PIDFILE="$OUTDIR/population.pid"
+RUNNER="$APP/scripts/data/populate-osm-businesses-statewise.sh"
+DONE="$OUTDIR/statewise-population.complete"
 
 cd "$APP" || exit 1
 
-mkdir -p \
-    "$APP/storage/logs" \
-    "$APP/storage/app/imports/businesses/osm"
+mkdir -p "$APP/storage/logs" "$OUTDIR"
 
-# Existing new-runner PID still alive.
+if [ -f "$DONE" ]; then
+    exit 0
+fi
+
 if [ -f "$PIDFILE" ]; then
     PID="$(cat "$PIDFILE" 2>/dev/null || true)"
 
@@ -22,23 +25,36 @@ if [ -f "$PIDFILE" ]; then
             ;;
         *)
             if kill -0 "$PID" 2>/dev/null; then
-                exit 0
+                CMD="$(ps -p "$PID" -o args= 2>/dev/null || true)"
+                case "$CMD" in
+                    *populate-osm-businesses-statewise.sh*)
+                        exit 0
+                        ;;
+                    *populate-osm-businesses-resilient.sh*)
+                        exit 0
+                        ;;
+                    *populate-osm-businesses.sh*)
+                        exit 0
+                        ;;
+                esac
             fi
             ;;
     esac
 fi
 
-# Respect the original Stage 6E process if it is still running.
-if ps -ef 2>/dev/null | grep '[p]opulate-osm-businesses.sh' >/dev/null; then
+if ps -ef 2>/dev/null | grep '[p]opulate-osm-businesses-statewise.sh' >/dev/null; then
     exit 0
 fi
 
-# Respect the resilient runner if detected even with a stale/missing PID file.
 if ps -ef 2>/dev/null | grep '[p]opulate-osm-businesses-resilient.sh' >/dev/null; then
     exit 0
 fi
 
-printf '\n[%s] watchdog starting/resuming Stage 6E.1\n' \
+if ps -ef 2>/dev/null | grep '[p]opulate-osm-businesses.sh' >/dev/null; then
+    exit 0
+fi
+
+printf '\n[%s] watchdog starting/resuming Stage 6E.2 statewise accelerator\n' \
     "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" \
     >> "$LOG"
 
@@ -52,10 +68,9 @@ nohup env \
     < /dev/null &
 
 PID=$!
-
 printf '%s\n' "$PID" > "$PIDFILE"
 
-printf '[%s] Stage 6E.1 started PID %s\n' \
+printf '[%s] Stage 6E.2 started PID %s\n' \
     "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" \
     "$PID" \
     >> "$LOG"
