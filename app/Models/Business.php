@@ -88,4 +88,14 @@ class Business extends Model
     {
         return $this->hasMany(BusinessVerification::class);
     }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(BusinessReview::class);
+    }
+
+    public function enquiries(): HasMany
+    {
+        return $this->hasMany(BusinessEnquiry::class);
+    }
 }
