@@ -74,10 +74,10 @@ const categories = [
 </script>
 
 <template>
-    <Head title="Find Nigerian Businesses, Easily">
+    <Head title="AI-Powered Business Finder for Nigeria">
         <meta
             name="description"
-            content="Discover businesses and services across Nigeria with BusinessFinder Nigeria."
+            content="Discover businesses, services and local providers across Nigeria through intelligent search, trusted business information and real Nigerian geography."
         />
         <link
             rel="icon"
@@ -119,28 +119,28 @@ const categories = [
                             <p
                                 class="text-xs font-black uppercase tracking-[0.28em] text-slate-600 sm:text-sm"
                             >
-                                Discover
+                                AI-POWERED
                                 <span class="px-2">•</span>
-                                Connect
+                                LOCAL
                                 <span class="px-2">•</span>
-                                Grow
+                                TRUSTED
                             </p>
 
                             <h1
                                 class="mt-5 max-w-3xl text-[44px] font-black leading-[0.98] tracking-[-0.055em] text-[#052d33] sm:text-6xl lg:text-[70px]"
                             >
-                                Find Nigerian
+                                Find Nigerian Businesses,
                                 <br />
-                                Businesses, Easily
+                                Smarter
                             </h1>
 
                             <p
                                 class="mt-5 max-w-2xl text-base font-medium leading-7 text-slate-700 sm:text-xl"
                             >
-                                Your trusted directory for local
-                                businesses across Nigeria.
-                                Search, discover and connect with
-                                businesses in your area.
+                                Discover businesses, services and local
+                                providers across Nigeria through intelligent
+                                search, trusted business information and real
+                                Nigerian geography.
                             </p>
                         </div>
 
@@ -192,7 +192,7 @@ const categories = [
                                 <span
                                     class="block text-sm font-black text-slate-800"
                                 >
-                                    What are you looking for?
+                                    What business or service are you looking for?
                                 </span>
 
                                 <input
@@ -273,6 +273,10 @@ const categories = [
                             Search
                         </button>
                     </form>
+
+                    <div class="mt-5 inline-flex w-fit items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-xs font-black uppercase tracking-[0.14em] text-emerald-800">
+                        AI-Powered Business Discovery — Coming Soon
+                    </div>
 
                     <div
                         class="mt-7 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm font-bold text-slate-700"

@@ -150,7 +150,7 @@ class FetchOsmBusinessesCommand extends Command
             }
 
             $lgas = $lgasQuery->get();
-            $matches = $this->matchLgas($lgas->all(), $boundaries);
+            $matches = $this->matchLgas($lgas->all(), $boundaries, (int) $state->id);
 
             $csvPath = $this->outputDir . '/state-' . strtolower($stateCode) . '.csv';
             $knownExternalIds = $this->existingExternalIds($csvPath, $resume);
@@ -391,7 +391,7 @@ QL;
         throw new RuntimeException('Overpass request failed: ' . implode(' | ', array_slice($errors, -6)));
     }
 
-    private function matchLgas(array $lgas, array $boundaries): array
+    private function matchLgas(array $lgas, array $boundaries, int $stateId): array
     {
         $boundaryNames = [];
 
@@ -418,11 +418,42 @@ QL;
             }
         }
 
+        $approvedAliases = DB::table('geography_lga_aliases')
+            ->where('state_id', $stateId)
+            ->where('source_name', 'OpenStreetMap')
+            ->where('status', 'approved')
+            ->get(['local_government_area_id', 'normalized_external_name', 'confidence_score'])
+            ->groupBy('local_government_area_id');
+
         $matches = [];
         $usedRelations = [];
 
         foreach ($lgas as $lga) {
             $target = $this->normalizeAdminName((string) $lga->name);
+
+            $aliasCandidates = [];
+            foreach ($approvedAliases->get($lga->id, collect()) as $alias) {
+                foreach ($boundaryNames as $item) {
+                    if (isset($usedRelations[$item['id']])) {
+                        continue;
+                    }
+                    if ($item['normalized'] === $alias->normalized_external_name) {
+                        $aliasCandidates[$item['id']] = [
+                            'id' => $item['id'],
+                            'name' => $item['name'],
+                            'score' => (float) $alias->confidence_score,
+                        ];
+                    }
+                }
+            }
+
+            if (count($aliasCandidates) === 1) {
+                $chosen = array_values($aliasCandidates)[0];
+                $matches[$lga->id] = $chosen;
+                $usedRelations[$chosen['id']] = true;
+                continue;
+            }
+
             $exact = array_values(array_filter(
                 $boundaryNames,
                 fn ($item) => $item['normalized'] === $target && ! isset($usedRelations[$item['id']])
