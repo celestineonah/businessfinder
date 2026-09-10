@@ -102,7 +102,7 @@ const mobileOpen = ref(false);
                 </a>
 
                 <a
-                    href="/#locations"
+                    href="/locations"
                     :class="[
                         'flex h-full items-center border-b-2 px-1 text-sm font-bold transition',
                         active === 'locations'
@@ -227,7 +227,7 @@ const mobileOpen = ref(false);
                 </a>
 
                 <a
-                    href="/#locations"
+                    href="/locations"
                     class="rounded-xl px-4 py-3 font-bold hover:bg-emerald-50"
                 >
                     Locations

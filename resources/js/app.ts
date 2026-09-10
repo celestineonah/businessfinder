@@ -21,6 +21,10 @@ void createInertiaApp({
                 'BusinessClaim',
                 'AdminClaims',
                 'AdminEngagement',
+                'SeoDirectory',
+                'AdminListings',
+                'OwnerBusinessEdit',
+                'OwnerBusinesses',
             ].includes(name):
                 return null;
             case name.startsWith('auth/'):

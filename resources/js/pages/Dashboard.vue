@@ -420,6 +420,14 @@ function reviewStatusClass(value: string): string {
 
                         <div class="mt-3 grid gap-1">
                             <Link
+                                href="/dashboard/businesses"
+                                class="flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-bold text-slate-600 transition hover:bg-slate-50 hover:text-slate-900"
+                            >
+                                <Building2 class="h-5 w-5" />
+                                Manage listings
+                            </Link>
+
+                            <Link
                                 href="/add-business"
                                 class="flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-bold text-slate-600 transition hover:bg-slate-50 hover:text-slate-900"
                             >
@@ -433,6 +441,15 @@ function reviewStatusClass(value: string): string {
                             >
                                 <Search class="h-5 w-5" />
                                 Find & claim
+                            </Link>
+
+                            <Link
+                                v-if="isAdmin"
+                                href="/admin/listings"
+                                class="flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-bold text-slate-600 transition hover:bg-slate-50 hover:text-slate-900"
+                            >
+                                <FileText class="h-5 w-5" />
+                                Listing review
                             </Link>
 
                             <Link

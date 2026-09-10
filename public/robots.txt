@@ -1,2 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Disallow: /dashboard
+Disallow: /settings/
+Disallow: /email/
+
+Sitemap: https://businessfinder.com.ng/sitemap.xml

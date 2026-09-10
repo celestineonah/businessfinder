@@ -516,12 +516,7 @@ const categories = [
                         <a
                             v-for="state in states.slice(0, 8)"
                             :key="state.code"
-                            :href="
-                                '/search?location=' +
-                                encodeURIComponent(
-                                    state.slug
-                                )
-                            "
+                            :href="state.code === 'FC' ? '/abuja' : '/' + state.slug"
                             class="flex min-h-[72px] items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 transition hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-md"
                         >
                             <span
@@ -548,7 +543,7 @@ const categories = [
 
                     <div class="mt-7">
                         <a
-                            href="/search"
+                            href="/locations"
                             class="inline-flex items-center gap-2 text-sm font-black text-emerald-700"
                         >
                             View all Nigerian locations
