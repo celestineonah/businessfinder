@@ -9,17 +9,72 @@ PIDFILE="$OUTDIR/population.pid"
 RUNNER="$APP/scripts/data/populate-osm-businesses-statewise.sh"
 DONE="$OUTDIR/statewise-population.complete"
 LOCKDIR="$OUTDIR/watchdog.lock"
+LOCKPID="$LOCKDIR/pid"
 
 cd "$APP" || exit 1
 mkdir -p "$APP/storage/logs" "$OUTDIR"
 
 [ -f "$DONE" ] && exit 0
 
-# Atomic lock prevents concurrent cron invocations from both starting a runner.
-if ! mkdir "$LOCKDIR" 2>/dev/null; then
-    exit 0
-fi
-trap 'rmdir "$LOCKDIR" 2>/dev/null || true' EXIT HUP INT TERM
+release_lock() {
+    rm -f "$LOCKPID" 2>/dev/null || true
+    rmdir "$LOCKDIR" 2>/dev/null || true
+}
+
+lock_is_live() {
+    [ -f "$LOCKPID" ] || return 1
+
+    LOCK_OWNER="$(cat "$LOCKPID" 2>/dev/null || true)"
+    case "$LOCK_OWNER" in
+        ''|*[!0-9]*) return 1 ;;
+    esac
+
+    kill -0 "$LOCK_OWNER" 2>/dev/null || return 1
+
+    LOCK_CMD="$(ps -p "$LOCK_OWNER" -o args= 2>/dev/null || true)"
+    case "$LOCK_CMD" in
+        *cron-osm-population-watchdog.sh*) return 0 ;;
+    esac
+
+    return 1
+}
+
+acquire_lock() {
+    if mkdir "$LOCKDIR" 2>/dev/null; then
+        printf '%s\n' "$$" > "$LOCKPID"
+        trap release_lock EXIT HUP INT TERM
+        return 0
+    fi
+
+    if lock_is_live; then
+        exit 0
+    fi
+
+    # If a watchdog died after mkdir but before writing the owner PID,
+    # avoid racing a just-created lock. Only reap ownerless locks that
+    # are at least two minutes old.
+    if [ ! -f "$LOCKPID" ]; then
+        if ! find "$LOCKDIR" -maxdepth 0 -mmin +1 -print 2>/dev/null \
+            | grep -q .
+        then
+            exit 0
+        fi
+    fi
+
+    printf '\n[%s] watchdog removing stale lock directory\n' \
+        "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> "$LOG"
+
+    rm -rf "$LOCKDIR" 2>/dev/null || exit 0
+
+    if ! mkdir "$LOCKDIR" 2>/dev/null; then
+        exit 0
+    fi
+
+    printf '%s\n' "$$" > "$LOCKPID"
+    trap release_lock EXIT HUP INT TERM
+}
+
+acquire_lock
 
 if [ -f "$PIDFILE" ]; then
     PID="$(cat "$PIDFILE" 2>/dev/null || true)"
@@ -42,9 +97,9 @@ then
     exit 0
 fi
 
-# A dead statewise parent can leave its PHP fetch child reparented to PID 1.
-# Match by command identity rather than output-dir representation because
-# the running command may use either a relative or absolute output path.
+# If the runner has died, a synchronous PHP fetch command can survive
+# reparented to PID 1. Remove only orphaned BusinessFinder OSM fetchers
+# before starting a checkpoint/resume cycle.
 ORPHANS="$(
     ps -eo pid=,ppid=,comm=,args= 2>/dev/null \
         | awk '

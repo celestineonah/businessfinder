@@ -21,8 +21,10 @@ fi
 
 rm -f "$TMP"
 
-if [ -x "$WATCHDOG" ]; then
-    "$WATCHDOG" >/dev/null 2>&1 || true
+# Invoke through sh when the file exists so a lost executable bit cannot
+# silently disable population recovery on shared hosting.
+if [ -f "$WATCHDOG" ]; then
+    sh "$WATCHDOG" >/dev/null 2>&1 || true
 fi
 
 exit "$STATUS"
