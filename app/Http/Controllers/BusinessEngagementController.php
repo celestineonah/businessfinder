@@ -107,6 +107,29 @@ class BusinessEngagementController extends Controller
             'website' => ['nullable', 'string', 'max:0'],
         ]);
 
+        $ipHash = $this->ipHash($request);
+
+        if ($ipHash !== null) {
+            $duplicate = BusinessEnquiry::query()
+                ->where('business_id', $business->id)
+                ->where('ip_hash', $ipHash)
+                ->where('request_type', $validated['request_type'])
+                ->where('message', trim($validated['message']))
+                ->where('created_at', '>=', now()->subMinutes(2))
+                ->exists();
+
+            if ($duplicate) {
+                return back()->with([
+                    'status' =>
+                        'This enquiry was already recorded recently. It was not submitted twice.',
+                    'enquiryWhatsAppUrl' => $this->businessWhatsappUrl(
+                        $business,
+                        $validated['request_type']
+                    ),
+                ]);
+            }
+        }
+
         $now = now();
 
         $enquiry = BusinessEnquiry::query()->create([
@@ -121,7 +144,7 @@ class BusinessEngagementController extends Controller
             'status' => 'new',
             'delivery_status' => 'recorded',
             'source_url' => route('business.show', ['slug' => $business->slug]),
-            'ip_hash' => $this->ipHash($request),
+            'ip_hash' => $ipHash,
             'consent_at' => $now,
         ]);
 

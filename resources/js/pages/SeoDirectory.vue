@@ -9,6 +9,7 @@ import {
     Search,
     Star,
 } from 'lucide-vue-next';
+import { computed } from 'vue';
 import PublicFooter from '@/components/public/PublicFooter.vue';
 import PublicHeader from '@/components/public/PublicHeader.vue';
 
@@ -39,7 +40,7 @@ type Breadcrumb = {
     url: string;
 };
 
-defineProps<{
+const props = defineProps<{
     mode: 'locations' | 'state' | 'state-category' | 'lga-category';
     title: string;
     description: string;
@@ -67,6 +68,37 @@ defineProps<{
 function countLabel(value: number): string {
     return `${value.toLocaleString('en-NG')} ${value === 1 ? 'business' : 'businesses'}`;
 }
+const pageIndexable = computed(() => {
+    if (! props.indexable) {
+        return false;
+    }
+
+    if (! props.pagination) {
+        return true;
+    }
+
+    if (props.pagination.currentPage > props.pagination.lastPage) {
+        return false;
+    }
+
+    return props.pagination.currentPage === 1
+        || props.businesses.length > 0;
+});
+
+const pageCanonicalUrl = computed(() => {
+    if (
+        ! props.pagination
+        || props.pagination.currentPage <= 1
+    ) {
+        return props.canonicalUrl;
+    }
+
+    const separator = props.canonicalUrl.includes('?')
+        ? '&'
+        : '?';
+
+    return `${props.canonicalUrl}${separator}page=${props.pagination.currentPage}`;
+});
 </script>
 
 <template>
@@ -74,9 +106,23 @@ function countLabel(value: number): string {
         <meta name="description" :content="description" />
         <meta
             name="robots"
-            :content="indexable ? 'index,follow' : 'noindex,follow'"
+            :content="pageIndexable ? 'index,follow' : 'noindex,follow'"
         />
-        <link rel="canonical" :href="canonicalUrl" />
+        <link rel="canonical" :href="pageCanonicalUrl" />
+        <meta property="og:title" :content="title" />
+        <meta property="og:description" :content="description" />
+        <meta property="og:url" :content="pageCanonicalUrl" />
+        <meta property="og:type" content="website" />
+        <link
+            v-if="pagination?.prevUrl"
+            rel="prev"
+            :href="pagination.prevUrl"
+        />
+        <link
+            v-if="pagination?.nextUrl"
+            rel="next"
+            :href="pagination.nextUrl"
+        />
         <link rel="icon" type="image/png" href="/brand/favicon-192.png" />
     </Head>
 

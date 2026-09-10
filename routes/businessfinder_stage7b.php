@@ -15,7 +15,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::post(
         '/dashboard/businesses/{business}/publication-request',
         [OwnerBusinessController::class, 'requestPublication']
-    )->name('dashboard.businesses.publication-request');
+    )
+        ->middleware('throttle:publication-request')
+        ->name('dashboard.businesses.publication-request');
 });
 
 Route::middleware(['auth', 'verified'])
@@ -37,7 +39,7 @@ Route::get('/sitemap.xml', [DirectoryController::class, 'sitemap'])
     ->name('directory.sitemap');
 
 $statePattern =
-    '(?!login$|register$|logout$|dashboard$|search$|categories$|locations$|business$|admin$|settings$|email$|forgot-password$|reset-password$|add-business$|sitemap\.xml$)[a-z0-9-]+';
+    '(?!login$|register$|logout$|dashboard$|search$|categories$|locations$|business$|admin$|settings$|email$|forgot-password$|reset-password$|add-business$|up$|sitemap\.xml$)[a-z0-9-]+';
 
 Route::get('/{stateSlug}/{lgaSlug}/{categorySlug}', [DirectoryController::class, 'lgaCategory'])
     ->where([

@@ -61,6 +61,18 @@ const props = defineProps<{
             name="description"
             content="Search real Nigerian businesses and services by name, category and location."
         />
+        <meta name="robots" content="noindex,follow" />
+        <link
+            rel="canonical"
+            href="https://businessfinder.com.ng/search"
+        />
+        <meta property="og:title" content="Find Nigerian Businesses | BusinessFinder Nigeria" />
+        <meta
+            property="og:description"
+            content="Search real Nigerian businesses and services by name, category and location."
+        />
+        <meta property="og:url" content="https://businessfinder.com.ng/search" />
+        <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" href="/brand/favicon-192.png" />
     </Head>
 

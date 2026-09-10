@@ -9,7 +9,7 @@ Route::post(
     '/business/{slug}/enquiry',
     [BusinessEngagementController::class, 'enquiry']
 )
-    ->middleware('throttle:5,1')
+    ->middleware('throttle:business-enquiry')
     ->name('business.enquiry.store');
 
 Route::middleware(['auth', 'verified'])->group(function () {
@@ -17,7 +17,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
         '/business/{slug}/review',
         [BusinessEngagementController::class, 'review']
     )
-        ->middleware('throttle:5,1')
+        ->middleware('throttle:business-review')
         ->name('business.review.store');
 
     Route::patch(

@@ -385,6 +385,18 @@ function reviewStatusLabel(value: string): string {
             rel="canonical"
             :href="canonicalUrl"
         />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:title" :content="business.name" />
+        <meta
+            property="og:description"
+            :content="
+                business.shortDescription
+                || business.description
+                || `Find ${business.name} on BusinessFinder Nigeria.`
+            "
+        />
+        <meta property="og:url" :content="canonicalUrl" />
+        <meta property="og:type" content="business.business" />
 
         <link
             rel="icon"
