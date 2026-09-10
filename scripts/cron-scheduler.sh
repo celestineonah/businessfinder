@@ -4,6 +4,7 @@ APP="/home/u699775886/businessfinder-app"
 PHP="/opt/alt/php84/usr/bin/php"
 ERROR_LOG="$APP/storage/logs/cron-errors.log"
 TMP="$APP/storage/framework/cron-scheduler.$$.tmp"
+WATCHDOG="$APP/scripts/cron-osm-population-watchdog.sh"
 
 cd "$APP" || exit 1
 
@@ -19,4 +20,11 @@ if [ "$STATUS" -ne 0 ]; then
 fi
 
 rm -f "$TMP"
+
+# Stage 6E.1 nationwide population watchdog.
+# This uses the existing Hostinger scheduler cron, so no new hPanel cron is needed.
+if [ -x "$WATCHDOG" ]; then
+    "$WATCHDOG" >/dev/null 2>&1 || true
+fi
+
 exit "$STATUS"
