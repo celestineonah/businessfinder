@@ -39,8 +39,278 @@
         @fonts
 
         @vite(['resources/css/app.css', 'resources/js/app.ts', "resources/js/pages/{$page['component']}.vue"])
+
+        @php
+            $bfSeoComponent = (string) ($page['component'] ?? '');
+            $bfSeoProps = is_array($page['props'] ?? null)
+                ? $page['props']
+                : [];
+            $bfSeoAppName = (string) config(
+                'app.name',
+                'BusinessFinder Nigeria'
+            );
+
+            $bfSeoPageTitle = $bfSeoAppName;
+            $bfSeoDescription = null;
+            $bfSeoRobots = null;
+            $bfSeoCanonical = null;
+            $bfSeoOgTitle = null;
+            $bfSeoOgType = 'website';
+            $bfSeoPrev = null;
+            $bfSeoNext = null;
+
+            if ($bfSeoComponent === 'Welcome') {
+                $bfSeoBaseTitle =
+                    'AI-Powered Business Finder for Nigeria';
+                $bfSeoPageTitle =
+                    $bfSeoBaseTitle . ' - ' . $bfSeoAppName;
+                $bfSeoDescription =
+                    'Discover businesses, services and local providers across Nigeria through intelligent search, trusted business information and real Nigerian geography.';
+                $bfSeoRobots = 'index,follow';
+                $bfSeoCanonical = url('/');
+                $bfSeoOgTitle = $bfSeoBaseTitle;
+            } elseif ($bfSeoComponent === 'Categories') {
+                $bfSeoBaseTitle = 'Explore Business Categories';
+                $bfSeoPageTitle =
+                    $bfSeoBaseTitle . ' - ' . $bfSeoAppName;
+                $bfSeoDescription =
+                    'Browse BusinessFinder Nigeria categories and discover services across Nigeria.';
+                $bfSeoRobots = 'index,follow';
+                $bfSeoCanonical = url('/categories');
+                $bfSeoOgTitle = $bfSeoBaseTitle;
+            } elseif ($bfSeoComponent === 'Search') {
+                $bfSeoBaseTitle = 'Find Nigerian Businesses';
+                $bfSeoPageTitle =
+                    $bfSeoBaseTitle . ' - ' . $bfSeoAppName;
+                $bfSeoDescription =
+                    'Search real Nigerian businesses and services by name, category and location.';
+                $bfSeoRobots = 'noindex,follow';
+                $bfSeoCanonical = url('/search');
+                $bfSeoOgTitle =
+                    'Find Nigerian Businesses | BusinessFinder Nigeria';
+            } elseif ($bfSeoComponent === 'BusinessShow') {
+                $bfBusinessName = trim(
+                    (string) data_get(
+                        $bfSeoProps,
+                        'business.name',
+                        'Business'
+                    )
+                );
+                $bfBusinessDescription = trim(
+                    (string) (
+                        data_get(
+                            $bfSeoProps,
+                            'business.shortDescription'
+                        )
+                        ?: data_get(
+                            $bfSeoProps,
+                            'business.description'
+                        )
+                        ?: "Find {$bfBusinessName} on BusinessFinder Nigeria."
+                    )
+                );
+
+                $bfSeoPageTitle =
+                    $bfBusinessName . ' - ' . $bfSeoAppName;
+                $bfSeoDescription = $bfBusinessDescription;
+                $bfSeoRobots = 'index,follow';
+                $bfSeoCanonical = trim(
+                    (string) data_get(
+                        $bfSeoProps,
+                        'canonicalUrl',
+                        ''
+                    )
+                );
+                $bfSeoOgTitle = $bfBusinessName;
+                $bfSeoOgType = 'business.business';
+            } elseif ($bfSeoComponent === 'SeoDirectory') {
+                $bfDirectoryTitle = trim(
+                    (string) data_get(
+                        $bfSeoProps,
+                        'title',
+                        'Businesses in Nigeria'
+                    )
+                );
+                $bfSeoPageTitle =
+                    $bfDirectoryTitle . ' - ' . $bfSeoAppName;
+                $bfSeoDescription = trim(
+                    (string) data_get(
+                        $bfSeoProps,
+                        'description',
+                        'Find published Nigerian businesses on BusinessFinder Nigeria.'
+                    )
+                );
+
+                $bfBaseCanonical = trim(
+                    (string) data_get(
+                        $bfSeoProps,
+                        'canonicalUrl',
+                        ''
+                    )
+                );
+
+                $bfPagination = data_get(
+                    $bfSeoProps,
+                    'pagination'
+                );
+
+                $bfCurrentPage = max(
+                    1,
+                    (int) data_get(
+                        $bfSeoProps,
+                        'pagination.currentPage',
+                        1
+                    )
+                );
+
+                $bfLastPage = max(
+                    1,
+                    (int) data_get(
+                        $bfSeoProps,
+                        'pagination.lastPage',
+                        1
+                    )
+                );
+
+                $bfCurrentBusinessCount = collect(
+                    data_get(
+                        $bfSeoProps,
+                        'businesses',
+                        []
+                    )
+                )->count();
+
+                $bfBaseIndexable = (bool) data_get(
+                    $bfSeoProps,
+                    'indexable',
+                    false
+                );
+
+                $bfPageIndexable =
+                    $bfBaseIndexable
+                    && (
+                        $bfPagination === null
+                        || (
+                            $bfCurrentPage <= $bfLastPage
+                            && (
+                                $bfCurrentPage === 1
+                                || $bfCurrentBusinessCount > 0
+                            )
+                        )
+                    );
+
+                $bfSeoRobots = $bfPageIndexable
+                    ? 'index,follow'
+                    : 'noindex,follow';
+
+                if ($bfBaseCanonical !== '') {
+                    if (
+                        $bfPagination !== null
+                        && $bfCurrentPage > 1
+                    ) {
+                        $bfSeoCanonical =
+                            $bfBaseCanonical
+                            . (
+                                str_contains(
+                                    $bfBaseCanonical,
+                                    '?'
+                                )
+                                    ? '&'
+                                    : '?'
+                            )
+                            . 'page='
+                            . $bfCurrentPage;
+                    } else {
+                        $bfSeoCanonical = $bfBaseCanonical;
+                    }
+                }
+
+                $bfSeoPrev = data_get(
+                    $bfSeoProps,
+                    'pagination.prevUrl'
+                );
+                $bfSeoNext = data_get(
+                    $bfSeoProps,
+                    'pagination.nextUrl'
+                );
+                $bfSeoOgTitle = $bfDirectoryTitle;
+            }
+        @endphp
+
         <x-inertia::head>
-            <title>{{ config('app.name', 'Laravel') }}</title>
+            <title>{{ $bfSeoPageTitle }}</title>
+
+            @if ($bfSeoDescription)
+                <meta
+                    data-inertia="description"
+                    name="description"
+                    content="{{ $bfSeoDescription }}"
+                >
+            @endif
+
+            @if ($bfSeoRobots)
+                <meta
+                    data-inertia="robots"
+                    name="robots"
+                    content="{{ $bfSeoRobots }}"
+                >
+            @endif
+
+            @if ($bfSeoCanonical)
+                <link
+                    data-inertia="canonical"
+                    rel="canonical"
+                    href="{{ $bfSeoCanonical }}"
+                >
+            @endif
+
+            @if ($bfSeoOgTitle)
+                <meta
+                    data-inertia="og:title"
+                    property="og:title"
+                    content="{{ $bfSeoOgTitle }}"
+                >
+            @endif
+
+            @if ($bfSeoDescription)
+                <meta
+                    data-inertia="og:description"
+                    property="og:description"
+                    content="{{ $bfSeoDescription }}"
+                >
+            @endif
+
+            @if ($bfSeoCanonical)
+                <meta
+                    data-inertia="og:url"
+                    property="og:url"
+                    content="{{ $bfSeoCanonical }}"
+                >
+            @endif
+
+            @if ($bfSeoOgTitle)
+                <meta
+                    data-inertia="og:type"
+                    property="og:type"
+                    content="{{ $bfSeoOgType }}"
+                >
+            @endif
+
+            @if ($bfSeoPrev)
+                <link
+                    data-inertia="prev"
+                    rel="prev"
+                    href="{{ $bfSeoPrev }}"
+                >
+            @endif
+
+            @if ($bfSeoNext)
+                <link
+                    data-inertia="next"
+                    rel="next"
+                    href="{{ $bfSeoNext }}"
+                >
+            @endif
         </x-inertia::head>
     </head>
     <body class="font-sans antialiased">

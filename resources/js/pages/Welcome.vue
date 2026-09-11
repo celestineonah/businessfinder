@@ -76,8 +76,35 @@ const categories = [
 <template>
     <Head title="AI-Powered Business Finder for Nigeria">
         <meta
+            head-key="description"
             name="description"
             content="Discover businesses, services and local providers across Nigeria through intelligent search, trusted business information and real Nigerian geography."
+        />
+        <meta head-key="robots" name="robots" content="index,follow" />
+        <link
+            head-key="canonical"
+            rel="canonical"
+            href="https://businessfinder.com.ng/"
+        />
+        <meta
+            head-key="og:title"
+            property="og:title"
+            content="AI-Powered Business Finder for Nigeria"
+        />
+        <meta
+            head-key="og:description"
+            property="og:description"
+            content="Discover businesses, services and local providers across Nigeria through intelligent search, trusted business information and real Nigerian geography."
+        />
+        <meta
+            head-key="og:url"
+            property="og:url"
+            content="https://businessfinder.com.ng/"
+        />
+        <meta
+            head-key="og:type"
+            property="og:type"
+            content="website"
         />
         <link
             rel="icon"

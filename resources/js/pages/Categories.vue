@@ -161,8 +161,35 @@ const categories = [
 <template>
     <Head title="Explore Business Categories">
         <meta
+            head-key="description"
             name="description"
             content="Browse BusinessFinder Nigeria categories and discover services across Nigeria."
+        />
+        <meta head-key="robots" name="robots" content="index,follow" />
+        <link
+            head-key="canonical"
+            rel="canonical"
+            href="https://businessfinder.com.ng/categories"
+        />
+        <meta
+            head-key="og:title"
+            property="og:title"
+            content="Explore Business Categories"
+        />
+        <meta
+            head-key="og:description"
+            property="og:description"
+            content="Browse BusinessFinder Nigeria categories and discover services across Nigeria."
+        />
+        <meta
+            head-key="og:url"
+            property="og:url"
+            content="https://businessfinder.com.ng/categories"
+        />
+        <meta
+            head-key="og:type"
+            property="og:type"
+            content="website"
         />
         <link
             rel="icon"

@@ -58,21 +58,24 @@ const props = defineProps<{
 <template>
     <Head title="Find Nigerian Businesses">
         <meta
+            head-key="description"
             name="description"
             content="Search real Nigerian businesses and services by name, category and location."
         />
-        <meta name="robots" content="noindex,follow" />
+        <meta head-key="robots" name="robots" content="noindex,follow" />
         <link
+            head-key="canonical"
             rel="canonical"
             href="https://businessfinder.com.ng/search"
         />
-        <meta property="og:title" content="Find Nigerian Businesses | BusinessFinder Nigeria" />
+        <meta head-key="og:title" property="og:title" content="Find Nigerian Businesses | BusinessFinder Nigeria" />
         <meta
+            head-key="og:description"
             property="og:description"
             content="Search real Nigerian businesses and services by name, category and location."
         />
-        <meta property="og:url" content="https://businessfinder.com.ng/search" />
-        <meta property="og:type" content="website" />
+        <meta head-key="og:url" property="og:url" content="https://businessfinder.com.ng/search" />
+        <meta head-key="og:type" property="og:type" content="website" />
         <link rel="icon" type="image/png" href="/brand/favicon-192.png" />
     </Head>
 

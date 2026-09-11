@@ -103,23 +103,26 @@ const pageCanonicalUrl = computed(() => {
 
 <template>
     <Head :title="title">
-        <meta name="description" :content="description" />
+        <meta head-key="description" name="description" :content="description" />
         <meta
+            head-key="robots"
             name="robots"
             :content="pageIndexable ? 'index,follow' : 'noindex,follow'"
         />
-        <link rel="canonical" :href="pageCanonicalUrl" />
-        <meta property="og:title" :content="title" />
-        <meta property="og:description" :content="description" />
-        <meta property="og:url" :content="pageCanonicalUrl" />
-        <meta property="og:type" content="website" />
+        <link head-key="canonical" rel="canonical" :href="pageCanonicalUrl" />
+        <meta head-key="og:title" property="og:title" :content="title" />
+        <meta head-key="og:description" property="og:description" :content="description" />
+        <meta head-key="og:url" property="og:url" :content="pageCanonicalUrl" />
+        <meta head-key="og:type" property="og:type" content="website" />
         <link
             v-if="pagination?.prevUrl"
+            head-key="prev"
             rel="prev"
             :href="pagination.prevUrl"
         />
         <link
             v-if="pagination?.nextUrl"
+            head-key="next"
             rel="next"
             :href="pagination.nextUrl"
         />

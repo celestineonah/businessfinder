@@ -376,18 +376,20 @@ function reviewStatusLabel(value: string): string {
 <template>
     <Head :title="business.name">
         <meta
-            v-if="business.shortDescription || business.description"
+            head-key="description"
             name="description"
-            :content="business.shortDescription || business.description || ''"
+            :content="business.shortDescription || business.description || `Find ${business.name} on BusinessFinder Nigeria.`"
         />
 
         <link
+            head-key="canonical"
             rel="canonical"
             :href="canonicalUrl"
         />
-        <meta name="robots" content="index,follow" />
-        <meta property="og:title" :content="business.name" />
+        <meta head-key="robots" name="robots" content="index,follow" />
+        <meta head-key="og:title" property="og:title" :content="business.name" />
         <meta
+            head-key="og:description"
             property="og:description"
             :content="
                 business.shortDescription
@@ -395,8 +397,8 @@ function reviewStatusLabel(value: string): string {
                 || `Find ${business.name} on BusinessFinder Nigeria.`
             "
         />
-        <meta property="og:url" :content="canonicalUrl" />
-        <meta property="og:type" content="business.business" />
+        <meta head-key="og:url" property="og:url" :content="canonicalUrl" />
+        <meta head-key="og:type" property="og:type" content="business.business" />
 
         <link
             rel="icon"
